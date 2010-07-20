@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file lists Sprint shared libraries for applications to link to. -->
+<permissions>
+    <library name="com.sprint.hardware.twinCamDevice"
+            file="/system/framework/com.sprint.hardware.twinCamDevice.jar" />
+</permissions>
