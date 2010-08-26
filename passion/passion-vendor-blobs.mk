@@ -46,8 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/passion/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/passion/proprietary/liblvmxipc.so:/system/lib/liblvmxipc.so \
     vendor/htc/passion/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/passion/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/passion/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so
+    vendor/htc/passion/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so
 
 ifdef WITH_WINDOWS_MEDIA
 PRODUCT_COPY_FILES += \

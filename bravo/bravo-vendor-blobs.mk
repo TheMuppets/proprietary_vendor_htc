@@ -45,8 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravo/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/bravo/proprietary/liblvmxipc.so:/system/lib/liblvmxipc.so \
     vendor/htc/bravo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/bravo/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/bravo/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so
+    vendor/htc/bravo/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so 
 
 ifdef WITH_WINDOWS_MEDIA
 PRODUCT_COPY_FILES += \

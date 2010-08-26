@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/supersonic/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/supersonic/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/supersonic/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so \
     vendor/htc/supersonic/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/supersonic/proprietary/libgps.so:/system/lib/libgps.so \
     vendor/htc/supersonic/proprietary/libgsl.so:/system/lib/libgsl.so \
