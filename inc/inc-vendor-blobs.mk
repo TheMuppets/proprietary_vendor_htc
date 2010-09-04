@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/inc/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/inc/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/inc/proprietary/lights.qsd8k.so:/system/lib/egl/lights.qsd8k.so \
     vendor/htc/inc/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/inc/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so \
     vendor/htc/inc/proprietary/libcamera.so:/system/lib/libcamera.so \
