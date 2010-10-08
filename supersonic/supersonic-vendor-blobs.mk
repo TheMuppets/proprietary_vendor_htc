@@ -55,5 +55,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
     vendor/htc/supersonic/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/supersonic/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/htc/supersonic/proprietary/libspeech.so:/system/lib/libspeech.so
-
+    vendor/htc/supersonic/proprietary/libspeech.so:/system/lib/libspeech.so \
+    vendor/htc/supersonic/proprietary/wimaxDumpKmsg:/system/bin/wimaxDumpKmsg \
+    vendor/htc/supersonic/proprietary/apph:/system/bin/apph \
+    vendor/htc/supersonic/proprietary/wimaxDumpLogcat:/system/bin/wimaxDumpLogcat \
+    vendor/htc/supersonic/proprietary/setWiMAXPropDaemond:/system/bin/setWiMAXPropDaemond \
+    vendor/htc/supersonic/proprietary/wimax_mtd:/system/bin/wimax_mtd \
+    vendor/htc/supersonic/proprietary/sequansd:/system/bin/sequansd \
+    vendor/htc/supersonic/proprietary/getWiMAXPropDaemond:/system/bin/getWiMAXPropDaemond \
+    vendor/htc/supersonic/proprietary/wimaxDumpLastKmsg:/system/bin/wimaxDumpLastKmsg \
+    vendor/htc/supersonic/proprietary/wimaxDhcpRenew:/system/bin/wimaxDhcpRenew \
+    vendor/htc/supersonic/proprietary/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
+    vendor/htc/supersonic/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
+    vendor/htc/supersonic/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd \
+    vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd
