@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/dream_sapphire/proprietary/libgps.so:obj/lib/libgps.so
+    vendor/htc/dream_sapphire/proprietary/libgps.so:obj/lib/libgps.so \
+    vendor/htc/dream_sapphire/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # All the blobs necessary for sapphire
 PRODUCT_COPY_FILES += \
@@ -30,8 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/dream_sapphire/proprietary/libgps.so:system/lib/libgps.so \
     vendor/htc/dream_sapphire/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/dream_sapphire/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/dream_sapphire/proprietary/liblvmxipc.so:system/lib/liblvmxipc.so \
     vendor/htc/dream_sapphire/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/htc/dream_sapphire/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/dream_sapphire/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/dream_sapphire/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/htc/dream_sapphire/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
