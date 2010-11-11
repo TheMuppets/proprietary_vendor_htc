@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/default.acdb:/system/etc/firmware/default.acdb \
     vendor/htc/vision/proprietary/default_org.acdb:/system/etc/firmware/default_org.acdb \
     vendor/htc/vision/proprietary/default_org_WA.acdb:/system/etc/firmware/default_org_WA.acdb \
-    vendor/htc/vision/proprietary/fw_bcm4329_apsta.bin:/system/etc/firmware/fw_bcm4329_apsta.bin \
+    vendor/htc/vision/proprietary/fw_bcm4329.bin:/system/etc/firmware/fw_bcm4329.bin \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/vision/proprietary/gralloc.msm7x30.so:/system/lib/hw/gralloc.msm7x30.so \
     vendor/htc/vision/proprietary/sensors.vision.so:/system/lib/hw/sensors.vision.so \
