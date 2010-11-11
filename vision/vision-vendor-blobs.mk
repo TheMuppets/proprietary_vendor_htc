@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libloc_api.so:obj/lib/libloc_api.so \
     vendor/htc/vision/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
     vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/vision/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for passion
@@ -39,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/vision/proprietary/gralloc.msm7x30.so:/system/lib/hw/gralloc.msm7x30.so \
     vendor/htc/vision/proprietary/sensors.vision.so:/system/lib/hw/sensors.vision.so \
+    vendor/htc/vision/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vision/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/vision/proprietary/libcamera.so:/system/lib/libcamera.so \
@@ -71,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libvoAMRWBDec.so:/system/lib/libvoAMRWBDec.so \
     vendor/htc/vision/proprietary/libvoAndroid.so:/system/lib/libvoAndroid.so \
     vendor/htc/vision/proprietary/libvoH264Dec.so:/system/lib/libvoH264Dec.so \
-    vendor/htc/vision/proprietary/libvoicesearch.so:/system/lib/libvoicesearch.so \
     vendor/htc/vision/proprietary/libvomemedia.so:/system/lib/libvomemedia.so \
     vendor/htc/vision/proprietary/libvoMMCCRRS.so:/system/lib/libvoMMCCRRS.so \
     vendor/htc/vision/proprietary/libvoMP3Dec.so:/system/lib/libvoMP3Dec.so \
