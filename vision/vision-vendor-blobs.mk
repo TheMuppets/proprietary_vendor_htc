@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libloc_api.so:obj/lib/libloc_api.so \
     vendor/htc/vision/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
-    vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
@@ -30,15 +31,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/vision/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vision/proprietary/bcm4329.hcd:/system/etc/firmware/bcm4329.hcd \
-    vendor/htc/vision/proprietary/bcm_mfg.bin:/system/etc/firmware/bcm_mfg.bin \
     vendor/htc/vision/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vision/proprietary/default.acdb:/system/etc/firmware/default.acdb \
     vendor/htc/vision/proprietary/default_org.acdb:/system/etc/firmware/default_org.acdb \
     vendor/htc/vision/proprietary/default_org_WA.acdb:/system/etc/firmware/default_org_WA.acdb \
     vendor/htc/vision/proprietary/fw_bcm4329_apsta.bin:/system/etc/firmware/fw_bcm4329_apsta.bin \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
+    vendor/htc/vision/proprietary/gralloc.msm7x30.so:/system/lib/hw/gralloc.msm7x30.so \
+    vendor/htc/vision/proprietary/sensors.vision.so:/system/lib/hw/sensors.vision.so \
+    vendor/htc/vision/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
+    vendor/htc/vision/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/vision/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vision/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/vision/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/vision/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/vision/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/vision/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
@@ -46,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vision/proprietary/libHTC_mm_property.so:/system/lib/libHTC_mm_property.so \
     vendor/htc/vision/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/vision/proprietary/libkineto.so:/system/lib/libkineto.so \
     vendor/htc/vision/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
     vendor/htc/vision/proprietary/libloc_api.so:/system/lib/libloc_api.so \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
@@ -59,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/libqcomm_omx.so:/system/lib/libqcomm_omx.so \
+    vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/libvoAACDec.so:/system/lib/libvoAACDec.so \
     vendor/htc/vision/proprietary/libvoAMRNBDec.so:/system/lib/libvoAMRNBDec.so \
     vendor/htc/vision/proprietary/libvoAMRWBDec.so:/system/lib/libvoAMRWBDec.so \
@@ -75,8 +82,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
     vendor/htc/vision/proprietary/libvoSrcRTSP.so:/system/lib/libvoSrcRTSP.so \
     vendor/htc/vision/proprietary/libvoVidDec.so:/system/lib/libvoVidDec.so \
-    vendor/htc/vision/proprietary/libysshared.so:/system/lib/libysshared.so \
+    vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
+    vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/vision/proprietary/mm_property.conf:/system/etc/mm_property.conf \
     vendor/htc/vision/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/vision/proprietary/vidc_720p_command_control.fw:/system/etc/firmware/vidc_720p_command_control.fw \
