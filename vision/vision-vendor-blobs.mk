@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/vision/proprietary/mm_property.conf:/system/etc/mm_property.conf \
+    vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
     vendor/htc/vision/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/vision/proprietary/vomeComp.cfg:/system/etc/vomeComp.cfg \
     vendor/htc/vision/proprietary/vomeplay.cfg:/system/etc/vomeplay.cfg \
