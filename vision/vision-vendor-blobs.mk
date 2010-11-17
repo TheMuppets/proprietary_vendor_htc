@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/vision/proprietary/gralloc.msm7x30.so:/system/lib/hw/gralloc.msm7x30.so \
-    vendor/htc/vision/proprietary/sensors.vision.so:/system/lib/hw/sensors.vision.so \
     vendor/htc/vision/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vision/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
@@ -53,15 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libloc_api.so:/system/lib/libloc_api.so \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vision/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/vision/proprietary/libmm-omxcore.so:/system/lib/libmm-omxcore.so \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/vision/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
     vendor/htc/vision/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/vision/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
     vendor/htc/vision/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
     vendor/htc/vision/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/vision/proprietary/libqcomm_omx.so:/system/lib/libqcomm_omx.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/libvoAACDec.so:/system/lib/libvoAACDec.so \
     vendor/htc/vision/proprietary/libvoAMRNBDec.so:/system/lib/libvoAMRNBDec.so \
@@ -75,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libvoOMXME.so:/system/lib/libvoOMXME.so \
     vendor/htc/vision/proprietary/libvoOMXOne.so:/system/lib/libvoOMXOne.so \
     vendor/htc/vision/proprietary/libvoPackUV.so:/system/lib/libvoPackUV.so \
-    vendor/htc/vision/proprietary/libvorbisidec.so:/system/lib/libvorbisidec.so \
     vendor/htc/vision/proprietary/libvoSrcRTSP.so:/system/lib/libvoSrcRTSP.so \
     vendor/htc/vision/proprietary/libvoVidDec.so:/system/lib/libvoVidDec.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
