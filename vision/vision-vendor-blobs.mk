@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vision/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/vision/proprietary/gralloc.msm7x30.so:/system/lib/hw/gralloc.msm7x30.so \
     vendor/htc/vision/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vision/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
