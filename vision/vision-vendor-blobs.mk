@@ -55,6 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/vision/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
     vendor/htc/vision/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
+    vendor/htc/vision/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
+    vendor/htc/vision/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
+    vendor/htc/vision/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/libvoAACDec.so:/system/lib/libvoAACDec.so \
