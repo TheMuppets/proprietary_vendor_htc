@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/vision/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vision/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/vision/proprietary/libHTC_mm_property.so:/system/lib/libHTC_mm_property.so \
     vendor/htc/vision/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/vision/proprietary/libkineto.so:/system/lib/libkineto.so \
     vendor/htc/vision/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
@@ -60,27 +59,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
-    vendor/htc/vision/proprietary/libvoAACDec.so:/system/lib/libvoAACDec.so \
-    vendor/htc/vision/proprietary/libvoAMRNBDec.so:/system/lib/libvoAMRNBDec.so \
-    vendor/htc/vision/proprietary/libvoAMRWBDec.so:/system/lib/libvoAMRWBDec.so \
-    vendor/htc/vision/proprietary/libvoAndroid.so:/system/lib/libvoAndroid.so \
-    vendor/htc/vision/proprietary/libvoH264Dec.so:/system/lib/libvoH264Dec.so \
-    vendor/htc/vision/proprietary/libvomemedia.so:/system/lib/libvomemedia.so \
-    vendor/htc/vision/proprietary/libvoMMCCRRS.so:/system/lib/libvoMMCCRRS.so \
-    vendor/htc/vision/proprietary/libvoMP3Dec.so:/system/lib/libvoMP3Dec.so \
-    vendor/htc/vision/proprietary/libvoMPEG4Dec.so:/system/lib/libvoMPEG4Dec.so \
-    vendor/htc/vision/proprietary/libvoOMXME.so:/system/lib/libvoOMXME.so \
-    vendor/htc/vision/proprietary/libvoOMXOne.so:/system/lib/libvoOMXOne.so \
-    vendor/htc/vision/proprietary/libvoPackUV.so:/system/lib/libvoPackUV.so \
-    vendor/htc/vision/proprietary/libvoSrcRTSP.so:/system/lib/libvoSrcRTSP.so \
-    vendor/htc/vision/proprietary/libvoVidDec.so:/system/lib/libvoVidDec.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vision/proprietary/mm_property.conf:/system/etc/mm_property.conf \
     vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
     vendor/htc/vision/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
-    vendor/htc/vision/proprietary/vomeComp.cfg:/system/etc/vomeComp.cfg \
-    vendor/htc/vision/proprietary/vomeplay.cfg:/system/etc/vomeplay.cfg \
-    vendor/htc/vision/proprietary/voVidDec.dat:/system/etc/voVidDec.dat \
     vendor/htc/vision/proprietary/vpimg:/system/etc/vpimg
