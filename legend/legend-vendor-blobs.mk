@@ -35,9 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4_WB.csv:system/etc/AudioPara4_WB.csv \
-    vendor/htc/legend/proprietary/etc/AudioPara_HTC_FR.csv:system/etc/AudioPara_HTC_FR.csv \
-    vendor/htc/legend/proprietary/etc/AudioPara_HTC_WB_FR.csv:system/etc/AudioPara_HTC_WB_FR.csv \
     vendor/htc/legend/proprietary/etc/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
+    vendor/htc/legend/proprietary/etc/WPDB.zip:system/etc/WPDB.zip \
     vendor/htc/legend/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/legend/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/legend/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
@@ -48,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/lib/libgps.so:system/lib/libgps.so \
     vendor/htc/legend/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/legend/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/legend/proprietary/lib/libinterstitial.so:system/lib/libinterstitial.so \
     vendor/htc/legend/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/htc/legend/proprietary/lib/libmmclient.so:system/lib/libmmclient.so \
     vendor/htc/legend/proprietary/lib/libmscompress.so:system/lib/libmscompress.so \
