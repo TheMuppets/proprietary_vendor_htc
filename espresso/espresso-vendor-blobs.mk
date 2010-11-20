@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/espresso/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/htc/espresso/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
     vendor/htc/espresso/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/espresso/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/htc/espresso/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/espresso/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/espresso/proprietary/libgps.so:system/lib/libgps.so \
