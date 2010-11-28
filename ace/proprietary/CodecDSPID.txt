@@ -1,0 +1,23 @@
+DualMic_Phone,/system/etc/soundimage/Sound_Dualmic.txt
+Original,/system/etc/soundimage/Sound_Original.txt
+dolby_a_spk,/system/etc/soundimage/Sound_Dolby_A_SPK.txt
+dolby_a_hp,/system/etc/soundimage/Sound_Dolby_A_HP.txt
+dolby_v_spk,/system/etc/soundimage/Sound_Dolby_V_SPK.txt
+dolby_v_hp,/system/etc/soundimage/Sound_Dolby_V_HP.txt
+Srs_a_hp,/system/etc/soundimage/Sound_SRS_A_HP.txt
+Srs_a_spk,/system/etc/soundimage/Sound_SRS_A_SPK.txt
+Srs_v_hp,/system/etc/soundimage/Sound_SRS_V_HP.txt
+Srs_v_spk,/system/etc/soundimage/Sound_SRS_V_SPK.txt
+Bass Booster,/system/etc/soundimage/Sound_Bass_Booster.txt
+Blues,/system/etc/soundimage/Sound_Blues.txt
+Classical,/system/etc/soundimage/Sound_Classical.txt
+Country,/system/etc/soundimage/Sound_Country.txt
+Jazz,/system/etc/soundimage/Sound_Jazz.txt
+Latin,/system/etc/soundimage/Sound_Latin.txt
+New age,/system/etc/soundimage/Sound_New_Age.txt
+Piano,/system/etc/soundimage/Sound_Piano.txt
+Pop,/system/etc/soundimage/Sound_Pop.txt
+R&B,/system/etc/soundimage/Sound_R_B.txt
+Rock,/system/etc/soundimage/Sound_Rock.txt
+Treble Booster,/system/etc/soundimage/Sound_Treble_Booster.txt
+Vocal Booster,/system/etc/soundimage/Sound_Vocal_Booster.txt
