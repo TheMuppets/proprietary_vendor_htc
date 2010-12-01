@@ -30,7 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/legend/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/legend/proprietary/etc/wifi/Fw1273_CHIP.bin:system/etc/wifi/Fw1273_CHIP.bin \
+    vendor/htc/legend/proprietary/etc/wifi/Fw1273_CHIP_AP.bin:system/etc/wifi/Fw1273_CHIP_AP.bin \
+    vendor/htc/legend/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/htc/legend/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/htc/legend/proprietary/etc/wifi/tiwlan_ap.ini:system/etc/wifi/tiwlan_ap.ini \
     vendor/htc/legend/proprietary/etc/agps_rm:system/etc/agps_rm \
     vendor/htc/legend/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4.csv:system/etc/AudioPara4.csv \
