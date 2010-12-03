@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/A1026_CFG.csv:/system/etc/A1026_CFG.csv \
     vendor/htc/ace/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
-    vendor/htc/ace/proprietary/AdieHWCodec_WA.csv:/system/etc/AdieHWCodec_WA.csv \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/ace/proprietary/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
     vendor/htc/ace/proprietary/AIC3254_REG_DualMic.csv:/system/etc/AIC3254_REG_DualMic.csv \
@@ -46,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/ace/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ace/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/ace/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
@@ -55,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
     vendor/htc/ace/proprietary/libloc_api.so:/system/lib/libloc_api.so \
-    vendor/htc/ace/proprietary/libkineto.so:/system/lib/libkineto.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
@@ -66,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
     vendor/htc/ace/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/ace/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/ace/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage
