@@ -16,8 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/vision/proprietary/libloc_api.so:obj/lib/libloc_api.so \
-    vendor/htc/vision/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
     vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vision/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
@@ -45,23 +43,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vision/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vision/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/vision/proprietary/libkineto.so:/system/lib/libkineto.so \
-    vendor/htc/vision/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
-    vendor/htc/vision/proprietary/libloc_api.so:/system/lib/libloc_api.so \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vision/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/vision/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/vision/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/vision/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/vision/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
-    vendor/htc/vision/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/htc/vision/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
-    vendor/htc/vision/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/vision/proprietary/vpimg:/system/etc/vpimg
