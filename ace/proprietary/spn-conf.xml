@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spnOverrides>
+<!--
+	@Author: HTC Shawn Ku
+	@Date: 2010/02/23
+	
+	This is a list for operator specific SPNs.
+	We will use below SPN for instead if numeric is matched.
+	     
+	Format is listed as below:
+	<spnOverrides
+	    numeric="MCC+MNC"
+	    spn="SPN Name"/>
+-->
+    <spnOverride
+        numeric="44020"
+        spn="SoftBank"/> 
+</spnOverrides>

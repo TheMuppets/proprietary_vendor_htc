@@ -16,15 +16,12 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/libloc_api.so:obj/lib/libloc_api.so \
-    vendor/htc/ace/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
     vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/ace/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for ace
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/A1026_CFG.csv:/system/etc/A1026_CFG.csv \
     vendor/htc/ace/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/ace/proprietary/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
@@ -34,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/CodecDSPID.txt:/system/etc/CodecDSPID.txt \
     vendor/htc/ace/proprietary/HP_Audio.csv:/system/etc/HP_Audio.csv \
     vendor/htc/ace/proprietary/HP_Video.csv:/system/etc/HP_Video.csv \
-    vendor/htc/ace/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/ace/proprietary/SPK_Combination.csv:/system/etc/SPK_Combination.csv \
     vendor/htc/ace/proprietary/vpimg:/system/etc/vpimg \
     vendor/htc/ace/proprietary/akmd:/system/bin/akmd \
@@ -51,17 +47,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/ace/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
-    vendor/htc/ace/proprietary/libloc_api.so:/system/lib/libloc_api.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/ace/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
-    vendor/htc/ace/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/ace/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/ace/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
-    vendor/htc/ace/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/htc/ace/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/ace/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
