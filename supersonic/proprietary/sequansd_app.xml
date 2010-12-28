@@ -2,8 +2,8 @@
 <sequansd>
   <watchdog>
 	    <pollingPeriod>
-	      <idle>36000000</idle>
-	      <operational>60000</operational>
+	      <idle>120000</idle>
+	      <operational>2000</operational>
 	    </pollingPeriod>
 	</watchdog>
 	  
