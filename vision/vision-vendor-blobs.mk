@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vision/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vision/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
