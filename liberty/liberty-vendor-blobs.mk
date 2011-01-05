@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/akmd:/system/bin/akmd \
-    vendor/htc/liberty/proprietary/wifitools:/system/bin/wifitools \
     vendor/htc/liberty/proprietary/AudioFilter.csv:/system/etc/AudioFilter.csv \
     vendor/htc/liberty/proprietary/AudioPara4.csv:/system/etc/AudioPara4.csv \
     vendor/htc/liberty/proprietary/AudioPara4_WB.csv:/system/etc/AudioPara4_WB.csv \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/liberty/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/liberty/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/liberty/proprietary/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     vendor/htc/liberty/proprietary/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so \
     vendor/htc/liberty/proprietary/libOmxH264Dec.so:/system/lib/libOmxH264Dec.so \
     vendor/htc/liberty/proprietary/libOmxMpeg4Dec.so:/system/lib/libOmxMpeg4Dec.so \
@@ -50,6 +48,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/htc/liberty/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
     vendor/htc/liberty/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
-    vendor/htc/liberty/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/htc/liberty/proprietary/libspeech.so:/system/lib/libspeech.so 
+    vendor/htc/liberty/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so
 
