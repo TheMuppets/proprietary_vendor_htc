@@ -36,18 +36,21 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/glacier/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/glacier/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/glacier/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/glacier/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/glacier/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/glacier/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/glacier/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/glacier/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
+    vendor/htc/glacier/proprietary/librilswitch.so:/system/lib/librilswitch.so \
+    vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
+    vendor/htc/glacier/proprietary/libkineto.so:/system/lib/libkineto.so \
+    vendor/htc/glacier/proprietary/libcryp98.so:/system/lib/libcryp98.so \
     vendor/htc/glacier/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/glacier/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/glacier/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/glacier/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/glacier/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/glacier/proprietary/rmt_storage:/system/bin/rmt_storage \
