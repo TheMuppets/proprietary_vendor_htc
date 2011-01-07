@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/glacier/proprietary/libkineto.so:/system/lib/libkineto.so \
     vendor/htc/glacier/proprietary/libcryp98.so:/system/lib/libcryp98.so \
+    vendor/htc/glacier/proprietary/T-Mobile_USA_Intermediate_CA_01.der:/system/etc/T-Mobile_USA_Intermediate_CA_01.der \
+    vendor/htc/glacier/proprietary/T-Mobile_USA_Issuer_CA_01.der:/system/etc/T-Mobile_USA_Issuer_CA_01.der \
+    vendor/htc/glacier/proprietary/T-Mobile_USA_Issuer_CA_02.der:/system/etc/T-Mobile_USA_Issuer_CA_02.der \
+    vendor/htc/glacier/proprietary/T-Mobile_USA_Root_CA.der:/system/etc/T-Mobile_USA_Root_CA.der \
     vendor/htc/glacier/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/glacier/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
