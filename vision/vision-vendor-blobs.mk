@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vision/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vision/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/vision/proprietary/libkineto.so:/system/lib/libkineto.so \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vision/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
@@ -52,4 +53,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
+    vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
     vendor/htc/vision/proprietary/vpimg:/system/etc/vpimg
