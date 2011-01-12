@@ -21,3 +21,4 @@ R&B,/system/etc/soundimage/Sound_R_B.txt
 Rock,/system/etc/soundimage/Sound_Rock.txt
 Treble Booster,/system/etc/soundimage/Sound_Treble_Booster.txt
 Vocal Booster,/system/etc/soundimage/Sound_Vocal_Booster.txt
+Recording,/system/etc/soundimage/Sound_Original.txt
