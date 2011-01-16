@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/espresso/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/espresso/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/espresso/proprietary/Fw1273_CHIP.bin:system/etc/wifi/Fw1273_CHIP.bin \
+    vendor/htc/espresso/proprietary/Fw1273_CHIP_AP.bin:system/etc/wifi/Fw1273_CHIP_AP.bin \
     vendor/htc/espresso/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/espresso/proprietary/AudioPara4_WB.csv:system/etc/AudioPara4_WB.csv \
     vendor/htc/espresso/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
@@ -42,12 +43,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/espresso/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/espresso/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/htc/espresso/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-    vendor/htc/espresso/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-    vendor/htc/espresso/proprietary/libspeech.so:system/lib/libspeech.so \
-    vendor/htc/espresso/proprietary/pvasflocal.cfg:system/etc/pvasflocal.cfg \
-    vendor/htc/espresso/proprietary/libomx_wmadec_sharedlibrary.so:system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/espresso/proprietary/libomx_wmvdec_sharedlibrary.so:system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/espresso/proprietary/libpvasfcommon.so:system/lib/libpvasfcommon.so \
-    vendor/htc/espresso/proprietary/libpvasflocalpbreg.so:system/lib/libpvasflocalpbreg.so \
-    vendor/htc/espresso/proprietary/libpvasflocalpb.so:system/lib/libpvasflocalpb.so
+    vendor/htc/espresso/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
 
