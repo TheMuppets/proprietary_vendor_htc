@@ -19,27 +19,22 @@
 PRODUCT_COPY_FILES += \
     	device/htc/buzz/custom/logo.rle:root/logo.rle \
     	vendor/htc/buzz/proprietary/libgps.so:obj/lib/libgps.so \
-    	vendor/htc/buzz/proprietary/libcamera.so:obj/lib/libcamera.so
+    	vendor/htc/buzz/proprietary/libcamera.so:obj/lib/libcamera.so \
+        device/htc/buzz/kernel:out/target/product/buzz/kernel
 
 # proprietary stuff
 PRODUCT_COPY_FILES += \
 	vendor/htc/buzz/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
 	vendor/htc/buzz/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
 	vendor/htc/buzz/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
-	vendor/htc/buzz/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-	vendor/htc/buzz/proprietary/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
-	vendor/htc/buzz/proprietary/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
 	vendor/htc/buzz/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
-	vendor/htc/buzz/proprietary/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-	vendor/htc/buzz/proprietary/libGLESv2.so:system/lib/libGLESv2.so \
-	vendor/htc/buzz/proprietary/libGLES_qcom.so:system/lib/egl/libGLES_qcom.so \
 	vendor/htc/buzz/proprietary/libgps.so:system/lib/libgps.so \
 	vendor/htc/buzz/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/htc/buzz/proprietary/libcamera.so:system/lib/libcamera.so \
 	vendor/htc/buzz/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
 	vendor/htc/buzz/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
 	vendor/htc/buzz/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-	vendor/htc/buzz/proprietary/libOmxCore.so:system/lib/libOmxCoress.so \
+	vendor/htc/buzz/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
 	vendor/htc/buzz/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     	vendor/htc/buzz/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     	vendor/htc/buzz/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
@@ -50,7 +45,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/buzz/proprietary/libt9.so:system/lib/libt9.so \
 	vendor/htc/buzz/proprietary/voicemail-conf.xml:system/etc/voicemail-conf.xml \
 	vendor/htc/buzz/proprietary/spn-conf.xml:system/etc/spn-conf.xml \
-	vendor/htc/buzz/proprietary/sensors.buzz.so:system/lib/hw/sensors.buzz.so \
 	vendor/htc/buzz/proprietary/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
 	vendor/htc/buzz/proprietary/libpvasfcommon.so:system/lib/libpvasfcommon.so \
 	vendor/htc/buzz/proprietary/libpvasflocalpb.so:system/lib/libpvasflocalpb.so \
@@ -59,5 +53,8 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/buzz/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/htc/buzz/proprietary/akmd:system/bin/akmd \
 	vendor/htc/buzz/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
-	vendor/htc/buzz/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin
+	vendor/htc/buzz/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+	device/htc/buzz/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+	device/htc/buzz/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
+	device/htc/buzz/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
 
