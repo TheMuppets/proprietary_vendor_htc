@@ -53,4 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/glacier/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/glacier/proprietary/vpimg:/system/etc/vpimg
+    vendor/htc/glacier/proprietary/vpimg:/system/etc/vpimg \
+    vendor/htc/glacier/proprietary/Swype.apk:/system/app/Swype.apk \
+    vendor/htc/glacier/proprietary/libSwypeCore.so:/system/lib/libSwypeCore.so
