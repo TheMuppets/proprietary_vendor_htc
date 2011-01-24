@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/buzz/proprietary/libt9.so:system/lib/libt9.so \
 	vendor/htc/buzz/proprietary/voicemail-conf.xml:system/etc/voicemail-conf.xml \
 	vendor/htc/buzz/proprietary/spn-conf.xml:system/etc/spn-conf.xml \
-	vendor/htc/buzz/proprietary/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
 	vendor/htc/buzz/proprietary/libpvasfcommon.so:system/lib/libpvasfcommon.so \
 	vendor/htc/buzz/proprietary/libpvasflocalpb.so:system/lib/libpvasflocalpb.so \
 	vendor/htc/buzz/proprietary/libpvasflocalpbreg.so:system/lib/libpvasflocalpbreg.so \
