@@ -56,4 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
     vendor/htc/supersonic/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/supersonic/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
+    vendor/htc/supersonic/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
+    vendor/htc/supersonic/proprietary/ipd:/system/bin/ipd \
+    vendor/htc/supersonic/proprietary/ip:/system/bin/ip \
     vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml
