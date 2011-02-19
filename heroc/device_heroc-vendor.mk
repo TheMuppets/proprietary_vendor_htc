@@ -17,6 +17,7 @@
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
     LiveWallpapersPicker \
+    MagicSmokeWallpapers \
     librs_jni
 
 # Publish that we support the live wallpaper feature.
@@ -26,4 +27,4 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/htc/heroc/overlay
 
-$(call inherit-product, vendor/htc/heroc/heroc-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/heroc/device_heroc-vendor-blobs.mk)
