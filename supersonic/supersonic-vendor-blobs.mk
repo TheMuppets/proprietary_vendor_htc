@@ -59,4 +59,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/supersonic/proprietary/ipd:/system/bin/ipd \
     vendor/htc/supersonic/proprietary/ip:/system/bin/ip \
-    vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml
+    vendor/htc/supersonic/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
+    vendor/htc/supersonic/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
