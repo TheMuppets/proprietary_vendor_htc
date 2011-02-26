@@ -29,16 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/ace/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
-    vendor/htc/ace/proprietary/AIC3254_REG.csv:/system/etc/AIC3254_REG.csv \
-    vendor/htc/ace/proprietary/AIC3254_REG_DualMic.csv:/system/etc/AIC3254_REG_DualMic.csv \
-    vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
-    vendor/htc/ace/proprietary/CodecDSPID.txt:/system/etc/CodecDSPID.txt \
-    vendor/htc/ace/proprietary/HP_Audio.csv:/system/etc/HP_Audio.csv \
-    vendor/htc/ace/proprietary/HP_Video.csv:/system/etc/HP_Video.csv \
-    vendor/htc/ace/proprietary/SPK_Combination.csv:/system/etc/SPK_Combination.csv \
     vendor/htc/ace/proprietary/vpimg:/system/etc/vpimg \
+    vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/ace/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
