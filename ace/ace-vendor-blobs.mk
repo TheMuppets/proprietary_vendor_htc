@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
+    vendor/htc/ace/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/ace/proprietary/vpimg:/system/etc/vpimg \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
