@@ -34,5 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/heroc/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/heroc/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
     vendor/htc/heroc/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/htc/heroc/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/htc/heroc/proprietary/libspeech.so:system/lib/libspeech.so \
 
