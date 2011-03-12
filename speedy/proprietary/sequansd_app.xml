@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sequansd>
+  <watchdog>
+	    <pollingPeriod>
+	      <idle>120000</idle>
+	      <operational>2000</operational>
+	    </pollingPeriod>
+	</watchdog>
+	  
+	<server>
+		<ip>127.0.0.1</ip>
+		<port>7771</port>
+		<maxClients>10</maxClients>
+	</server>
+	
+	<bfh>
+		<repository>/data/wimax</repository>
+	</bfh>
+
+	<provisioning>
+		<mode>omadm</mode>
+		<msstate>none</msstate>
+	</provisioning>	
+
+	<debug>
+		<logfile>/data/wimax/log/sequansd.log</logfile>
+		<crashLog>/data/wimax/log/crash.log</crashLog>
+	</debug>
+</sequansd>
