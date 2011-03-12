@@ -17,10 +17,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    	device/htc/buzz/custom/logo.rle:root/logo.rle \
-    	vendor/htc/buzz/proprietary/libgps.so:obj/lib/libgps.so \
-    	vendor/htc/buzz/proprietary/libcamera.so:obj/lib/libcamera.so \
-        device/htc/buzz/kernel:out/target/product/buzz/kernel
+    device/htc/buzz/custom/logo.rle:root/logo.rle \
+    vendor/htc/buzz/proprietary/libgps.so:obj/lib/libgps.so \
+    vendor/htc/buzz/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # proprietary stuff
 PRODUCT_COPY_FILES += \
@@ -45,6 +44,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/buzz/proprietary/libt9.so:system/lib/libt9.so \
 	vendor/htc/buzz/proprietary/voicemail-conf.xml:system/etc/voicemail-conf.xml \
 	vendor/htc/buzz/proprietary/spn-conf.xml:system/etc/spn-conf.xml \
+	vendor/htc/buzz/proprietary/sensors.buzz.so:system/lib/hw/sensors.buzz.so \
 	vendor/htc/buzz/proprietary/libpvasfcommon.so:system/lib/libpvasfcommon.so \
 	vendor/htc/buzz/proprietary/libpvasflocalpb.so:system/lib/libpvasflocalpb.so \
 	vendor/htc/buzz/proprietary/libpvasflocalpbreg.so:system/lib/libpvasflocalpbreg.so \
@@ -56,4 +56,5 @@ PRODUCT_COPY_FILES += \
 	device/htc/buzz/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
 	device/htc/buzz/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
 	device/htc/buzz/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin
+#	vendor/htc/buzz/proprietary/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
 

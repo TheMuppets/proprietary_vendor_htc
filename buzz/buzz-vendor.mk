@@ -27,11 +27,12 @@ PRODUCT_PACKAGES := \
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := device/htc/buzz/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/cyanogen/overlay/ldpi
 
 $(call inherit-product, vendor/htc/buzz/buzz-vendor-blobs.mk)
 
 
 # Support files
 PRODUCT_COPY_FILES += \
-packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 

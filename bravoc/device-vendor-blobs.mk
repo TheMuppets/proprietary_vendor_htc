@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES := \
 # All the blobs necessary for bravoc
 PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/akmd:system/bin/akmd \
-    vendor/htc/bravoc/proprietary/mm-venc-omx-test:system/bin/mm-venc-omx-test \
     vendor/htc/bravoc/proprietary/parse_radio_log:system/bin/parse_radio_log \
     vendor/htc/bravoc/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/bravoc/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
@@ -37,8 +36,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/bravoc/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/bravoc/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/bravoc/proprietary/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/htc/bravoc/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/htc/bravoc/proprietary/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/htc/bravoc/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/htc/bravoc/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
+    vendor/htc/bravoc/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
