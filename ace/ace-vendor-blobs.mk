@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/ace/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/ace/proprietary/agps_rm:/system/etc/agps_rm \
-    vendor/htc/ace/proprietary/vpimg:/system/etc/vpimg \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/ace/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
