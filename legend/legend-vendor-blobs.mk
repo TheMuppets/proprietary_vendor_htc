@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/htc/legend/proprietary/lib/libgps.so:obj/lib/libgps.so \
     vendor/htc/legend/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/htc/legend/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/htc/legend/proprietary/etc/wifi/tiwlan_ap.ini:system/etc/wifi/tiwlan_ap.ini \
-    vendor/htc/legend/proprietary/etc/agps_rm:system/etc/agps_rm \
     vendor/htc/legend/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/legend/proprietary/etc/AudioPara4_WB.csv:system/etc/AudioPara4_WB.csv \
@@ -47,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/legend/proprietary/lib/libAudioTrimmer.so:system/lib/libAudioTrimmer.so \
     vendor/htc/legend/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/htc/legend/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/htc/legend/proprietary/lib/libgps.so:system/lib/libgps.so \
     vendor/htc/legend/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/legend/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/legend/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
