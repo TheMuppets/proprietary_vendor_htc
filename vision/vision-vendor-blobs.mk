@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/A1026_CFG.csv:/system/etc/A1026_CFG.csv \
     vendor/htc/vision/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/vision/proprietary/AdieHWCodec_WA.csv:/system/etc/AdieHWCodec_WA.csv \
-    vendor/htc/vision/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/vision/proprietary/akmd:/system/bin/akmd \
     vendor/htc/vision/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/vision/proprietary/awb_camera:/system/bin/awb_camera \
