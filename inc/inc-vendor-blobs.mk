@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/inc/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/inc/proprietary/TPA2018.csv:/system/etc/TPA2018.csv \
     vendor/htc/inc/proprietary/WPDB.zip:/system/etc/WPDB.zip \
-    vendor/htc/inc/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/inc/proprietary/Incredible_C_20100310_VZW_Neo_324016_v4_PMIC.acdb:/system/etc/firmware/Incredible_C_20100310_VZW_Neo_324016_v4_PMIC.acdb \
     vendor/htc/inc/proprietary/Incredible_C_20100319_VZW_Neo_324016_v5_VZW.acdb:/system/etc/firmware/Incredible_C_20100319_VZW_Neo_324016_v5_VZW.acdb \
     vendor/htc/inc/proprietary/default.acdb:/system/etc/firmware/default.acdb \

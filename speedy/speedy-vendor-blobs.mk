@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
-    vendor/htc/speedy/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/speedy/proprietary/akmd:/system/bin/akmd \
     vendor/htc/speedy/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/speedy/proprietary/awb_camera:/system/bin/awb_camera \
