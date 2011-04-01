@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    device/htc/buzz/custom/logo.rle:root/logo.rle \
     vendor/htc/buzz/proprietary/libgps.so:obj/lib/libgps.so \
     vendor/htc/buzz/proprietary/libcamera.so:obj/lib/libcamera.so
 
