@@ -30,11 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/click/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/click/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
     vendor/htc/click/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
-    vendor/htc/click/proprietary/libmmcamera.so:system/lib/libmmcamera.so \
     vendor/htc/click/proprietary/libmm-qcamera-tgt.so:system/lib/libmm-qcamera-tgt.so \
-    vendor/htc/click/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/click/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
-    vendor/htc/click/proprietary/libqcamera.so:system/lib/libqcamera.so \
     vendor/htc/click/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/htc/click/proprietary/libgps.so:system/lib/libgps.so \
     vendor/htc/click/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \

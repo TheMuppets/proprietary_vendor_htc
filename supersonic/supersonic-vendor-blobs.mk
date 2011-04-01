@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/supersonic/proprietary/TPA2018.csv:/system/etc/TPA2018.csv \
     vendor/htc/supersonic/proprietary/WPDB.zip:/system/etc/WPDB.zip \
-    vendor/htc/supersonic/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/supersonic/proprietary/Supersonic_20100204_Sprint_Jack_324016_v2.acdb:/system/etc/firmware/Supersonic_20100204_Sprint_Jack_324016_v2.acdb \
     vendor/htc/supersonic/proprietary/default.acdb:/system/etc/firmware/default.acdb \
     vendor/htc/supersonic/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \

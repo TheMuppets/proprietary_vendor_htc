@@ -16,7 +16,6 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/liberty/proprietary/libgps.so:obj/lib/libgps.so \
     vendor/htc/liberty/proprietary/libcamera.so:obj/lib/libcamera.so
  
 # All the blobs necessary for passion
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/WPDB.zip:/system/etc/WPDB.zip \
     vendor/htc/liberty/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/htc/liberty/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/liberty/proprietary/pvasflocal.cfg:/system/etc/pvasflocal.cfg \
     vendor/htc/liberty/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/liberty/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/liberty/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
@@ -38,15 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/liberty/proprietary/libOmxMpeg4Dec.so:/system/lib/libOmxMpeg4Dec.so \
     vendor/htc/liberty/proprietary/libOmxVidEnc.so:/system/lib/libOmxVidEnc.so \
     vendor/htc/liberty/proprietary/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/liberty/proprietary/libgps.so:/system/lib/libgps.so \
     vendor/htc/liberty/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/liberty/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/liberty/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/liberty/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/liberty/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/liberty/proprietary/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
-    vendor/htc/liberty/proprietary/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
-    vendor/htc/liberty/proprietary/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
-    vendor/htc/liberty/proprietary/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
-    vendor/htc/liberty/proprietary/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so
+    vendor/htc/liberty/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
 

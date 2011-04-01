@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
-    vendor/htc/speedy/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/speedy/proprietary/akmd:/system/bin/akmd \
     vendor/htc/speedy/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/speedy/proprietary/awb_camera:/system/bin/awb_camera \
@@ -60,9 +59,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/wimaxDhcpRelease:/system/bin/wimaxDhcpRelease \
     vendor/htc/speedy/proprietary/wimaxAddRoute:/system/bin/wimaxAddRoute \
     vendor/htc/speedy/proprietary/wimaxConfigInterface:/system/bin/wimaxConfigInterface \
+    vendor/htc/speedy/proprietary/spkamp:/system/bin/spkamp \
     vendor/htc/speedy/proprietary/DefaultTree.xml:/system/etc/wimax/sequansd/DefaultTree.xml \
     vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/speedy/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
+    vendor/htc/speedy/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
     vendor/htc/speedy/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar

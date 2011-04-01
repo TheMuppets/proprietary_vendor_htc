@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/A1026_CFG.csv:/system/etc/A1026_CFG.csv \
     vendor/htc/glacier/proprietary/AdieHWCodec.csv:/system/etc/AdieHWCodec.csv \
     vendor/htc/glacier/proprietary/AdieHWCodec_WA.csv:/system/etc/AdieHWCodec_WA.csv \
-    vendor/htc/glacier/proprietary/agps_rm:/system/etc/agps_rm \
     vendor/htc/glacier/proprietary/akmd:/system/bin/akmd \
     vendor/htc/glacier/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
