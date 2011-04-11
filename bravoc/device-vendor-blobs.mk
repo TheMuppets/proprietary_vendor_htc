@@ -36,4 +36,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/bravoc/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/bravoc/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/bravoc/proprietary/liboemcamera.so:system/lib/liboemcamera.so
+    vendor/htc/bravoc/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/bravoc/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
