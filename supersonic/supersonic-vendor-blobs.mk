@@ -29,10 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/supersonic/proprietary/WPDB.zip:/system/etc/WPDB.zip \
     vendor/htc/supersonic/proprietary/Supersonic_20100204_Sprint_Jack_324016_v2.acdb:/system/etc/firmware/Supersonic_20100204_Sprint_Jack_324016_v2.acdb \
     vendor/htc/supersonic/proprietary/default.acdb:/system/etc/firmware/default.acdb \
+    vendor/htc/supersonic/proprietary/gps.supersonic.so:/system/lib/hw/gps.supersonic.so \
     vendor/htc/supersonic/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/htc/supersonic/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/supersonic/proprietary/com.sprint.hardware.twincamdevice.xml:/system/etc/permissions/com.sprint.hardware.twincamdevice.xml \
-    vendor/htc/supersonic/proprietary/com.sprint.hardware.twinCamDevice.jar:/system/framework/com.sprint.hardware.twinCamDevice.jar \
     vendor/htc/supersonic/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/supersonic/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/supersonic/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
