@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/mecha/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/mecha/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/mecha/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/mecha/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/mecha/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
