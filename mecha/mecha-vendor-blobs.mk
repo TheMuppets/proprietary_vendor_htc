@@ -19,7 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/mecha/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/mecha/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so
+    vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
+    vendor/htc/mecha/proprietary/libloc_api.so:obj/lib/libloc_api.so \
+    vendor/htc/mecha/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
+    vendor/htc/mecha/proprietary/libloc_ext.so:obj/lib/libloc_ext.so
 
 # All the blobs necessary for mecha
 PRODUCT_COPY_FILES += \
