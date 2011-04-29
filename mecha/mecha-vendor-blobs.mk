@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/mecha/proprietary/libloc_api.so:obj/lib/libloc_api.so \
     vendor/htc/mecha/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
-    vendor/htc/mecha/proprietary/libloc_ext.so:obj/lib/libloc_ext.so
+    vendor/htc/mecha/proprietary/libloc_ext.so:obj/lib/libloc_ext.so \
+    vendor/htc/mecha/proprietary/libgpsone_bit_api.so:obj/lib/libgpsone_bit_api.so
 
 # All the blobs necessary for mecha
 PRODUCT_COPY_FILES += \
@@ -40,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/mecha/proprietary/ser2net:/system/bin/ser2net \
     vendor/htc/mecha/proprietary/snd3254:/system/bin/snd3254 \
+    vendor/htc/mecha/proprietary/spkamp:/system/bin/spkamp \
     vendor/htc/mecha/proprietary/tc:/system/bin/tc \
     vendor/htc/mecha/proprietary/btld:/system/bin/btld \
     vendor/htc/mecha/proprietary/qmuxd:/system/bin/qmuxd \
