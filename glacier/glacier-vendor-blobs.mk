@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/glacier/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/glacier/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/glacier/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
+    vendor/htc/glacier/proprietary/MS-HTCEMR-KNT20-02-A0-GB-02.apk:/system/app/MS-HTCEMR-KNT20-02-A0-GB-02.apk \
     vendor/htc/glacier/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/glacier/proprietary/libganril.so:/system/lib/libganril.so \
     vendor/htc/glacier/proprietary/libkineto.so:/system/lib/libkineto.so \
