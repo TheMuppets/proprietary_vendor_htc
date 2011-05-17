@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/ace/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/ace/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/ace/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libgsl.so:/system/lib/libgsl.so \
@@ -45,5 +44,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/ace/proprietary/libposteffect.so:/system/lib/libposteffect.so
+    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
