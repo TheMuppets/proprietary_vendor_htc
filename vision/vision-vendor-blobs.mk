@@ -46,11 +46,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vision/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/vision/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02.apk:/system/app/MS-HTCVISION-KNT20-02.apk \
+    vendor/htc/vision/proprietary/MS-HTCEMR-KNT20-02-A0-GB-02.apk:/system/app/MS-HTCEMR-KNT20-02-A0-GB-02.apk \
     vendor/htc/vision/proprietary/vpimg:/system/etc/vpimg
