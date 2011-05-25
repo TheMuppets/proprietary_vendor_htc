@@ -16,13 +16,16 @@
 
 # Live wallpaper packages
 PRODUCT_PACKAGES += \
-    LiveWallpapers \
     LiveWallpapersPicker \
-    VisualizationWallpapers \
     librs_jni
 
 $(call inherit-product, vendor/htc/buzz/buzz-vendor-blobs.mk)
 
-# Support files
+# Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES += \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+
+# Pick up overlay for features that depend on non-open-source files
+DEVICE_PACKAGE_OVERLAYS := vendor/htc/buzz/overlay
+
+$(call inherit-product, vendor/htc/buzz/device-vendor-blobs.mk)
