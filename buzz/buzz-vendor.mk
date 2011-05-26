@@ -28,4 +28,4 @@ PRODUCT_COPY_FILES += \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/htc/buzz/overlay
 
-$(call inherit-product, vendor/htc/buzz/device-vendor-blobs.mk)
+$(call inherit-product-if-exists, vendor/htc/buzz/device-vendor-blobs.mk)
