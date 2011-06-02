@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/htc/bravoc/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/bravoc/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/bravoc/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for bravoc
 PRODUCT_COPY_FILES += \
@@ -37,4 +38,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/bravoc/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/bravoc/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/htc/bravoc/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
+    vendor/htc/bravoc/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/htc/bravoc/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
