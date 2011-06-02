@@ -40,4 +40,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/bravo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/htc/bravo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/htc/ace/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
+    vendor/htc/bravo/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
