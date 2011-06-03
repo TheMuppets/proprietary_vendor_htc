@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for speedy
 PRODUCT_COPY_FILES += \
@@ -39,9 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/speedy/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/speedy/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/speedy/proprietary/libhtc_ril_switch.so:/system/lib/libhtc_ril_switch.so \
     vendor/htc/speedy/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/speedy/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/speedy/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/speedy/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
     vendor/htc/speedy/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/speedy/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/speedy/proprietary/lsc_camera:/system/bin/lsc_camera \
@@ -64,6 +67,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/sequansd_app.xml:/system/etc/wimax/sequansd/sequansd_app.xml \
     vendor/htc/speedy/proprietary/wimaxDhcp.conf:/system/etc/wimax/dhcp/wimaxDhcp.conf \
     vendor/htc/speedy/proprietary/TPA2051_CFG.csv:/system/etc/TPA2051_CFG.csv \
-    vendor/htc/speedy/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/speedy/proprietary/ip:/system/bin/ip \
     vendor/htc/speedy/proprietary/wimax-api.jar:/system/framework/wimax-api.jar
