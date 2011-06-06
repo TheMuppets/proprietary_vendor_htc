@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/glacier/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
@@ -32,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/glacier/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/glacier/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/htc/glacier/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/glacier/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/glacier/proprietary/libgemini.so:/system/lib/libgemini.so \
@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/glacier/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/glacier/proprietary/logcat2:/system/bin/logcat2 \
+    vendor/htc/glacier/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
     vendor/htc/glacier/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/glacier/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/glacier/proprietary/vpimg:/system/etc/vpimg
