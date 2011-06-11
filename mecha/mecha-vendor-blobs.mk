@@ -20,10 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/mecha/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libril.so:obj/lib/libril.so \
-    vendor/htc/mecha/proprietary/libloc_api.so:obj/lib/libloc_api.so \
-    vendor/htc/mecha/proprietary/libloc_api-rpc.so:obj/lib/libloc_api-rpc.so \
-    vendor/htc/mecha/proprietary/libloc_ext.so:obj/lib/libloc_ext.so \
-    vendor/htc/mecha/proprietary/libgpsone_bit_api.so:obj/lib/libgpsone_bit_api.so
+    vendor/htc/mecha/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for mecha
 PRODUCT_COPY_FILES += \
@@ -33,39 +30,33 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/dmagent:/system/bin/dmagent \
     vendor/htc/mecha/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
     vendor/htc/mecha/proprietary/ipd:/system/bin/ipd \
+    vendor/htc/mecha/proprietary/ip:/system/bin/ip \
     vendor/htc/mecha/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/mecha/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/mecha/proprietary/netmgrd:/system/bin/netmgrd \
-    vendor/htc/mecha/proprietary/netsharing:/system/bin/netsharing \
     vendor/htc/mecha/proprietary/rild_ims:/system/bin/rild_ims \
     vendor/htc/mecha/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/mecha/proprietary/ser2net:/system/bin/ser2net \
     vendor/htc/mecha/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/mecha/proprietary/spkamp:/system/bin/spkamp \
     vendor/htc/mecha/proprietary/tc:/system/bin/tc \
     vendor/htc/mecha/proprietary/btld:/system/bin/btld \
     vendor/htc/mecha/proprietary/qmuxd:/system/bin/qmuxd \
     vendor/htc/mecha/proprietary/qcrild:/system/bin/qcrild \
-    vendor/htc/mecha/proprietary/udhcpd:/system/bin/udhcpd \
     vendor/htc/mecha/proprietary/wireless_modem:/system/xbin/wireless_modem \
     vendor/htc/mecha/proprietary/agps_rm:/system/etc/agps_rm \
+    vendor/htc/mecha/proprietary/gps.mecha.so:/system/lib/hw/gps.mecha.so \
     vendor/htc/mecha/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
     vendor/htc/mecha/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/mecha/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/mecha/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/mecha/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/mecha/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/mecha/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/mecha/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/mecha/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/mecha/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/mecha/proprietary/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/mecha/proprietary/libgpsone_bit_api.so:/system/lib/libgpsone_bit_api.so \
     vendor/htc/mecha/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/mecha/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/mecha/proprietary/libloc_api.so:/system/lib/libloc_api.so \
-    vendor/htc/mecha/proprietary/libloc_api-rpc.so:/system/lib/libloc_api-rpc.so \
-    vendor/htc/mecha/proprietary/libloc_ext.so:/system/lib/libloc_ext.so \
     vendor/htc/mecha/proprietary/libril-qc-1.so:/system/lib/libril-qc-1.so \
     vendor/htc/mecha/proprietary/libril.so:/system/lib/libril.so \
     vendor/htc/mecha/proprietary/libril_ims.so:/system/lib/libril_ims.so \
@@ -78,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libping_apps.so:/system/lib/libping_apps.so \
     vendor/htc/mecha/proprietary/libping_lte_rpc.so:/system/lib/libping_lte_rpc.so \
     vendor/htc/mecha/proprietary/libping_mdm.so:/system/lib/libping_mdm.so \
-    vendor/htc/mecha/proprietary/liboncrpc.so:/system/lib/liboncrpc.so \
     vendor/htc/mecha/proprietary/libdsm.so:/system/lib/libdsm.so \
     vendor/htc/mecha/proprietary/libqueue.so:/system/lib/libqueue.so \
     vendor/htc/mecha/proprietary/libdiag.so:/system/lib/libdiag.so \
@@ -95,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libcm_fusion.so:/system/lib/libcm_fusion.so \
     vendor/htc/mecha/proprietary/libpbmlib_fusion.so:/system/lib/libpbmlib_fusion.so \
     vendor/htc/mecha/proprietary/libwms_fusion.so:/system/lib/libwms_fusion.so \
+    vendor/htc/mecha/proprietary/liboncrpc.so:/system/lib/liboncrpc.so \
     vendor/htc/mecha/proprietary/liboem_rapi.so:/system/lib/liboem_rapi.so \
     vendor/htc/mecha/proprietary/liboem_rapi_fusion.so:/system/lib/liboem_rapi_fusion.so \
     vendor/htc/mecha/proprietary/libqmi.so:/system/lib/libqmi.so \
@@ -107,4 +98,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/mecha/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/mecha/proprietary/libqdp.so:/system/lib/libqdp.so\
     vendor/htc/mecha/proprietary/libwsp.so:/system/lib/libwsp.so \
-    vendor/htc/mecha/proprietary/libwsp_jni.so:/system/lib/libwsp_jni.so 
+    vendor/htc/mecha/proprietary/libwsp_jni.so:/system/lib/libwsp_jni.so \
+    vendor/htc/mecha/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
