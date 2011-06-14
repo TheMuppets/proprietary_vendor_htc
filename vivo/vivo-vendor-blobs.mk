@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vivo/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/vivo/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/vivo/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for vivo
@@ -50,16 +49,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/vivo/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/vivo/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
-    vendor/htc/vivo/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/vivo/proprietary/libril.so:system/lib/libril.so \
-    vendor/htc/vivo/proprietary/rild:/system/bin/rild \
-    vendor/htc/vivo/proprietary/qmuxd:/system/bin/qmuxd \
-    vendor/htc/vivo/proprietary/netmgrd:/system/bin/netmgrd \
-    vendor/htc/vivo/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-    vendor/htc/vivo/proprietary/libqmi.so:/system/lib/libqmi.so \
-    vendor/htc/vivo/proprietary/libdll.so:/system/lib/libdll.so \
-    vendor/htc/vivo/proprietary/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/vivo/proprietary/libidl.so:/system/lib/libidl.so \
-    vendor/htc/vivo/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
-    vendor/htc/vivo/proprietary/libdsutils.so:/system/lib/libdsutils.so \
-    vendor/htc/vivo/proprietary/libqdp.so:/system/lib/libqdp.so
+    vendor/htc/vivo/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so
