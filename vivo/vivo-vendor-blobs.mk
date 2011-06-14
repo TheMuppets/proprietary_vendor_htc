@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivo/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vivo/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivo/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
     vendor/htc/vivo/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/vivo/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
