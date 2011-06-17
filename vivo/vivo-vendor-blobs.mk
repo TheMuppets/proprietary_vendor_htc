@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vivo/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/vivo/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for vivo
 PRODUCT_COPY_FILES += \
@@ -36,18 +35,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/vivo/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/vivo/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/vivo/proprietary/libgsl.so:/system/lib/libgsl.so \
+    vendor/htc/vivo/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
     vendor/htc/vivo/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vivo/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivo/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vivo/proprietary/libposteffect.so:/system/lib/libposteffect.so \
+    vendor/htc/vivo/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/vivo/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
     vendor/htc/vivo/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
     vendor/htc/vivo/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
-    vendor/htc/vivo/proprietary/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/vivo/proprietary/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/vivo/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/vivo/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/vivo/proprietary/libmmipl.so:/system/lib/libmmipl.so \
-    vendor/htc/vivo/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/vivo/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
-    vendor/htc/vivo/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so
+    vendor/htc/vivo/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so
