@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/htc/vision/proprietary/libaudio.so:obj/lib/libaudio.so \
-    vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/vision/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+    vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for passion
 PRODUCT_COPY_FILES += \
@@ -49,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/vision/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vision/proprietary/librilswitch.so:/system/lib/librilswitch.so \
-    vendor/htc/vision/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
