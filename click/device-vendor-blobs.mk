@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 
 # proprietary firmware files
 PRODUCT_COPY_FILES += \
+    vendor/htc/click/proprietary/firmware/tiinit_5.3.53.bts:system/etc/wifi/tiinit_5.3.53.bts \
     vendor/htc/click/proprietary/firmware/Fw1251r1c.bin:system/etc/wifi/Fw1251r1c.bin \
     vendor/htc/click/proprietary/firmware/brf6300.bin:system/etc/firmware/brf6300.bin \
     vendor/htc/click/proprietary/firmware/brf6350.bin:system/etc/firmware/brf6350.bin
@@ -40,4 +41,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/click/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/htc/click/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/click/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
-    vendor/htc/click/proprietary/akm8973:system/bin/akm8973
+    vendor/htc/click/proprietary/akmd:system/bin/akmd
