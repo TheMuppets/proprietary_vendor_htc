@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/speedy/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/speedy/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
@@ -29,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/speedy/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/speedy/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/speedy/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/speedy/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/speedy/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/speedy/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/speedy/proprietary/libcamera.so:/system/lib/libcamera.so \

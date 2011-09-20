@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vision/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for passion
@@ -30,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vision/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vision/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/vision/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vision/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vision/proprietary/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/vision/proprietary/libcamera.so:/system/lib/libcamera.so \

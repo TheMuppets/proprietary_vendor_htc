@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/glacier/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/glacier/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for passion
@@ -30,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/glacier/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/glacier/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/glacier/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
-    vendor/htc/glacier/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/glacier/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/glacier/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/glacier/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \

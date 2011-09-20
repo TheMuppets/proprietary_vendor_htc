@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivow/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/vivow/proprietary/libril.so:obj/lib/libril.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
@@ -39,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/htc/vivow/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vivow/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/vivow/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/vivow/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivow/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivow/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \

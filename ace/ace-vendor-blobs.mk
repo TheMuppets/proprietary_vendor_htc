@@ -17,7 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ace/proprietary/libaudio.so:obj/lib/libaudio.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for ace
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/ace/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/ace/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/ace/proprietary/libaudio.so:/system/lib/libaudio.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
