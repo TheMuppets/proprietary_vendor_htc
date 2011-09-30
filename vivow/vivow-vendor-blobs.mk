@@ -17,7 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so 
+    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so 
 
 # All the blobs necessary for vivow
 PRODUCT_COPY_FILES += \
