@@ -49,5 +49,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vision/proprietary/logcat2:/system/bin/logcat2 \
     vendor/htc/vision/proprietary/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/vision/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/htc/vision/proprietary/MS-HTCVISION-KNT20-02-A0-GB.apk:/system/app/MS-HTCVISION-KNT20-02-A0-GB.apk \
+    vendor/htc/vision/proprietary/MS-HTCEMR-KNT20-02-A0-GB-02.apk:/system/app/MS-HTCEMR-KNT20-02-A0-GB-02.apk \
     vendor/htc/vision/proprietary/vpimg:/system/etc/vpimg
