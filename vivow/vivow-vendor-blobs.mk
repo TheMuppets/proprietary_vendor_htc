@@ -17,7 +17,9 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so 
+    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/vivo/proprietary/libril.so:obj/lib/libril.so
+
 
 # All the blobs necessary for vivow
 PRODUCT_COPY_FILES += \
@@ -51,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/htc/vivow/proprietary/libril_ims.so:/system/lib/libreference-ril.so \
     vendor/htc/vivow/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/vivow/proprietary/libril.so:system/lib/libril.so \
     vendor/htc/vivow/proprietary/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/vivow/proprietary/libqmi.so:/system/lib/libqmi.so \
     vendor/htc/vivow/proprietary/libdll.so:/system/lib/libdll.so \
