@@ -21,8 +21,9 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary stuff
 PRODUCT_COPY_FILES += \
-    vendor/htc/buzz/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
     vendor/htc/buzz/proprietary/AudioFilter.csv:system/etc/AudioFilter.csv \
+    vendor/htc/buzz/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv \
+    vendor/htc/buzz/proprietary/AudioPara_HTC_NEL.csv:system/etc/AudioPara_HTC_NEL.csv \
     vendor/htc/buzz/proprietary/AudioPreProcess.csv:system/etc/AudioPreProcess.csv \
     vendor/htc/buzz/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/htc/buzz/proprietary/libgps.so:system/lib/libgps.so \
