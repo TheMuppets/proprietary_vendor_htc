@@ -17,8 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/vivo/proprietary/libril.so:obj/lib/libril.so
+    vendor/htc/vivo/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for vivo
 PRODUCT_COPY_FILES += \
@@ -41,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivo/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/vivo/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/vivo/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/vivo/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/vivo/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/vivo/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/vivo/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
