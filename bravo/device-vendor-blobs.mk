@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravo/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/bravo/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/bravo/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/bravo/proprietary/gps.bravo.so:system/lib/hw/gps.bravo.so \
     vendor/htc/bravo/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/bravo/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/bravo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \

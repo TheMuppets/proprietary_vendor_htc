@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/bravoc/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/bravoc/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/htc/bravoc/proprietary/gps.bravoc.so:system/lib/hw/gps.bravoc.so \
     vendor/htc/bravoc/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/htc/bravoc/proprietary/libgsl.so:system/lib/libgsl.so \
     vendor/htc/bravoc/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
