@@ -17,11 +17,12 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/vivow/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/vivow/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for vivow
 PRODUCT_COPY_FILES += \
-    vendor/htc/vivow/proprietary/akmd:/system/bin/akmd \
+    vendor/htc/vivow/proprietary//akmd:/system/bin/akmd \
     vendor/htc/vivow/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/vivow/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/vivow/proprietary/dmagent:/system/bin/dmagent \
@@ -48,4 +49,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/vivow/proprietary/libims_ril.so:/system/lib/libims_ril.so \
     vendor/htc/vivow/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/htc/vivow/proprietary/libril_ims.so:/system/lib/libreference-ril.so \
-    vendor/htc/vivow/proprietary/libril.so:/system/lib/libril.so
+    vendor/htc/vivow/proprietary/libril.so:/system/lib/libril.so \
+    vendor/htc/vivow/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so

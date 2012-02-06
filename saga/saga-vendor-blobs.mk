@@ -17,7 +17,8 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/saga/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/saga/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/htc/saga/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
 
 # All the blobs necessary for saga
 PRODUCT_COPY_FILES += \
@@ -55,4 +56,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/saga/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/saga/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/saga/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/saga/proprietary/libposteffect.so:/system/lib/libposteffect.so
+    vendor/htc/saga/proprietary/libposteffect.so:/system/lib/libposteffect.so \
+    vendor/htc/saga/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
