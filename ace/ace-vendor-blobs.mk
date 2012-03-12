@@ -17,8 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/htc/ace/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
+    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 # All the blobs necessary for ace
 PRODUCT_COPY_FILES += \
@@ -43,5 +42,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/ace/proprietary/libwebkitaccel.so:/system/lib/libwebkitaccel.so
+    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
