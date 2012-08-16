@@ -1,0 +1,10 @@
+# config file defination
+GPSC_CONFIG_FILE    /system/bin/GPSCConfigFile.cfg
+# patch file defination
+PATCH_FILE   /system/bin/patch-X.0.ce
+# aiding file defination
+AIDING_PATH	   /data/tigps/aiding/
+# sensor data
+SENSOR_NVM_PATH /data/tigps/logs/
+#logger IP
+LOGGER_CONTROL 0
