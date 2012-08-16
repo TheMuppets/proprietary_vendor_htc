@@ -1,0 +1,17 @@
+<StorePath> /system/bin/client_keystore.bks
+<AutoFqdnStorePath> /system/bin/auto_hslp_keystore.bks
+<ImplType> Socket
+<ProtocolType> Non_TLS
+<Localhost> false
+<slphost_fqdn> 74.125.113.192
+<port> 7276
+<mcc> 466
+<mnc> 92
+<lac> 2909
+<ci> 2111
+<msisdn> 918951322358
+<celltype> 1
+<hmcc> 405
+<hmnc> 145
+<slp_type> IP_ADDR
+
