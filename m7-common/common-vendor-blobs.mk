@@ -139,13 +139,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -153,8 +148,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
