@@ -14,10 +14,6 @@
 
 LOCAL_PATH := vendor/htc/m7-common
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/mfgsrv:root/sbin/mfgsrv \
     $(LOCAL_PATH)/proprietary/sbin/sfc:root/sbin/sfc \
