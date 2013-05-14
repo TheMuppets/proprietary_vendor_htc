@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/hltrd.bin:system/etc/hltrd.bin \
     $(LOCAL_PATH)/proprietary/system/etc/ov2722_1:system/etc/ov2722_1 \
     $(LOCAL_PATH)/proprietary/system/etc/RT5501:system/etc/RT5501 \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     $(LOCAL_PATH)/proprietary/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
