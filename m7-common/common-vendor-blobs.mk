@@ -159,8 +159,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-    $(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    $(LOCAL_PATH)/proprietary/system/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
     $(LOCAL_PATH)/proprietary/system/lib/libdiag.so:system/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdsutils.so:system/lib/libdsutils.so \
