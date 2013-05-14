@@ -49,11 +49,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd:system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335.bin:system/etc/firmware/fw_bcm4335.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335_apsta.bin:system/etc/firmware/fw_bcm4335_apsta.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335_apsta_b0.bin:system/etc/firmware/fw_bcm4335_apsta_b0.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335_b0.bin:system/etc/firmware/fw_bcm4335_b0.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335_p2p.bin:system/etc/firmware/fw_bcm4335_p2p.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4335_p2p_b0.bin:system/etc/firmware/fw_bcm4335_p2p_b0.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
