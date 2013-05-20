@@ -40,18 +40,31 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/bin/zchgd:system/bin/zchgd \
 	vendor/htc/ville/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/ville/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+	vendor/htc/ville/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/htc/ville/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+	vendor/htc/ville/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
 	vendor/htc/ville/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
 	vendor/htc/ville/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
 	vendor/htc/ville/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-	vendor/htc/ville/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
 	vendor/htc/ville/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/htc/ville/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+	vendor/htc/ville/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
+	vendor/htc/ville/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+	vendor/htc/ville/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/htc/ville/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
 	vendor/htc/ville/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
 	vendor/htc/ville/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-	vendor/htc/ville/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/htc/ville/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	vendor/htc/ville/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 	vendor/htc/ville/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/htc/ville/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+	vendor/htc/ville/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/htc/ville/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/htc/ville/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
 	vendor/htc/ville/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/ville/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/htc/ville/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -73,12 +86,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/htc/ville/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/htc/ville/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/htc/ville/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/htc/ville/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-	vendor/htc/ville/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-	vendor/htc/ville/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-	vendor/htc/ville/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/htc/ville/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/htc/ville/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
 	vendor/htc/ville/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
 	vendor/htc/ville/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -120,12 +128,12 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/lib/libidl.so:system/lib/libidl.so \
 	vendor/htc/ville/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/htc/ville/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-	vendor/htc/ville/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/ville/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/htc/ville/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
 	vendor/htc/ville/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
 	vendor/htc/ville/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/htc/ville/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+	vendor/htc/ville/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/ville/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/htc/ville/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/htc/ville/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
