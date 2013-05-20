@@ -72,11 +72,11 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/htc/ville/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
 	vendor/htc/ville/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-	vendor/htc/ville/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
 	vendor/htc/ville/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
 	vendor/htc/ville/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/htc/ville/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 	vendor/htc/ville/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+	vendor/htc/ville/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
 	vendor/htc/ville/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/htc/ville/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/htc/ville/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
