@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ville/proprietary/bin/zchgd:system/bin/zchgd \
 	vendor/htc/ville/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/ville/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-	vendor/htc/ville/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/htc/ville/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
 	vendor/htc/ville/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
 	vendor/htc/ville/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
 	vendor/htc/ville/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
