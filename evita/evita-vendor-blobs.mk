@@ -50,17 +50,30 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/evita/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/htc/evita/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+	vendor/htc/evita/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/htc/evita/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+	vendor/htc/evita/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
 	vendor/htc/evita/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
 	vendor/htc/evita/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-	vendor/htc/evita/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
 	vendor/htc/evita/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/htc/evita/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
+	vendor/htc/evita/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
+	vendor/htc/evita/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+	vendor/htc/evita/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+	vendor/htc/evita/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
 	vendor/htc/evita/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
 	vendor/htc/evita/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-	vendor/htc/evita/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+	vendor/htc/evita/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	vendor/htc/evita/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 	vendor/htc/evita/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/htc/evita/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+	vendor/htc/evita/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/htc/evita/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/htc/evita/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
 	vendor/htc/evita/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/evita/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/htc/evita/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -82,12 +95,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/htc/evita/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/htc/evita/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/htc/evita/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/htc/evita/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-	vendor/htc/evita/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-	vendor/htc/evita/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-	vendor/htc/evita/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/htc/evita/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/htc/evita/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
 	vendor/htc/evita/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
 	vendor/htc/evita/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
@@ -102,17 +110,12 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
-	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
-	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
-	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
-	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
-	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
@@ -129,12 +132,12 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/lib/libidl.so:system/lib/libidl.so \
 	vendor/htc/evita/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 	vendor/htc/evita/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-	vendor/htc/evita/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/evita/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
 	vendor/htc/evita/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
 	vendor/htc/evita/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
 	vendor/htc/evita/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
 	vendor/htc/evita/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+	vendor/htc/evita/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/htc/evita/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/htc/evita/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	vendor/htc/evita/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
