@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/evita/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/htc/evita/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-	vendor/htc/evita/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+	vendor/htc/evita/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
 	vendor/htc/evita/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
 	vendor/htc/evita/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
 	vendor/htc/evita/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
