@@ -110,12 +110,17 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
+	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
+	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
+	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
+	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
+	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
 	vendor/htc/evita/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
