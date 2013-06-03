@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/jewel/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-	vendor/htc/jewel/proprietary/bin/rild:system/bin/rild \
 	vendor/htc/jewel/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
 	vendor/htc/jewel/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
 	vendor/htc/jewel/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
@@ -40,7 +39,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/jewel/proprietary/lib/libMLTransition.so:system/lib/libMLTransition.so \
 	vendor/htc/jewel/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 	vendor/htc/jewel/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-	vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/htc/jewel/proprietary/etc/agps_rm:system/etc/agps_rm \
 	vendor/htc/jewel/proprietary/bin/charging:system/bin/charging \
 	vendor/htc/jewel/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
