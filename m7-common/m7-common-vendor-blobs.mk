@@ -175,7 +175,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
         vendor/htc/m7-common/proprietary/system/lib/libmpl.so:system/lib/libmpl.so \
         vendor/htc/m7-common/proprietary/system/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-        vendor/htc/m7-common/proprietary/system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd:system/etc/firmware/BCM4335B0_002.001.006.0042.0044.hcd \
+        vendor/htc/m7-common/proprietary/system/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd:system/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd \
         vendor/htc/m7-common/proprietary/system/etc/firmware/fw_bcm4335_apsta_b0.bin:system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/system/etc/firmware/fw_bcm4335_b0.bin:system/etc/firmware/fw_bcm4335_b0.bin \
         vendor/htc/m7-common/proprietary/system/etc/firmware/fw_bcm4335_p2p_b0.bin:system/etc/firmware/fw_bcm4335_p2p_b0.bin
