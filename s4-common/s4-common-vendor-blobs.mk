@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/s4-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/s4-common/proprietary/bin/netsharing:/system/bin/netsharing \
-        vendor/htc/s4-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/s4-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/s4-common/proprietary/bin/zchgd:/system/bin/zchgd \
@@ -82,18 +81,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/firmware/q6.b05:/system/etc/firmware/q6.b05 \
         vendor/htc/s4-common/proprietary/etc/firmware/q6.b06:/system/etc/firmware/q6.b06 \
         vendor/htc/s4-common/proprietary/etc/firmware/q6.mdt:/system/etc/firmware/q6.mdt \
-        vendor/htc/s4-common/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-        vendor/htc/s4-common/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-        vendor/htc/s4-common/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-        vendor/htc/s4-common/proprietary/lib/libidl.so:/system/lib/libidl.so \
-        vendor/htc/s4-common/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
-        vendor/htc/s4-common/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-        vendor/htc/s4-common/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
-        vendor/htc/s4-common/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
-        vendor/htc/s4-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
-        vendor/htc/s4-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
-        vendor/htc/s4-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-        vendor/htc/s4-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
         vendor/htc/s4-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/s4-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
