@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zoe.so:/system/lib/libchromatix_vd6869_zoe.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zsl.so:/system/lib/libchromatix_vd6869_zsl.so \
         vendor/htc/m7-common/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
-        vendor/htc/m7-common/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
         vendor/htc/m7-common/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
         vendor/htc/m7-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:/system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -87,13 +86,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
         vendor/htc/m7-common/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-        vendor/htc/m7-common/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
-        vendor/htc/m7-common/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
         vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/m7-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-        vendor/htc/m7-common/proprietary/lib/libOlaEngineNew.so:/system/lib/libOlaEngineNew.so \
         vendor/htc/m7-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-        vendor/htc/m7-common/proprietary/lib/libyuvimage.so:/system/lib/libyuvimage.so \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
