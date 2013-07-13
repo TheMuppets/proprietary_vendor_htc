@@ -23,34 +23,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:/system/lib/libchromatix_s5k3h2yx_zsl.so \
         vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:/system/lib/hw/sensors.ville.so \
         vendor/htc/ville/proprietary/bin/qmuxd:/system/bin/qmuxd \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b00:/system/etc/firmware/modem.b00 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b01:/system/etc/firmware/modem.b01 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b02:/system/etc/firmware/modem.b02 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b03:/system/etc/firmware/modem.b03 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b04:/system/etc/firmware/modem.b04 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b06:/system/etc/firmware/modem.b06 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.b07:/system/etc/firmware/modem.b07 \
-        vendor/htc/ville/proprietary/etc/firmware/modem.mdt:/system/etc/firmware/modem.mdt \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b00:/system/etc/firmware/modem_fw.b00 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b01:/system/etc/firmware/modem_fw.b01 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b02:/system/etc/firmware/modem_fw.b02 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b03:/system/etc/firmware/modem_fw.b03 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b04:/system/etc/firmware/modem_fw.b04 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b05:/system/etc/firmware/modem_fw.b05 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b06:/system/etc/firmware/modem_fw.b06 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b07:/system/etc/firmware/modem_fw.b07 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b08:/system/etc/firmware/modem_fw.b08 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b09:/system/etc/firmware/modem_fw.b09 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b10:/system/etc/firmware/modem_fw.b10 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b13:/system/etc/firmware/modem_fw.b13 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b14:/system/etc/firmware/modem_fw.b14 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b21:/system/etc/firmware/modem_fw.b21 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b22:/system/etc/firmware/modem_fw.b22 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b23:/system/etc/firmware/modem_fw.b23 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b25:/system/etc/firmware/modem_fw.b25 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b26:/system/etc/firmware/modem_fw.b26 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.b29:/system/etc/firmware/modem_fw.b29 \
-        vendor/htc/ville/proprietary/etc/firmware/modem_fw.mdt:/system/etc/firmware/modem_fw.mdt \
         vendor/htc/ville/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
         vendor/htc/ville/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \

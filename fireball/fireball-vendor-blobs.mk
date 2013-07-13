@@ -27,34 +27,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/fireball/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/fireball/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/fireball/proprietary/bin/qmuxd:/system/bin/qmuxd \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b00:/system/etc/firmware/modem.b00 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b01:/system/etc/firmware/modem.b01 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b02:/system/etc/firmware/modem.b02 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b03:/system/etc/firmware/modem.b03 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b04:/system/etc/firmware/modem.b04 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b06:/system/etc/firmware/modem.b06 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.b07:/system/etc/firmware/modem.b07 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem.mdt:/system/etc/firmware/modem.mdt \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b00:/system/etc/firmware/modem_fw.b00 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b01:/system/etc/firmware/modem_fw.b01 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b02:/system/etc/firmware/modem_fw.b02 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b03:/system/etc/firmware/modem_fw.b03 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b04:/system/etc/firmware/modem_fw.b04 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b05:/system/etc/firmware/modem_fw.b05 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b06:/system/etc/firmware/modem_fw.b06 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b07:/system/etc/firmware/modem_fw.b07 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b08:/system/etc/firmware/modem_fw.b08 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b09:/system/etc/firmware/modem_fw.b09 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b10:/system/etc/firmware/modem_fw.b10 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b13:/system/etc/firmware/modem_fw.b13 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b14:/system/etc/firmware/modem_fw.b14 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b21:/system/etc/firmware/modem_fw.b21 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b22:/system/etc/firmware/modem_fw.b22 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b23:/system/etc/firmware/modem_fw.b23 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b25:/system/etc/firmware/modem_fw.b25 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b26:/system/etc/firmware/modem_fw.b26 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.b29:/system/etc/firmware/modem_fw.b29 \
-        vendor/htc/fireball/proprietary/etc/firmware/modem_fw.mdt:/system/etc/firmware/modem_fw.mdt \
         vendor/htc/fireball/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/fireball/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
         vendor/htc/fireball/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
