@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/m7-common/proprietary/bin/zchgd:/system/bin/zchgd \
         vendor/htc/m7-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
-        vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m7-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m7-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m7-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
@@ -123,6 +122,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
+        vendor/htc/m7-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
+        vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
