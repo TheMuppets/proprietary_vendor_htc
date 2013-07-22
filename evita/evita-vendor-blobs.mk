@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
         vendor/htc/evita/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/evita/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
-        vendor/htc/evita/proprietary/lib/libpn544_fw.so:/system/lib/libpn544_fw.so \
+        vendor/htc/evita/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/evita/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
         vendor/htc/evita/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/evita/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
