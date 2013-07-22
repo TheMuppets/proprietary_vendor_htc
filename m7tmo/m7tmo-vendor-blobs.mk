@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/m7tmo/proprietary/bin/efsks:/system/bin/efsks \
         vendor/htc/m7tmo/proprietary/bin/qcks:/system/bin/qcks \
-        vendor/htc/m7tmo/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m7tmo/proprietary/vendor/firmware/mfg.bin:/system/vendor/firmware/mfg.bin \
         vendor/htc/m7tmo/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/m7tmo/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
