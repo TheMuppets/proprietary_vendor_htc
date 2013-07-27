@@ -101,17 +101,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
         vendor/htc/m7-common/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
         vendor/htc/m7-common/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
         vendor/htc/m7-common/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
         vendor/htc/m7-common/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
         vendor/htc/m7-common/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
-        vendor/htc/m7-common/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
-        vendor/htc/m7-common/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-        vendor/htc/m7-common/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
         vendor/htc/m7-common/proprietary/lib/libsc-a3xx.so:/system/lib/libsc-a3xx.so \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
@@ -121,7 +116,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
-        vendor/htc/m7-common/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
         vendor/htc/m7-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
