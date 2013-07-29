@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/s4-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
         vendor/htc/s4-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+        vendor/htc/s4-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/s4-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/s4-common/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
         vendor/htc/s4-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
