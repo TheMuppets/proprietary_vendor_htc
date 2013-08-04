@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
         vendor/htc/s4-common/proprietary/bin/akmd:/system/bin/akmd \
         vendor/htc/s4-common/proprietary/bin/charging:/system/bin/charging \
+        vendor/htc/s4-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/s4-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/s4-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
