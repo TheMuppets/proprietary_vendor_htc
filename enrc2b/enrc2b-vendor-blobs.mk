@@ -96,10 +96,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/enrc2b/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
   vendor/htc/enrc2b/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
-  vendor/htc/enrc2b/proprietary/lib/libEGL.so:system/lib/libEGL.so \
-  vendor/htc/enrc2b/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
-  vendor/htc/enrc2b/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-  vendor/htc/enrc2b/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
   vendor/htc/enrc2b/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
