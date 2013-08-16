@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
+  vendor/htc/enrc2b/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
   vendor/htc/enrc2b/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/enrc2b/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/enrc2b/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
