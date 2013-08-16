@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voicemail>
+<!--
+	@Author: HTC Shawn Ku
+	@Date: 2009/06/04
+	
+	This is a list for operator specific default voicemail numbers.
+	For those EF_MBDN(3G) and EF_MN(CPHS) are both empty case,
+	We will use below voicemail number for instead if numeric is matched.
+
+	Please also be noted, below numbers are not modifiable once anyone 
+	of those is used as default VM number.
+	     
+	Format is listed as below:
+	<voicemail
+	    numeric="MCC+MNC"
+ 
+	    carrier="Operator Name"
+	    vmnumber="Voicemail Number"
+	    vmtag="Tag for Voicemail" />
+-->
+        
+    <voicemail 
+        numeric="20416" 
+        carrier="TMO NL" 
+        vmnumber="+31624001233" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="21403" 
+        carrier="ORANGE ESP" 
+        vmnumber="242" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="23001" 
+        carrier="TMO CZ" 
+        vmnumber="+420603123311" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="23203"
+        carrier="TMO AT" 
+        vmnumber="+436762200" 
+        vmtag="Voicemail" />
+
+    <!-- this empty vmnumber is from TM, 
+    however, empty string should not be used in this field.
+    because of non-modifiable will be an issue
+    <voicemail 
+        numeric="23430" 
+        carrier="TMO UK" 
+        vmnumber="" 
+        vmtag="Voicemail" />
+        -->
+
+    <voicemail 
+        numeric="26201" 
+        carrier="TMO DE" 
+        vmnumber="3311" 
+        vmtag="Voicemail" />
+        
+    <voicemail 
+        numeric="20801" 
+        carrier="Orange FRA" 
+        vmnumber="888" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="21901"
+        carrier="T-Mobile"
+        vmnumber="+385981511"
+        vmtag="Voicemail" />
+        
+    <voicemail 
+        numeric="20205" 
+        carrier="Voda-Greek" 
+        vmnumber="121" 
+        vmtag="Voicemail" />   
+
+    <voicemail 
+        numeric="26303" 
+        carrier="E-Plus" 
+        vmnumber="+491779911" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="23415" 
+        carrier="VF-UK" 
+        vmnumber="121" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="26202" 
+        carrier="VF-DE" 
+        vmnumber="5500" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="21401" 
+        carrier="VF-ES" 
+        vmnumber="177" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="20404" 
+        carrier="VF-NL" 
+        vmnumber="+31654501233" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="65501" 
+        carrier="Vodacom" 
+        vmnumber="121" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="26801" 
+        carrier="VF-PT" 
+        vmnumber="123" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="42702" 
+        carrier="VF-QT" 
+        vmnumber="121" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="50502"
+        carrier="Optus"
+        vmnumber="+61411000321"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="50503"
+        carrier="VodafoneAU"
+        vmnumber="121"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="50501"
+        carrier="Telstra"
+        vmnumber="+61101"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="50506"
+        carrier="Hutch"
+        vmnumber="+61430005333"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="53001"
+        carrier="VodafoneNZ"
+        vmnumber="+6421700700"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="53005"
+        carrier="TelecomNZ"
+        vmnumber="+6483083210"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="27201"
+        carrier="Vodafone_IE"
+        vmnumber="171"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="20810"
+        carrier="SFR (France)"
+        vmnumber="123"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="22801"
+        carrier="Swisscom (Switzerland)"
+        vmnumber="+41794997979"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="23201"
+        carrier="Mobilkom (Austria)"
+        vmnumber="66477"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="42702"
+        carrier="Vodafone Qatar"
+        vmnumber="121"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="27801"
+        carrier="Vodafone Malta"
+        vmnumber="0035699909909"
+        vmtag="Voicemail" /> 
+       
+    <voicemail 
+        numeric="22210"
+        carrier="VF-IT"
+        vmnumber="42020"
+        vmtag="Voicemail" />         
+        
+    <voicemail 
+        numeric="23410"
+        carrier="O2 UK"
+        vmnumber="901"
+        vmtag="Voicemail" />
+        
+    <voicemail 
+        numeric="23411"
+        carrier="O2 UK"
+        vmnumber="901"
+        vmtag="Voicemail" />
+        
+    <voicemail 
+        numeric="23402"
+        carrier="O2 UK"
+        vmnumber="901"
+        vmtag="Voicemail" />        
+        
+    <voicemail 
+        numeric="22299"
+        carrier="Fastweb"
+        vmnumber="4141"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="27202"
+        carrier="O2ie"
+        vmnumber="171"
+        vmtag="Voicemail" /> 
+
+    <voicemail 
+        numeric="23458"
+        carrier="Manx telecom"
+        vmnumber="121"
+        vmtag="Voicemail" />     
+        
+    <voicemail 
+        numeric="45005"
+        carrier="SKT"
+        vmnumber="*89"
+        vmtag="Voicemail" />             
+
+    <voicemail 
+        numeric="23420"
+        carrier="H3G UK"
+        vmnumber="+447782333123"
+        vmtag="Voicemail" />        
+
+    <voicemail 
+        numeric="23594"
+        carrier="H3G UK"
+        vmnumber="+447782333123"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="27205"
+        carrier="H3G IE"
+        vmnumber="+353833333171"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="23806"
+        carrier="Hi3G Denmark"
+        vmnumber="+4531133333"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="24002"
+        carrier="Hi3G Sweden"
+        vmnumber="+46735333333"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="72423"
+        carrier="VIVO"
+        vmnumber="*555"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="334050"
+        carrier="BrightStar"
+        vmnumber="186"
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="70403" 
+        carrier="Movistar (Guatemala)" 
+        vmnumber="*86" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="704030" 
+        carrier="Movistar (Guatemala)" 
+        vmnumber="*86" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="70802" 
+        carrier="Tigo (Honduras)" 
+        vmnumber="*80" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="708020" 
+        carrier="Tigo (Honduras)" 
+        vmnumber="*80" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="73001" 
+        carrier="Entel (Chile)" 
+        vmnumber="#123" 
+        vmtag="Voicemail" />
+
+    <voicemail 
+        numeric="73010" 
+        carrier="Entel (Chile)" 
+        vmnumber="#123" 
+        vmtag="Voicemail" />
+</voicemail>
