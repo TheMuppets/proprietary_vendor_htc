@@ -231,4 +231,33 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_music.cfg:system/etc/soundimage/srsfx_trumedia_music.cfg \
   vendor/htc/enrc2b/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
   vendor/htc/enrc2b/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
-  vendor/htc/enrc2b/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg
+  vendor/htc/enrc2b/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
+  vendor/htc/enrc2b/proprietary/etc/tfa/fm.config:system/etc/tfa/fm.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/fm.eq:system/etc/tfa/fm.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/fm.speaker:system/etc/tfa/fm.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/playback.speaker:system/etc/tfa/playback.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.config:system/etc/tfa/recorder.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.eq:system/etc/tfa/recorder.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.preset:system/etc/tfa/recorder.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/recorder.speaker:system/etc/tfa/recorder.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/ReleaseNote.txt:system/etc/tfa/ReleaseNote.txt \
+  vendor/htc/enrc2b/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/ring.speaker:system/etc/tfa/ring.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/tcoef.speaker:system/etc/tfa/tcoef.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.config:system/etc/tfa/tfa9887.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+  vendor/htc/enrc2b/proprietary/etc/tfa/tfa9887.speaker:system/etc/tfa/tfa9887.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/video.config:system/etc/tfa/video.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/video.eq:system/etc/tfa/video.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/video.preset:system/etc/tfa/video.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/video.speaker:system/etc/tfa/video.speaker \
+  vendor/htc/enrc2b/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+  vendor/htc/enrc2b/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+  vendor/htc/enrc2b/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+  vendor/htc/enrc2b/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker
