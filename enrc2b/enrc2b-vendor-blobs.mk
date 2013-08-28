@@ -260,4 +260,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
   vendor/htc/enrc2b/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
   vendor/htc/enrc2b/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
-  vendor/htc/enrc2b/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker
+  vendor/htc/enrc2b/proprietary/etc/tfa/voice.speaker:system/etc/tfa/voice.speaker \
+  vendor/htc/enrc2b/proprietary/etc/AIC3008_REG_DualMic.csv:system/etc/AIC3008_REG_DualMic.csv \
+  vendor/htc/enrc2b/proprietary/etc/AIC3008_REG_DualMic_XA.csv:system/etc/AIC3008_REG_DualMic_XA.csv \
+  vendor/htc/enrc2b/proprietary/etc/DSP_number.txt:system/etc/DSP_number.txt
