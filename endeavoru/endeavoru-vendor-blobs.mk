@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
   vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
+  vendor/htc/endeavoru/proprietary/etc/AIC3008_REG_DualMic.csv:system/etc/AIC3008_REG_DualMic.csv \
+  vendor/htc/endeavoru/proprietary/etc/AIC3008_REG_DualMic_XC.csv:system/etc/AIC3008_REG_DualMic_XC.csv \
+  vendor/htc/endeavoru/proprietary/etc/DSP_number.txt:system/etc/DSP_number.txt \
+  vendor/htc/endeavoru/proprietary/etc/soundimage/board_version.txt:system/etc/soundimage/board_version.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/CodecDSPID.txt:system/etc/soundimage/CodecDSPID.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/CodecDSPID_XC.txt:system/etc/soundimage/CodecDSPID_XC.txt \
   vendor/htc/endeavoru/proprietary/etc/soundimage/Sound_BT_CarMode.txt:system/etc/soundimage/Sound_BT_CarMode.txt \
@@ -221,4 +225,5 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
   vendor/htc/endeavoru/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/endeavoru/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
-  vendor/htc/endeavoru/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so
+  vendor/htc/endeavoru/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so \
+  vendor/htc/endeavoru/proprietary/etc/Flash_Loader.conf:system/etc/Flash_Loader.conf
