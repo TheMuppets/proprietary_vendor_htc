@@ -16,15 +16,12 @@
 
 PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/akmd:/system/bin/akmd \
-        vendor/htc/m7-common/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
-        vendor/htc/m7-common/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/m7-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/m7-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
-        vendor/htc/m7-common/proprietary/bin/zchgd:/system/bin/zchgd \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/fm.config:/system/etc/tfa/fm.config \
@@ -145,6 +142,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/m7-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
         vendor/htc/m7-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+        vendor/htc/m7-common/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/m7-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
@@ -200,7 +198,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
         vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
         vendor/htc/m7-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-        vendor/htc/m7-common/proprietary/lib/libhtc_rilhook.so:/system/lib/libhtc_rilhook.so \
         vendor/htc/m7-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/m7-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
         vendor/htc/m7-common/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
@@ -212,7 +209,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
-        vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd \
+        vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
