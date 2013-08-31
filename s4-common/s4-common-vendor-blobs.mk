@@ -22,10 +22,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/s4-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/s4-common/proprietary/bin/netsharing:/system/bin/netsharing \
         vendor/htc/s4-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
-        vendor/htc/s4-common/proprietary/bin/zchgd:/system/bin/zchgd \
         vendor/htc/s4-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/s4-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/s4-common/proprietary/lib/hw/vendor-camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
