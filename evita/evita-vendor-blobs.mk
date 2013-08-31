@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:/system/lib/libchromatix_s5k3h2yx_zsl.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:/system/lib/libchromatix_s5k6a1gx_default_video.so \
+        vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_hdr.so:/system/lib/libchromatix_s5k6a1gx_hdr.so \
+        vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_hfr.so:/system/lib/libchromatix_s5k6a1gx_hfr.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_preview.so:/system/lib/libchromatix_s5k6a1gx_preview.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:/system/lib/libchromatix_s5k6a1gx_zsl.so \
         vendor/htc/evita/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
