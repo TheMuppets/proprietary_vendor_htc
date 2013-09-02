@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
         vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:/system/lib/libchromatix_s5k3h2yx_zsl.so \
         vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:/system/lib/hw/sensors.ville.so \
-        vendor/htc/ville/proprietary/bin/akmd:/system/bin/akmd \
         vendor/htc/ville/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/ville/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
