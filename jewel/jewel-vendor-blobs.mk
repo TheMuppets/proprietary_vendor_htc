@@ -25,12 +25,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/jewel/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:/system/lib/libchromatix_s5k6a1gx_zsl.so \
         vendor/htc/jewel/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
         vendor/htc/jewel/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
-        vendor/htc/jewel/proprietary/lib/libhtc_rilhook.so:/system/lib/libhtc_rilhook.so \
+        vendor/htc/jewel/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
+        vendor/htc/jewel/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
         vendor/htc/jewel/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/jewel/proprietary/lib/libimu.so:/system/lib/libimu.so \
         vendor/htc/jewel/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/jewel/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
         vendor/htc/jewel/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
+        vendor/htc/jewel/proprietary/bin/netmgr:/system/bin/netmgr \
         vendor/htc/jewel/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/jewel/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/jewel/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
@@ -44,5 +46,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/jewel/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
         vendor/htc/jewel/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
         vendor/htc/jewel/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+        vendor/htc/jewel/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/jewel/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/jewel/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
