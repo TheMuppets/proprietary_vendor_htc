@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/s4-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/s4-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/s4-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/s4-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
@@ -74,7 +73,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
-        vendor/htc/s4-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/s4-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \

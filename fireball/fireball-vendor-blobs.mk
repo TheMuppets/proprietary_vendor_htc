@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/fireball/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
         vendor/htc/fireball/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/fireball/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
+        vendor/htc/fireball/proprietary/bin/netmgr:/system/bin/netmgr \
         vendor/htc/fireball/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/fireball/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/fireball/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
@@ -39,5 +40,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/fireball/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
         vendor/htc/fireball/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
         vendor/htc/fireball/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+        vendor/htc/fireball/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/fireball/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/fireball/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
