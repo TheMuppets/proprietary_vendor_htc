@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
         vendor/htc/ville/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:/system/lib/libchromatix_s5k3h2yx_zsl.so \
         vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:/system/lib/hw/sensors.ville.so \
+        vendor/htc/ville/proprietary/bin/netmgr:/system/bin/netmgr \
         vendor/htc/ville/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/ville/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
@@ -35,5 +36,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/ville/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
         vendor/htc/ville/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
         vendor/htc/ville/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+        vendor/htc/ville/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/ville/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/ville/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
