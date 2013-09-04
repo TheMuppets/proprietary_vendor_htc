@@ -178,7 +178,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
   vendor/htc/enrc2b/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/enrc2b/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
   vendor/htc/enrc2b/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
