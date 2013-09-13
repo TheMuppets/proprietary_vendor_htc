@@ -12,7 +12,7 @@ malog_status=`getprop persist.radio.matrace.enable`
 
 # Check if node ttyACMX0 created
 if [ ! -f /dev/ttyACMX0 ]; then
-/system/bin/log -p e -t MODEM "ttyACMX0 is null. Creat it."
+/system/bin/log -p e -t MODEM "ttyACMX0 is null. Create it."
 /system/bin/mknod /dev/ttyACMX0 c 66 0
 /system/bin/chmod 770 /dev/ttyACMX0
 fi
