@@ -160,6 +160,11 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
   vendor/htc/dlx/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+  vendor/htc/dlx/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
+  vendor/htc/dlx/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
+  vendor/htc/dlx/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
+  vendor/htc/dlx/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
+  vendor/htc/dlx/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
   vendor/htc/dlx/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
   vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
   vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
