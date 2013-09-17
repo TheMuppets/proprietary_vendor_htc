@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/m4/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/m4/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/m4/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
   vendor/htc/m4/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
