@@ -119,10 +119,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
   vendor/htc/endeavoru/proprietary/etc/firmware/vac_config.ini:system/etc/firmware/vac_config.ini \
   vendor/htc/endeavoru/proprietary/etc/firmware/WL128x_2.21_1.1.bts:system/etc/firmware/WL128x_2.21_1.1.bts \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl1271-nvs.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
-  vendor/htc/endeavoru/proprietary/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
   vendor/htc/endeavoru/proprietary/etc/AIC3008_REG_DualMic.csv:system/etc/AIC3008_REG_DualMic.csv \
   vendor/htc/endeavoru/proprietary/etc/AIC3008_REG_DualMic_XC.csv:system/etc/AIC3008_REG_DualMic_XC.csv \
   vendor/htc/endeavoru/proprietary/etc/DSP_number.txt:system/etc/DSP_number.txt \
