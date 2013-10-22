@@ -1,4 +1,4 @@
-#ENR_U_0312			--------------------------------------------------------------- book 0 is selected
+#ENR_0831			--------------------------------------------------------------- book 0 is selected
 w 30 00 00 
 w 30 7f 00 
 #			# reg[  0][  0][  1] = 0x01	; Initialize the device through software reset
@@ -3478,11 +3478,11 @@ w 30 1e ff
 #			 (Bit 7-0)
 w 30 1f 00 
 #			 (Bit 31-24) ------------ MSB DAC COEFF No. 6
-w 30 20 2e 
+w 30 20 19 
 #			 (Bit 23-16)
-w 30 21 14 
+w 30 21 99 
 #			 (Bit 15-8)
-w 30 22 7b 
+w 30 22 9a 
 #			 (Bit 7-0)
 w 30 23 00 
 #			 (Bit 31-24) ------------ MSB DAC COEFF No. 7
@@ -4156,11 +4156,11 @@ w 30 5e ff
 #			 (Bit 7-0)
 w 30 5f 00 
 #			 (Bit 31-24) ------------ MSB DAC COEFF No. 262
-w 30 60 2e 
+w 30 60 19 
 #			 (Bit 23-16)
-w 30 61 14 
+w 30 61 99 
 #			 (Bit 15-8)
-w 30 62 7b 
+w 30 62 9a 
 #			 (Bit 7-0)
 w 30 63 00 
 #			 (Bit 31-24) ------------ MSB DAC COEFF No. 263
@@ -8615,4 +8615,4 @@ w 30 4a 04
 #			# reg[  0][  4][ 75] = 0x22	; DOUT3 pin enabled, used for ASI3_DOUT
 w 30 4b 02 
 #			# reg[  0][  4][ 76] = 0x20	; DIN3 pin enabled, used for ASI3_DIN
-w 30 4c 20 
+w 30 4c 20  
