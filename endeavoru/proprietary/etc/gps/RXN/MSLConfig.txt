@@ -40,7 +40,7 @@ Base_GPS_Week: 570
 // Max Log Filesize in kB. Set to ensure that the MSL log does not take up too much file system space.
 // Value in kB. Min value: 1. Max value: 1048576 (1GB). Default value: 102400 (102400kB = 100 MB). Logging is disabled once
 // maximum file size is reached.
-Log_Max_Size: 1024
+Log_Max_Size: 4096
 
 // Logging severity threshold. Set to match a severity to ensure that log entries labeled with this severity (or lower) are
 // included within your log (default 1 - Errors). Severity levels follow:
@@ -50,7 +50,7 @@ Log_Max_Size: 1024
 // 3 - Information: Useful data regarding flow of the code.
 // 4 - Trace: Supports RxN internal debugging only.
 // Min value: 0. Max Value 4. Default value: 1.
-Log_Sev_Threshold: 1
+Log_Sev_Threshold: 3
 
 // Log zone mask. Log entries can be separated by zone (in addition to severity). Only if log entries with specified
 // zone match up with the mask provided below will these entries be logged (regardless of severity).
