@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/ville/proprietary/lib/hw/sensors.ville.so:/system/lib/hw/sensors.ville.so \
         vendor/htc/ville/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/ville/proprietary/bin/qmuxd:/system/bin/qmuxd \
+        vendor/htc/ville/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/ville/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/ville/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
         vendor/htc/ville/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
