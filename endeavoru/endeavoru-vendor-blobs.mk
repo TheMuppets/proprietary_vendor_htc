@@ -164,8 +164,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srsfx_trumedia_voice.cfg:system/etc/soundimage/srsfx_trumedia_voice.cfg \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srs_geq10.cfg:system/etc/soundimage/srs_geq10.cfg \
   vendor/htc/endeavoru/proprietary/etc/soundimage/srs_global.cfg:system/etc/soundimage/srs_global.cfg \
-  vendor/htc/endeavoru/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/endeavoru/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+  vendor/htc/endeavoru/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
+  vendor/htc/endeavoru/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
   vendor/htc/endeavoru/proprietary/lib/libasound.so:system/lib/libasound.so \
   vendor/htc/endeavoru/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/endeavoru/proprietary/app/PGPSDownloader.apk:system/app/PGPSDownloader.apk \
