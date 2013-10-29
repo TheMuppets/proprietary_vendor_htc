@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
         vendor/htc/evita/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/evita/proprietary/bin/qmuxd:/system/bin/qmuxd \
+        vendor/htc/evita/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/evita/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/evita/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
         vendor/htc/evita/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \

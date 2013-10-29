@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/fireball/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/fireball/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/fireball/proprietary/bin/qmuxd:/system/bin/qmuxd \
+        vendor/htc/fireball/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/fireball/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/fireball/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
         vendor/htc/fireball/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
