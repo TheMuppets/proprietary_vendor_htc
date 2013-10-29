@@ -6574,11 +6574,11 @@ w 30 52 00
 #			--------------------------------------------------------------- page 1 is selected
 w 30 00 01 
 #			# reg[0][1][27] = 0x33                       ; reg(0)(1)(0x1B =>27 )     LDAC -> HPL, RDAC -> HPR; Power on HPL + HPR
-w 30 1b 33 
+w 30 1b 00 
 #			# reg[0][1][59] = 0x00                       ; reg(0)(1)(0x3b => 59)     ADC unmute left mic PGA with 0 dB gain
-w 30 3b 00 
+w 30 3b 80 
 #			# reg[0][1][60] = 0x00                       ; reg(0)(1)(0x3c => 60)     ADC unmute right mic PGA with 0 dB gain
-w 30 3c 00 
+w 30 3c 80 
 #			--------------------------------------------------------------- page 4 is selected
 w 30 00 04 
 #			# reg[0][4][1]  = 0                          ; ASI1 Audio Interface = I2S
