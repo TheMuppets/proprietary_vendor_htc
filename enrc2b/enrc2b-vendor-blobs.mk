@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/hostapd:system/bin/hostapd \
   vendor/htc/enrc2b/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/enrc2b/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
-  vendor/htc/enrc2b/proprietary/bin/htcfs:system/bin/htcfs \
   vendor/htc/enrc2b/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/enrc2b/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/enrc2b/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
@@ -60,10 +59,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
   vendor/htc/enrc2b/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
   vendor/htc/enrc2b/proprietary/etc/Flash_Loader.conf:system/etc/Flash_Loader.conf \
-  vendor/htc/enrc2b/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/enrc2b/proprietary/etc/QUO_6260.fls.clean:system/etc/QUO_6260.fls.clean \
   vendor/htc/enrc2b/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
   vendor/htc/enrc2b/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
+  vendor/htc/enrc2b/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
@@ -75,7 +74,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
   vendor/htc/enrc2b/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
@@ -85,15 +83,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/hw/nfc.enrc2b.so:system/lib/hw/nfc.enrc2b.so \
   vendor/htc/enrc2b/proprietary/lib/hw/sensors.enrc2b.so:system/lib/hw/sensors.enrc2b.so \
   vendor/htc/enrc2b/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+  vendor/htc/enrc2b/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/enrc2b/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
-  vendor/htc/enrc2b/proprietary/lib/libasound.so:system/lib/libasound.so \
   vendor/htc/enrc2b/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/enrc2b/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
   vendor/htc/enrc2b/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/enrc2b/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/enrc2b/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/enrc2b/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
   vendor/htc/enrc2b/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
   vendor/htc/enrc2b/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
   vendor/htc/enrc2b/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
@@ -102,7 +99,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
-  vendor/htc/enrc2b/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsurfaces.so:system/lib/libhtcsurfaces.so \
   vendor/htc/enrc2b/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
   vendor/htc/enrc2b/proprietary/lib/libmllite.so:system/lib/libmllite.so \
@@ -121,7 +117,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
   vendor/htc/enrc2b/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
   vendor/htc/enrc2b/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
-  vendor/htc/enrc2b/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
   vendor/htc/enrc2b/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
   vendor/htc/enrc2b/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
   vendor/htc/enrc2b/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
@@ -156,9 +151,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
   vendor/htc/enrc2b/proprietary/lib/libnvos.so:system/lib/libnvos.so \
   vendor/htc/enrc2b/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
-  vendor/htc/enrc2b/proprietary/lib/libnvremoteevtmgr.so:system/lib/libnvremoteevtmgr.so \
-  vendor/htc/enrc2b/proprietary/lib/libnvremotell.so:system/lib/libnvremotell.so \
-  vendor/htc/enrc2b/proprietary/lib/libnvremoteprotocol.so:system/lib/libnvremoteprotocol.so \
   vendor/htc/enrc2b/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
   vendor/htc/enrc2b/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
   vendor/htc/enrc2b/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
@@ -171,10 +163,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/enrc2b/proprietary/lib/libril-icera.so:system/lib/libril-icera.so \
   vendor/htc/enrc2b/proprietary/lib/libril.so:system/lib/libril.so \
-  vendor/htc/enrc2b/proprietary/lib/libscaladoapi.so:system/lib/libscaladoapi.so \
-  vendor/htc/enrc2b/proprietary/lib/libscalado_htcalbum2.so:system/lib/libscalado_htcalbum2.so \
   vendor/htc/enrc2b/proprietary/lib/libscalado.so:system/lib/libscalado.so \
-  vendor/htc/enrc2b/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
   vendor/htc/enrc2b/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
