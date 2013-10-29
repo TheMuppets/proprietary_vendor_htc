@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/m7-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/m7-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
@@ -184,21 +182,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
-        vendor/htc/m7-common/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-        vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-        vendor/htc/m7-common/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-        vendor/htc/m7-common/proprietary/lib/libidl.so:/system/lib/libidl.so \
-        vendor/htc/m7-common/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
-        vendor/htc/m7-common/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
-        vendor/htc/m7-common/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
-        vendor/htc/m7-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-        vendor/htc/m7-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/m7-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
         vendor/htc/m7-common/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/m7-common/proprietary/lib/libimu.so:/system/lib/libimu.so \
