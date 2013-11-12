@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
-        vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
         vendor/htc/m7-common/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
         vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
@@ -171,6 +170,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
+        vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
