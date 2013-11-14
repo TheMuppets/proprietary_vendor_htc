@@ -162,7 +162,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
   vendor/htc/enrc2b/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/enrc2b/proprietary/lib/libril-icera.so:system/lib/libril-icera.so \
-  vendor/htc/enrc2b/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/enrc2b/proprietary/lib/libscalado.so:system/lib/libscalado.so \
   vendor/htc/enrc2b/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/enrc2b/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
