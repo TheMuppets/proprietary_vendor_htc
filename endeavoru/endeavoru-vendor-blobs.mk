@@ -36,8 +36,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
   vendor/htc/endeavoru/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/endeavoru/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
-  vendor/htc/endeavoru/proprietary/lib/libril-icera.so:system/lib/libril-icera.so \
-  vendor/htc/endeavoru/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/endeavoru/proprietary/bin/initial_regdom.sh:system/bin/initial_regdom.sh \
   vendor/htc/endeavoru/proprietary/bin/iw:system/bin/iw \
   vendor/htc/endeavoru/proprietary/bin/l2_profile_exchange:system/bin/l2_profile_exchange \
