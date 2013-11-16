@@ -150,6 +150,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/m4/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/m4/proprietary/lib/libidl.so:system/lib/libidl.so \
+  vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+  vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/m4/proprietary/lib/libqdi.so:system/lib/libqdi.so \
   vendor/htc/m4/proprietary/lib/libqdp.so:system/lib/libqdp.so \
