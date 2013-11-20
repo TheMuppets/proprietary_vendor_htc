@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
-  vendor/htc/dlx/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlx/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
   vendor/htc/dlx/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
   vendor/htc/dlx/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
@@ -136,6 +135,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/dlx/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
+  vendor/htc/dlx/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
