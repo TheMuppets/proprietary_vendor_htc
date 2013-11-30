@@ -37,17 +37,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/dlx/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/dlx/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-  vendor/htc/dlx/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
   vendor/htc/dlx/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-  vendor/htc/dlx/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-  vendor/htc/dlx/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/dlx/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-  vendor/htc/dlx/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/dlx/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/dlx/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/dlx/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/dlx/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/dlx/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
@@ -67,7 +58,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
   vendor/htc/dlx/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
-  vendor/htc/dlx/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlx/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
   vendor/htc/dlx/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
   vendor/htc/dlx/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
@@ -128,7 +118,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/dlx/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/dlx/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
-  vendor/htc/dlx/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
   vendor/htc/dlx/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/dlx/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/dlx/proprietary/lib/libext3-fileio.so:system/lib/libext3-fileio.so \
@@ -149,6 +138,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/dlx/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
+  vendor/htc/dlx/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b01:system/etc/firmware/hcheck.b01 \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b02:system/etc/firmware/hcheck.b02 \
@@ -162,8 +153,22 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
   vendor/htc/dlx/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
   vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/dlx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+  vendor/htc/dlx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+  vendor/htc/dlx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+  vendor/htc/dlx/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+  vendor/htc/dlx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
   vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
-  vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
   vendor/htc/dlx/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
   vendor/htc/dlx/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
   vendor/htc/dlx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
