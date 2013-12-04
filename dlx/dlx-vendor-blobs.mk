@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
   vendor/htc/dlx/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/dlx/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-  vendor/htc/dlx/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+  vendor/htc/dlx/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
   vendor/htc/dlx/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/dlx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/dlx/proprietary/lib/hw/sensors.dlx.so:system/lib/hw/sensors.dlx.so \
