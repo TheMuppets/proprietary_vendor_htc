@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
   vendor/htc/enrc2b/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
   vendor/htc/enrc2b/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
+  vendor/htc/enrc2b/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
   vendor/htc/enrc2b/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
   vendor/htc/enrc2b/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
   vendor/htc/enrc2b/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
