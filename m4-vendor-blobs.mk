@@ -89,27 +89,31 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/m4/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
   vendor/htc/m4/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-  vendor/htc/m4/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/m4/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/m4/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/m4/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-  vendor/htc/m4/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/m4/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/m4/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-  vendor/htc/m4/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-  vendor/htc/m4/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-  vendor/htc/m4/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/m4/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/m4/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-  vendor/htc/m4/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-  vendor/htc/m4/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+  vendor/htc/m4/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+  vendor/htc/m4/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+  vendor/htc/m4/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+  vendor/htc/m4/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+  vendor/htc/m4/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+  vendor/htc/m4/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+  vendor/htc/m4/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+  vendor/htc/m4/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+  vendor/htc/m4/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
+  vendor/htc/m4/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+  vendor/htc/m4/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+  vendor/htc/m4/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+  vendor/htc/m4/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
   vendor/htc/m4/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/m4/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/m4/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
   vendor/htc/m4/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
   vendor/htc/m4/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
   vendor/htc/m4/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
-  vendor/htc/m4/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+  vendor/htc/m4/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
   vendor/htc/m4/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/m4/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/m4/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
@@ -146,12 +150,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+  vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/m4/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/m4/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
   vendor/htc/m4/proprietary/lib/libidl.so:system/lib/libidl.so \
-  vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-  vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/htc/m4/proprietary/lib/libqdi.so:system/lib/libqdi.so \
   vendor/htc/m4/proprietary/lib/libqdp.so:system/lib/libqdp.so \
