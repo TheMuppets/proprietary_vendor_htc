@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
+        vendor/htc/s4-common/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
         vendor/htc/s4-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
