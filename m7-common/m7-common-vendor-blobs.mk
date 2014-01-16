@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
+        vendor/htc/m7-common/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
         vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
         vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
