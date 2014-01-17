@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/endeavoru/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
   vendor/htc/endeavoru/proprietary/bin/poweroff_modem.sh:system/bin/poweroff_modem.sh \
   vendor/htc/endeavoru/proprietary/bin/poweron_modem_fls.sh:system/bin/poweron_modem_fls.sh \
+  vendor/htc/endeavoru/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/endeavoru/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/endeavoru/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/endeavoru/proprietary/bin/initial_regdom.sh:system/bin/initial_regdom.sh \
