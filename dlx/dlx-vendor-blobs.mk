@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+  vendor/htc/dlx/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
   vendor/htc/dlx/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
   vendor/htc/dlx/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
   vendor/htc/dlx/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
