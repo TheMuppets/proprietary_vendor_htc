@@ -82,7 +82,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
         vendor/htc/m7-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/m7-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
-        vendor/htc/m7-common/proprietary/lib/libCB.so:/system/lib/libCB.so \
         vendor/htc/m7-common/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
         vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:/system/lib/hw/camera.vendor.msm8960.so \
         vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
@@ -145,6 +144,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/m7-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
+        vendor/htc/m7-common/proprietary/lib/libCB.so:/system/lib/libCB.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
