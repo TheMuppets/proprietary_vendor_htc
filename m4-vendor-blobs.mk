@@ -127,6 +127,29 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
   vendor/htc/m4/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_default_video.so:system/lib/libchromatix_s5k6a2ya_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_hdr.so:system/lib/libchromatix_s5k6a2ya_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_hfr.so:system/lib/libchromatix_s5k6a2ya_hfr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_preview.so:system/lib/libchromatix_s5k6a2ya_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_s5k6a2ya_zsl.so:system/lib/libchromatix_s5k6a2ya_zsl.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_default_video.so:system/lib/libchromatix_ov4688_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_hdr.so:system/lib/libchromatix_ov4688_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_hfr.so:system/lib/libchromatix_ov4688_hfr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_hfr_60fps.so:system/lib/libchromatix_ov4688_hfr_60fps.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_night.so:system/lib/libchromatix_ov4688_night.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_preview.so:system/lib/libchromatix_ov4688_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_video_hdr.so:system/lib/libchromatix_ov4688_video_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_zoe.so:system/lib/libchromatix_ov4688_zoe.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_ov4688_zsl.so:system/lib/libchromatix_ov4688_zsl.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_default_video.so:system/lib/libchromatix_vd6869_default_video.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hfr.so:system/lib/libchromatix_vd6869_hfr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_hfr_60fps.so:system/lib/libchromatix_vd6869_hfr_60fps.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_night.so:system/lib/libchromatix_vd6869_night.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_preview.so:system/lib/libchromatix_vd6869_preview.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_video_hdr.so:system/lib/libchromatix_vd6869_video_hdr.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_zoe.so:system/lib/libchromatix_vd6869_zoe.so \
+  vendor/htc/m4/proprietary/lib/libchromatix_vd6869_zsl.so:system/lib/libchromatix_vd6869_zsl.so \
   vendor/htc/m4/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/m4/proprietary/lib/libhtccamera_yushaniiproc.so:system/lib/libhtccamera_yushaniiproc.so \
   vendor/htc/m4/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
