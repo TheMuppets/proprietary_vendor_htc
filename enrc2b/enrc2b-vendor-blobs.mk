@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/libhtccamera.so:system/lib/libhtccamera.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_dis.so:system/lib/libhtc_dis.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
+  vendor/htc/enrc2b/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
   vendor/htc/enrc2b/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/enrc2b/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
