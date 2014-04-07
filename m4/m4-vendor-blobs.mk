@@ -171,10 +171,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/m4/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/m4/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-  vendor/htc/m4/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-  vendor/htc/m4/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-  vendor/htc/m4/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
