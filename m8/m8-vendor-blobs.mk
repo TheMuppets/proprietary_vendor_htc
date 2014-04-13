@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libqmi_client_qmux.so:/system/vendor/lib/libqmi_client_qmux.so \
         vendor/htc/m8/proprietary/vendor/lib/libqmi_common_so.so:/system/vendor/lib/libqmi_common_so.so \
         vendor/htc/m8/proprietary/vendor/lib/libqmi_csi.so:/system/vendor/lib/libqmi_csi.so \
-        vendor/htc/m8/proprietary/vendor/lib/libqmi_csvt_srvc.so:/system/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/m8/proprietary/vendor/lib/libqmi_encdec.so:/system/vendor/lib/libqmi_encdec.so \
         vendor/htc/m8/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
         vendor/htc/m8/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
