@@ -209,4 +209,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
         vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-        vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat
+        vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+        vendor/htc/m8-common/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
+        vendor/htc/m8-common/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
+        vendor/htc/m8-common/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
+        vendor/htc/m8-common/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
+        vendor/htc/m8-common/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
+        vendor/htc/m8-common/proprietary/lib/libllvm-qcom.so:/system/lib/libllvm-qcom.so \
+        vendor/htc/m8-common/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
+        vendor/htc/m8-common/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
+        vendor/htc/m8-common/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
+        vendor/htc/m8-common/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so
