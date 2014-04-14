@@ -144,11 +144,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m8-common/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/m8-common/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/libpn544_fw.so:/system/vendor/firmware/keymaster/libpn544_fw.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
