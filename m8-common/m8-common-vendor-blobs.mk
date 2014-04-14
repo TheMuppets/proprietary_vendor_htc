@@ -149,7 +149,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/libpn544_fw.so:/system/vendor/firmware/keymaster/libpn544_fw.so \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
