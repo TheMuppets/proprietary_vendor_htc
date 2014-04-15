@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/m8-common/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
-        vendor/htc/m8-common/proprietary/bin/cand:/system/bin/cand \
         vendor/htc/m8-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m8-common/proprietary/bin/hcheck:/system/bin/hcheck \
         vendor/htc/m8-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
@@ -82,7 +81,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/m8-common/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
         vendor/htc/m8-common/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
-        vendor/htc/m8-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
         vendor/htc/m8-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m8-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m8-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
@@ -144,12 +142,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m8-common/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/m8-common/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
-        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
+        vendor/htc/m8-common/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
