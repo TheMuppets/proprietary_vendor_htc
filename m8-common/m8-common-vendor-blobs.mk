@@ -116,9 +116,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
-        vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-        vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-        vendor/htc/m8-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/htc/m8-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m8-common/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/m8-common/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
