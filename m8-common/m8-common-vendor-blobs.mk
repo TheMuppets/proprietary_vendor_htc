@@ -154,6 +154,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
         vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libchromatix_ov2722_common.so:/system/vendor/lib/libchromatix_ov2722_common.so \
