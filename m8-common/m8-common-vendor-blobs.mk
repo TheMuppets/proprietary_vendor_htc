@@ -81,6 +81,17 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/m8-common/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
         vendor/htc/m8-common/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
+        vendor/htc/m8-common/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
+        vendor/htc/m8-common/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
+        vendor/htc/m8-common/proprietary/etc/RT5501:/system/etc/RT5501 \
+        vendor/htc/m8-common/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
+        vendor/htc/m8-common/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
+        vendor/htc/m8-common/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
         vendor/htc/m8-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m8-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m8-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
@@ -116,6 +127,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
         vendor/htc/m8-common/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
+        vendor/htc/m8-common/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:/system/etc/firmware/wcd9320/wcd9320_anc.bin \
+        vendor/htc/m8-common/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:/system/etc/firmware/wcd9320_mad_audio.bin \
+        vendor/htc/m8-common/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:/system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
         vendor/htc/m8-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m8-common/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/m8-common/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
@@ -144,7 +158,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
         vendor/htc/m8-common/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
-        vendor/htc/m8-common/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m8-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -154,6 +167,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
         vendor/htc/m8-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
