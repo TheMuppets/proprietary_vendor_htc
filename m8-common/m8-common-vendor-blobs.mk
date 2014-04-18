@@ -240,4 +240,30 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
+        vendor/htc/m8-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/m8-common/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
+        vendor/htc/m8-common/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:/system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:/system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_ar1820.so:/system/vendor/lib/libmmcamera_ar1820.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:/system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:/system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:/system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:/system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:/system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:/system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_sp1628.so:/system/vendor/lib/libmmcamera_sp1628.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:/system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so
