@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/m8-common/proprietary/bin/time_daemon:/system/bin/time_daemon \
-        vendor/htc/m8-common/proprietary/bin/wcnss_service:/system/bin/wcnss_service \
         vendor/htc/m8-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m8-common/proprietary/etc/tfa/fm.drc:/system/etc/tfa/fm.drc \
         vendor/htc/m8-common/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
