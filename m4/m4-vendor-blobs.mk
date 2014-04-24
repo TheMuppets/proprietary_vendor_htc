@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/m4/proprietary/etc/agps_rm:system/etc/agps_rm \
-  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+  vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/m4/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/m4/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
   vendor/htc/m4/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+  vendor/htc/m4/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
   vendor/htc/m4/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/htc/m4/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/m4/proprietary/lib/libdiag.so:system/lib/libdiag.so \
