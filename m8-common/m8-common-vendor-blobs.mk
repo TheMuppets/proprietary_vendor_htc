@@ -265,4 +265,38 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so
+        vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ar1820_video.so:/system/lib/libtuning_aec_ar1820_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ar1820_zsl.so:/system/lib/libtuning_aec_ar1820_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_hdr.so:/system/lib/libtuning_aec_ov2722_hdr.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_subcam_video.so:/system/lib/libtuning_aec_ov2722_subcam_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_subcam_zsl.so:/system/lib/libtuning_aec_ov2722_subcam_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_video.so:/system/lib/libtuning_aec_ov2722_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_zsl.so:/system/lib/libtuning_aec_ov2722_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_hdr.so:/system/lib/libtuning_aec_ov4688_hdr.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_night.so:/system/lib/libtuning_aec_ov4688_night.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_video.so:/system/lib/libtuning_aec_ov4688_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_videoHDR.so:/system/lib/libtuning_aec_ov4688_videoHDR.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_videoHFR.so:/system/lib/libtuning_aec_ov4688_videoHFR.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_video_60fps.so:/system/lib/libtuning_aec_ov4688_video_60fps.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_zoe.so:/system/lib/libtuning_aec_ov4688_zoe.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov4688_zsl.so:/system/lib/libtuning_aec_ov4688_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_s5k5e_hdr.so:/system/lib/libtuning_aec_s5k5e_hdr.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_s5k5e_video.so:/system/lib/libtuning_aec_s5k5e_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_s5k5e_zsl.so:/system/lib/libtuning_aec_s5k5e_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_hdr.so:/system/lib/libtuning_aec_vd6869_hdr.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_night.so:/system/lib/libtuning_aec_vd6869_night.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_video.so:/system/lib/libtuning_aec_vd6869_video.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_videoHDR.so:/system/lib/libtuning_aec_vd6869_videoHDR.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_videoHFR.so:/system/lib/libtuning_aec_vd6869_videoHFR.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_aec_vd6869_zsl.so:/system/lib/libtuning_aec_vd6869_zsl.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_af.so:/system/lib/libtuning_af.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_af_0.so:/system/lib/libtuning_af_0.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_af_1.so:/system/lib/libtuning_af_1.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_ar1820.so:/system/lib/libtuning_awb_ar1820.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_ov2722.so:/system/lib/libtuning_awb_ov2722.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_ov2722_subcam.so:/system/lib/libtuning_awb_ov2722_subcam.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_ov4688.so:/system/lib/libtuning_awb_ov4688.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_s5k5e.so:/system/lib/libtuning_awb_s5k5e.so \
+        vendor/htc/m8-common/proprietary/lib/libtuning_awb_vd6869.so:/system/lib/libtuning_awb_vd6869.so
