@@ -220,9 +220,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmcamera_vd6869.so:/system/vendor/lib/libmmcamera_vd6869.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/m8-common/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
