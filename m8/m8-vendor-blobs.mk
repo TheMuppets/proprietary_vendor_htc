@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
         vendor/htc/m8/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
         vendor/htc/m8/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
+        vendor/htc/m8/proprietary/etc/gps.conf:/system/etc/gps.conf \
         vendor/htc/m8/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
         vendor/htc/m8/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
         vendor/htc/m8/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
@@ -195,6 +196,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/m8/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
         vendor/htc/m8/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
+        vendor/htc/m8/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/m8/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
         vendor/htc/m8/proprietary/lib/libalDE_SDE_TWO.so:/system/lib/libalDE_SDE_TWO.so \
         vendor/htc/m8/proprietary/lib/libalDE.so:/system/lib/libalDE.so \
@@ -249,6 +251,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libtuning_awb_ov4688.so:/system/lib/libtuning_awb_ov4688.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_s5k5e.so:/system/lib/libtuning_awb_s5k5e.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_vd6869.so:/system/lib/libtuning_awb_vd6869.so \
+        vendor/htc/m8/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
+        vendor/htc/m8/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
+        vendor/htc/m8/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
+        vendor/htc/m8/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
@@ -295,6 +301,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/m8/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
+        vendor/htc/m8/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/m8/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/m8/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/m8/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
@@ -363,4 +370,4 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-        vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+        vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so
