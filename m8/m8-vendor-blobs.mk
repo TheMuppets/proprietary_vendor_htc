@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/htc/m8/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m8/proprietary/bin/mpdecision:/system/bin/mpdecision \
+	vendor/htc/m8/proprietary/bin/pnpmgr:/system/bin/pnpmgr \
         vendor/htc/m8/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/m8/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
