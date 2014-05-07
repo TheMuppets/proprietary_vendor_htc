@@ -24,9 +24,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/htc/m8/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m8/proprietary/bin/mpdecision:/system/bin/mpdecision \
+        vendor/htc/m8/proprietary/bin/pnpmgr:/system/bin/pnpmgr \
         vendor/htc/m8/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/m8/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+        vendor/htc/m8/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/m8/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/m8/proprietary/blobs/gsm/bin/netmgrd:/system/blobs/gsm/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
