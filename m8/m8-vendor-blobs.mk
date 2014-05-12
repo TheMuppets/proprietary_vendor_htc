@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m8/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m8/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
+        vendor/htc/m8/proprietary/etc/pnp.bin:/system/etc/pnp.bin \
         vendor/htc/m8/proprietary/etc/RT5501:/system/etc/RT5501 \
         vendor/htc/m8/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
         vendor/htc/m8/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
