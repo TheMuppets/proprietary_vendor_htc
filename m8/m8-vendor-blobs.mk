@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libtime_genoff.so:/system/blobs/gsm/vendor/lib/libtime_genoff.so \
         vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:/system/blobs/spr/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:/system/blobs/spr/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdiag.so:/system/blobs/spr/vendor/lib/libdiag.so \
@@ -72,7 +71,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi.so:/system/blobs/spr/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qc-qmi-1.so:/system/blobs/spr/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/spr/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libtime_genoff.so:/system/blobs/spr/vendor/lib/libtime_genoff.so \
         vendor/htc/m8/proprietary/blobs/vzw/bin/netmgrd:/system/blobs/vzw/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:/system/blobs/vzw/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdiag.so:/system/blobs/vzw/vendor/lib/libdiag.so \
@@ -94,7 +92,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi.so:/system/blobs/vzw/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qc-qmi-1.so:/system/blobs/vzw/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libtime_genoff.so:/system/blobs/vzw/vendor/lib/libtime_genoff.so \
         vendor/htc/m8/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
         vendor/htc/m8/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
         vendor/htc/m8/proprietary/etc/cir.img:/system/etc/cir.img \
