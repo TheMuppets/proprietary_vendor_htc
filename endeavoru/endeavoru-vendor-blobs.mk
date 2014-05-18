@@ -34,8 +34,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/bin/iw:/system/bin/iw \
         vendor/htc/endeavoru/proprietary/bin/l2_profile_exchange:/system/bin/l2_profile_exchange \
         vendor/htc/endeavoru/proprietary/bin/hdmid:/system/bin/hdmid \
-        vendor/htc/endeavoru/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
-        vendor/htc/endeavoru/proprietary/lib/libinvensense_hal.so:/system/lib/libinvensense_hal.so \
         vendor/htc/endeavoru/proprietary/bin/nvcap_test:/system/bin/nvcap_test \
         vendor/htc/endeavoru/proprietary/bin/nvtest:/system/bin/nvtest \
         vendor/htc/endeavoru/proprietary/bin/nv_hciattach:/system/bin/nv_hciattach \
@@ -195,13 +193,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
         vendor/htc/endeavoru/proprietary/bin/ewtzmud:/system/bin/ewtzmud \
         vendor/htc/endeavoru/proprietary/bin/akmd:/system/bin/akmd \
+        vendor/htc/endeavoru/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
         vendor/htc/endeavoru/proprietary/lib/hw/sensors.endeavoru.so:/system/lib/hw/sensors.endeavoru.so \
-        vendor/htc/endeavoru/proprietary/lib/libsensors_mpl.so:/system/lib/libsensors_mpl.so \
-        vendor/htc/endeavoru/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
+        vendor/htc/endeavoru/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
         vendor/htc/endeavoru/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
-        vendor/htc/endeavoru/proprietary/lib/libakmd.so:/system/lib/libakmd.so \
-        vendor/htc/endeavoru/proprietary/lib/libinvensense_hal.so:/system/lib/libinvensense_hal.so \
-        vendor/htc/endeavoru/proprietary/lib/libewtzmu2cali.so:/system/lib/libewtzmu2cali.so \
+        vendor/htc/endeavoru/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
+        vendor/htc/endeavoru/proprietary/lib/libsensors_mpl.so:/system/lib/libsensors_mpl.so \
         vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra_impl.so:/system/lib/egl/libEGL_tegra_impl.so \
         vendor/htc/endeavoru/proprietary/lib/egl/libEGL_tegra.so:/system/lib/egl/libEGL_tegra.so \
         vendor/htc/endeavoru/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:/system/lib/egl/libGLESv1_CM_tegra_impl.so \
