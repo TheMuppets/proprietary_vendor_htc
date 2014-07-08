@@ -84,4 +84,5 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b01:/system/etc/firmware/wcnss.b01 \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b02:/system/etc/firmware/wcnss.b02 \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b04:/system/etc/firmware/wcnss.b04 \
+        vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b05:/system/etc/firmware/wcnss.b05 \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.mdt:/system/etc/firmware/wcnss.mdt
