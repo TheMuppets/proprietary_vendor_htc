@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/htc/dlx/proprietary/etc/firmware/hcheck.b03:system/etc/firmware/hcheck.b03 \
-	vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/hcheck.mdt:system/etc/firmware/hcheck.mdt \
 	vendor/htc/dlx/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
 	vendor/htc/dlx/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
@@ -165,7 +164,8 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
 	vendor/htc/dlx/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
 	vendor/htc/dlx/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-	vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd:system/etc/firmware/BCM4334B0_002.001.013.0942.0949.hcd \
+	vendor/htc/dlx/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1458.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1458.hcd \
+	vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
 	vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
 	vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
