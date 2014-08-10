@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/s4-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/s4-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
-        vendor/htc/s4-common/proprietary/lib/hw/vendor-camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
+        vendor/htc/s4-common/proprietary/lib/hw/camera.vendor.msm8960.so:/system/lib/hw/camera.vendor.msm8960.so \
         vendor/htc/s4-common/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/s4-common/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
         vendor/htc/s4-common/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
