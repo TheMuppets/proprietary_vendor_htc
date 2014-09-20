@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/a5/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/a5/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
-        vendor/htc/a5/proprietary/lib/soundfx/libqcompostprocbundle.so:/system/lib/soundfx/libqcompostprocbundle.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
