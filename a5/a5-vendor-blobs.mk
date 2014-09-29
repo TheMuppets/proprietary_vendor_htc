@@ -278,7 +278,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
-        vendor/htc/a5/proprietary/lib/hw/nfc_nci.a5.so:/system/lib/hw/nfc_nci.a5.so \
+        vendor/htc/a5/proprietary/lib/hw/nfc_nci.msm8226.so:/system/lib/hw/nfc_nci.msm8226.so \
         vendor/htc/a5/proprietary/vendor/firmware/libpn547_fw.so:/system/vendor/firmware/libpn547_fw.so \
         vendor/htc/a5/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/a5/proprietary/bin/mpdecision:/system/bin/mpdecision \
@@ -302,42 +302,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_encdec.so:/system/blobs/gsm/vendor/lib/libqmi_encdec.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmiservices.so:/system/blobs/gsm/vendor/lib/libqmiservices.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
-        vendor/htc/a5/proprietary/blobs/dwg/bin/qmuxd:/system/blobs/dwg/bin/qmuxd \
-        vendor/htc/a5/proprietary/blobs/dwg/bin/rmt_storage:/system/blobs/dwg/bin/rmt_storage \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libdiag.so:/system/blobs/dwg/vendor/lib/libdiag.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libdsi_netctrl.so:/system/blobs/dwg/vendor/lib/libdsi_netctrl.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libdsnetutils.so:/system/blobs/dwg/vendor/lib/libdsnetutils.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libdsutils.so:/system/blobs/dwg/vendor/lib/libdsutils.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libidl.so:/system/blobs/dwg/vendor/lib/libidl.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqcci_legacy.so:/system/blobs/dwg/vendor/lib/libqcci_legacy.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqdi.so:/system/blobs/dwg/vendor/lib/libqdi.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqdp.so:/system/blobs/dwg/vendor/lib/libqdp.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_cci.so:/system/blobs/dwg/vendor/lib/libqmi_cci.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_client_qmux.so:/system/blobs/dwg/vendor/lib/libqmi_client_qmux.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_common_so.so:/system/blobs/dwg/vendor/lib/libqmi_common_so.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_csi.so:/system/blobs/dwg/vendor/lib/libqmi_csi.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dwg/vendor/lib/libqmi_csvt_srvc.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi_encdec.so:/system/blobs/dwg/vendor/lib/libqmi_encdec.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmiservices.so:/system/blobs/dwg/vendor/lib/libqmiservices.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqmi.so:/system/blobs/dwg/vendor/lib/libqmi.so \
-        vendor/htc/a5/proprietary/blobs/dug/bin/qmuxd:/system/blobs/dug/bin/qmuxd \
-        vendor/htc/a5/proprietary/blobs/dug/bin/rmt_storage:/system/blobs/dug/bin/rmt_storage \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libdiag.so:/system/blobs/dug/vendor/lib/libdiag.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libdsi_netctrl.so:/system/blobs/dug/vendor/lib/libdsi_netctrl.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libdsnetutils.so:/system/blobs/dug/vendor/lib/libdsnetutils.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libdsutils.so:/system/blobs/dug/vendor/lib/libdsutils.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libidl.so:/system/blobs/dug/vendor/lib/libidl.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqcci_legacy.so:/system/blobs/dug/vendor/lib/libqcci_legacy.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqdi.so:/system/blobs/dug/vendor/lib/libqdi.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqdp.so:/system/blobs/dug/vendor/lib/libqdp.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_cci.so:/system/blobs/dug/vendor/lib/libqmi_cci.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_client_qmux.so:/system/blobs/dug/vendor/lib/libqmi_client_qmux.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_common_so.so:/system/blobs/dug/vendor/lib/libqmi_common_so.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_csi.so:/system/blobs/dug/vendor/lib/libqmi_csi.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dug/vendor/lib/libqmi_csvt_srvc.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi_encdec.so:/system/blobs/dug/vendor/lib/libqmi_encdec.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmiservices.so:/system/blobs/dug/vendor/lib/libqmiservices.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqmi.so:/system/blobs/dug/vendor/lib/libqmi.so \
         vendor/htc/a5/proprietary/blobs/chl/bin/qmuxd:/system/blobs/chl/bin/qmuxd \
         vendor/htc/a5/proprietary/blobs/chl/bin/rmt_storage:/system/blobs/chl/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libdiag.so:/system/blobs/chl/vendor/lib/libdiag.so \
@@ -357,26 +321,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmiservices.so:/system/blobs/chl/vendor/lib/libqmiservices.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmi.so:/system/blobs/chl/vendor/lib/libqmi.so \
         vendor/htc/a5/proprietary/blobs/gsm/bin/netmgrd:/system/blobs/gsm/bin/netmgrd \
+        vendor/htc/a5/proprietary/blobs/gsm/bin/rild:/system/blobs/gsm/bin/rild \
+        vendor/htc/a5/proprietary/blobs/gsm/lib/libril.so:/system/blobs/gsm/lib/libril.so \
+        vendor/htc/a5/proprietary/blobs/gsm/lib/libhtc_rilhook.so:/system/blobs/gsm/lib/libhtc_rilhook.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libnetmgr.so:/system/blobs/gsm/vendor/lib/libnetmgr.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqc-opt.so:/system/blobs/gsm/vendor/lib/libqc-opt.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/a5/proprietary/blobs/dwg/bin/netmgrd:/system/blobs/dwg/bin/netmgrd \
-        vendor/htc/a5/proprietary/blobs/dwg/bin/rild:/system/blobs/dwg/bin/rild \
-        vendor/htc/a5/proprietary/blobs/dwg/lib/libril.so:/system/blobs/dwg/lib/libril.so \
-        vendor/htc/a5/proprietary/blobs/dwg/lib/libhtc_rilhook.so:/system/blobs/dwg/lib/libhtc_rilhook.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libnetmgr.so:/system/blobs/dwg/vendor/lib/libnetmgr.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libqc-opt.so:/system/blobs/dwg/vendor/lib/libqc-opt.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dwg/vendor/lib/libril-qc-qmi-1.so \
-        vendor/htc/a5/proprietary/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so \
-        vendor/htc/a5/proprietary/blobs/dug/bin/netmgrd:/system/blobs/dug/bin/netmgrd \
-        vendor/htc/a5/proprietary/blobs/dug/bin/rild:/system/blobs/dug/bin/rild \
-        vendor/htc/a5/proprietary/blobs/dug/lib/libril.so:/system/blobs/dug/lib/libril.so \
-        vendor/htc/a5/proprietary/blobs/dug/lib/libhtc_rilhook.so:/system/blobs/dug/lib/libhtc_rilhook.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libnetmgr.so:/system/blobs/dug/vendor/lib/libnetmgr.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libqc-opt.so:/system/blobs/dug/vendor/lib/libqc-opt.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dug/vendor/lib/libril-qc-qmi-1.so \
-        vendor/htc/a5/proprietary/blobs/dug/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dug/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/a5/proprietary/blobs/chl/bin/netmgrd:/system/blobs/chl/bin/netmgrd \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libnetmgr.so:/system/blobs/chl/vendor/lib/libnetmgr.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqc-opt.so:/system/blobs/chl/vendor/lib/libqc-opt.so \
