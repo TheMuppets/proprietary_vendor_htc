@@ -204,11 +204,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/etc/firmware/hcheck.b03:/system/etc/firmware/hcheck.b03 \
         vendor/htc/t6-common/proprietary/etc/firmware/hcheck.mdt:/system/etc/firmware/hcheck.mdt \
         vendor/htc/t6-common/proprietary/etc/firmware/lscbuffer_rev2.bin:/system/etc/firmware/lscbuffer_rev2.bin \
-        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b00:/system/etc/firmware/tzapps.b00 \
-        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b01:/system/etc/firmware/tzapps.b01 \
-        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
-        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
-        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
         vendor/htc/t6-common/proprietary/etc/firmware/max11876.bin:/system/etc/firmware/max11876.bin \
         vendor/htc/t6-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/t6-common/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
@@ -217,6 +212,19 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/t6-common/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/t6-common/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
+        vendor/htc/t6-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/htc/t6-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/t6-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/t6-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/t6-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so
+        vendor/htc/t6-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/t6-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b00:/system/etc/firmware/tzapps.b00 \
+        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b01:/system/etc/firmware/tzapps.b01 \
+        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
+        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
+        vendor/htc/t6-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt
