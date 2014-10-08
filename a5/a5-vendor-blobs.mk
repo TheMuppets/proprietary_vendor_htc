@@ -284,8 +284,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a5/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/a5/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/a5/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
-        vendor/htc/a5/proprietary/blobs/gsm/bin/rmt_storage:/system/blobs/gsm/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libdsi_netctrl.so:/system/blobs/gsm/vendor/lib/libdsi_netctrl.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libdsnetutils.so:/system/blobs/gsm/vendor/lib/libdsnetutils.so \
@@ -298,12 +298,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_client_qmux.so:/system/blobs/gsm/vendor/lib/libqmi_client_qmux.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_common_so.so:/system/blobs/gsm/vendor/lib/libqmi_common_so.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_csi.so:/system/blobs/gsm/vendor/lib/libqmi_csi.so \
-        vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/gsm/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_encdec.so:/system/blobs/gsm/vendor/lib/libqmi_encdec.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmiservices.so:/system/blobs/gsm/vendor/lib/libqmiservices.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/a5/proprietary/blobs/chl/bin/qmuxd:/system/blobs/chl/bin/qmuxd \
-        vendor/htc/a5/proprietary/blobs/chl/bin/rmt_storage:/system/blobs/chl/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libdiag.so:/system/blobs/chl/vendor/lib/libdiag.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libdsi_netctrl.so:/system/blobs/chl/vendor/lib/libdsi_netctrl.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libdsnetutils.so:/system/blobs/chl/vendor/lib/libdsnetutils.so \
@@ -325,14 +323,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/gsm/lib/libril.so:/system/blobs/gsm/lib/libril.so \
         vendor/htc/a5/proprietary/blobs/gsm/lib/libhtc_rilhook.so:/system/blobs/gsm/lib/libhtc_rilhook.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libnetmgr.so:/system/blobs/gsm/vendor/lib/libnetmgr.so \
-        vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqc-opt.so:/system/blobs/gsm/vendor/lib/libqc-opt.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/a5/proprietary/blobs/chl/bin/netmgrd:/system/blobs/chl/bin/netmgrd \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libnetmgr.so:/system/blobs/chl/vendor/lib/libnetmgr.so \
-        vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqc-opt.so:/system/blobs/chl/vendor/lib/libqc-opt.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libril-qc-qmi-1.so:/system/blobs/chl/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/chl/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/a5/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/a5/proprietary/bin/akmd:/system/bin/akmd \
         vendor/htc/a5/proprietary/lib/hw/sensors.msm8226.so:/system/lib/hw/sensors.msm8226.so \
         vendor/htc/a5/proprietary/bin/time_daemon:/system/bin/time_daemon \
