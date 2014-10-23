@@ -24,6 +24,28 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/m4/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/m4/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/m4/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
+  vendor/htc/m4/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
+  vendor/htc/m4/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+  vendor/htc/m4/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+  vendor/htc/m4/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+  vendor/htc/m4/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+  vendor/htc/m4/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+  vendor/htc/m4/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
+  vendor/htc/m4/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+  vendor/htc/m4/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
+  vendor/htc/m4/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+  vendor/htc/m4/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+  vendor/htc/m4/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+  vendor/htc/m4/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
   vendor/htc/m4/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1353.hcd \
   vendor/htc/m4/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/m4/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
