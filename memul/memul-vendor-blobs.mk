@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/memul/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/memul/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/memul/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/memul/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/memul/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/memul/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -104,57 +105,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_preview.so:/system/vendor/lib/libchromatix_ov13850_preview.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_qtr.so:/system/vendor/lib/libchromatix_ov13850_qtr.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_zoe.so:/system/vendor/lib/libchromatix_ov13850_zoe.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_common.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_common.so:/system/vendor/lib/libchromatix_s5k5e_onelane_common.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_default_video.so:/system/vendor/lib/libchromatix_s5k5e_onelane_default_video.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_hdr.so:/system/vendor/lib/libchromatix_s5k5e_onelane_hdr.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_preview.so:/system/vendor/lib/libchromatix_s5k5e_onelane_preview.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
-        vendor/htc/memul/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
         vendor/htc/memul/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/memul/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/memul/proprietary/vendor/lib/libhtccamera.so:/system/vendor/lib/libhtccamera.so \
@@ -174,23 +129,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_interface.so:/system/vendor/lib/libmmcamera_interface.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:/system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:/system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_s5k5e_onelane.so:/system/vendor/lib/libmmcamera_s5k5e_onelane.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:/system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:/system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:/system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:/system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:/system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_sp1628.so:/system/vendor/lib/libmmcamera_sp1628.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:/system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
