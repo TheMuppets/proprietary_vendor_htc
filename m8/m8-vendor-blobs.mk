@@ -206,7 +206,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libcamera_aec.so:/system/lib/libcamera_aec.so \
         vendor/htc/m8/proprietary/lib/libcamera_af.so:/system/lib/libcamera_af.so \
         vendor/htc/m8/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
-        vendor/htc/m8/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
         vendor/htc/m8/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
         vendor/htc/m8/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
