@@ -73,8 +73,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/memul/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/memul/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
-        vendor/htc/memul/proprietary/lib/soundfx/libqcompostprocbundle.so:/system/lib/soundfx/libqcompostprocbundle.so \
-        vendor/htc/memul/proprietary/lib/soundfx/libqcomvisualizer.so:/system/lib/soundfx/libqcomvisualizer.so \
         vendor/htc/memul/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/memul/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/memul/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
