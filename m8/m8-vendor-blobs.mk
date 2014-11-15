@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/m8/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/m8/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/htc/m8/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/m8/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/m8/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/m8/proprietary/bin/time_daemon:/system/bin/time_daemon \
