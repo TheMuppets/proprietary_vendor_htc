@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/IMCdownload:system/bin/IMCdownload \
   vendor/htc/enrc2b/proprietary/bin/InjectionTool:system/bin/InjectionTool \
   vendor/htc/enrc2b/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
-  vendor/htc/enrc2b/proprietary/bin/mknod:system/bin/mknod \
   vendor/htc/enrc2b/proprietary/bin/mtpd:system/bin/mtpd \
   vendor/htc/enrc2b/proprietary/bin/nvm_client:system/bin/nvm_client \
   vendor/htc/enrc2b/proprietary/bin/nvm_server:system/bin/nvm_server \
@@ -79,7 +78,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
   vendor/htc/enrc2b/proprietary/lib/hw/nfc.enrc2b.so:system/lib/hw/nfc.enrc2b.so \
   vendor/htc/enrc2b/proprietary/lib/hw/sensors.enrc2b.so:system/lib/hw/sensors.enrc2b.so \
-  vendor/htc/enrc2b/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+  vendor/htc/enrc2b/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
   vendor/htc/enrc2b/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
   vendor/htc/enrc2b/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
   vendor/htc/enrc2b/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
