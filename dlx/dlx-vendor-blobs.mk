@@ -174,8 +174,10 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
 	vendor/htc/dlx/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/htc/dlx/proprietary/bin/hcheck:system/bin/hcheck \
+	vendor/htc/dlx/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
 	vendor/htc/dlx/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
 	vendor/htc/dlx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/htc/dlx/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
