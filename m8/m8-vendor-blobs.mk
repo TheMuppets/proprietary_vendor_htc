@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/m8/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
+        vendor/htc/m8/proprietary/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
         vendor/htc/m8/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/m8/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
         vendor/htc/m8/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
@@ -218,6 +219,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/htc/m8/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m8/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
+        vendor/htc/m8/proprietary/lib/liboemcrypto.so:/system/lib/liboemcrypto.so \
         vendor/htc/m8/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_ar1820_video.so:/system/lib/libtuning_aec_ar1820_video.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_ar1820_zsl.so:/system/lib/libtuning_aec_ar1820_zsl.so \
@@ -258,6 +260,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt \
+        vendor/htc/m8/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/m8/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m8/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -295,6 +298,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_common.so:/system/vendor/lib/libchromatix_vd6869_common.so \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_default_video.so:/system/vendor/lib/libchromatix_vd6869_default_video.so \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_preview.so:/system/vendor/lib/libchromatix_vd6869_preview.so \
+        vendor/htc/m8/proprietary/vendor/lib/libdrmdecrypt.so:/system/vendor/lib/libdrmdecrypt.so \
         vendor/htc/m8/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
@@ -364,8 +368,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/m8/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/m8/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
+        vendor/htc/m8/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/m8/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        vendor/htc/m8/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
         vendor/htc/m8/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/m8/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+        vendor/htc/m8/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
