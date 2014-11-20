@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/bin/uim-sysfs:/system/bin/uim-sysfs \
         vendor/htc/endeavoru/proprietary/bin/nvm_server:/system/bin/nvm_server \
         vendor/htc/endeavoru/proprietary/bin/nvm_client:/system/bin/nvm_client \
-        vendor/htc/endeavoru/proprietary/bin/mknod:/system/bin/mknod \
         vendor/htc/endeavoru/proprietary/bin/make_sec_bin:/system/bin/make_sec_bin \
         vendor/htc/endeavoru/proprietary/bin/IMCdownload:/system/bin/IMCdownload \
         vendor/htc/endeavoru/proprietary/etc/Flash_Loader.conf:/system/etc/Flash_Loader.conf \
@@ -213,7 +212,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/endeavoru/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/endeavoru/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
-        vendor/htc/endeavoru/proprietary/lib/hw/vendor-camera.tegra.so:/system/lib/hw/vendor-camera.tegra.so \
+        vendor/htc/endeavoru/proprietary/lib/hw/camera.vendor.tegra.so:/system/lib/hw/camera.vendor.tegra.so \
         vendor/htc/endeavoru/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/endeavoru/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
         vendor/htc/endeavoru/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
