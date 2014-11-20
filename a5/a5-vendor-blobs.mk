@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/a5/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/a5/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/a5/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/a5/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
