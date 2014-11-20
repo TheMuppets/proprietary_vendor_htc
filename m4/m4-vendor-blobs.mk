@@ -137,6 +137,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/htc/m4/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/m4/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/m4/proprietary/lib/libwriteback.so:system/lib/libwriteback.so \
   vendor/htc/m4/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/m4/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/m4/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
