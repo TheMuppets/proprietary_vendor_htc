@@ -118,7 +118,11 @@ esac
 # start gsm mux
 /system/bin/log -p e -t MODEM "/dev/ttyACM0 found, start gsm0710mux"
 echo "/dev/ttyACM0 found, start gsm0710mux"
-start gsm0710mux
+
+# workaround for the following error when SELinux is enforcing:
+# init: sys_prop: Unable to start service ctl [gsm0710mux] uid:0 gid:1001 pid:642
+setprop ril.start.gsm0710mux 1
+
 # raw ip net
 /system/bin/log -p i -t MODEM "Checking malog_status for raw_ip_net $malog_status"
 case $malog_status in
