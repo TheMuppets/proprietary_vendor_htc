@@ -30,57 +30,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/a5/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/a5/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
-        vendor/htc/a5/proprietary/etc/tfa/fm.drc:/system/etc/tfa/fm.drc \
-        vendor/htc/a5/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.drc:/system/etc/tfa/fm_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playback.drc:/system/etc/tfa/playback.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.drc:/system/etc/tfa/playback_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.drc:/system/etc/tfa/playbackMFG.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.drc:/system/etc/tfa/playbackMFG_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.drc:/system/etc/tfa/playbackwoofer.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.eq:/system/etc/tfa/playbackwoofer.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.drc:/system/etc/tfa/playbackwoofer_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.eq:/system/etc/tfa/playbackwoofer_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.preset:/system/etc/tfa/playbackwoofer_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.preset:/system/etc/tfa/playbackwoofer.preset \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.drc:/system/etc/tfa/Rec_Video.drc \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.eq:/system/etc/tfa/Rec_Video.eq \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.drc:/system/etc/tfa/Rec_Video_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.eq:/system/etc/tfa/Rec_Video_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.preset:/system/etc/tfa/Rec_Video_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.preset:/system/etc/tfa/Rec_Video.preset \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.config:/system/etc/tfa/tfa9895.config \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895MFG.patch:/system/etc/tfa/tfa9895MFG.patch \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
-        vendor/htc/a5/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/a5/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
