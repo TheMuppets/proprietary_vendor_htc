@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
         vendor/htc/m8/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/htc/m8/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
+        vendor/htc/m8/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
         vendor/htc/m8/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/m8/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
         vendor/htc/m8/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:/system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -205,10 +206,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libalDynamicWarping.so:/system/lib/libalDynamicWarping.so \
         vendor/htc/m8/proprietary/lib/libalIAF.so:/system/lib/libalIAF.so \
         vendor/htc/m8/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
+        vendor/htc/m8/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/m8/proprietary/lib/libcamera_aec.so:/system/lib/libcamera_aec.so \
         vendor/htc/m8/proprietary/lib/libcamera_af.so:/system/lib/libcamera_af.so \
         vendor/htc/m8/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
         vendor/htc/m8/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
+        vendor/htc/m8/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
+        vendor/htc/m8/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/m8/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/m8/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
@@ -219,7 +223,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/htc/m8/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m8/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-        vendor/htc/m8/proprietary/lib/liboemcrypto.so:/system/lib/liboemcrypto.so \
+        vendor/htc/m8/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/m8/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_ar1820_video.so:/system/lib/libtuning_aec_ar1820_video.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_ar1820_zsl.so:/system/lib/libtuning_aec_ar1820_zsl.so \
@@ -246,9 +250,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libtuning_aec_vd6869_videoHFR.so:/system/lib/libtuning_aec_vd6869_videoHFR.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_vd6869_video.so:/system/lib/libtuning_aec_vd6869_video.so \
         vendor/htc/m8/proprietary/lib/libtuning_aec_vd6869_zsl.so:/system/lib/libtuning_aec_vd6869_zsl.so \
-        vendor/htc/m8/proprietary/lib/libtuning_af_0.so:/system/lib/libtuning_af_0.so \
-        vendor/htc/m8/proprietary/lib/libtuning_af_1.so:/system/lib/libtuning_af_1.so \
         vendor/htc/m8/proprietary/lib/libtuning_af.so:/system/lib/libtuning_af.so \
+        vendor/htc/m8/proprietary/lib/libtuning_af_lc898212_ov4688_vd6869.so:/system/lib/libtuning_af_lc898212_ov4688_vd6869.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_ar1820.so:/system/lib/libtuning_awb_ar1820.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_ov2722.so:/system/lib/libtuning_awb_ov2722.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_ov2722_subcam.so:/system/lib/libtuning_awb_ov2722_subcam.so \
@@ -298,7 +301,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_common.so:/system/vendor/lib/libchromatix_vd6869_common.so \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_default_video.so:/system/vendor/lib/libchromatix_vd6869_default_video.so \
         vendor/htc/m8/proprietary/vendor/lib/libchromatix_vd6869_preview.so:/system/vendor/lib/libchromatix_vd6869_preview.so \
-        vendor/htc/m8/proprietary/vendor/lib/libdrmdecrypt.so:/system/vendor/lib/libdrmdecrypt.so \
         vendor/htc/m8/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/m8/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
@@ -353,9 +355,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
         vendor/htc/m8/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/m8/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
+        vendor/htc/m8/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
-        vendor/htc/m8/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
         vendor/htc/m8/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/m8/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/m8/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
@@ -368,6 +370,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
         vendor/htc/m8/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/m8/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
+        vendor/htc/m8/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/m8/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/m8/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m8/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
