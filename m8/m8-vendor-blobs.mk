@@ -216,6 +216,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/m8/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
+        vendor/htc/m8/proprietary/lib/libhtcirinterface_jni.so:/system/lib/libhtcirinterface_jni.so \
         vendor/htc/m8/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/m8/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/m8/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
