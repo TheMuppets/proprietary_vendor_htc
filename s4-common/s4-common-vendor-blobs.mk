@@ -77,8 +77,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
+        vendor/htc/s4-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b00:/system/etc/firmware/wcnss.b00 \
