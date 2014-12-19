@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
         vendor/htc/s4-common/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
         vendor/htc/s4-common/proprietary/lib/libcam_oem_plugin.so:/system/lib/libcam_oem_plugin.so \
+        vendor/htc/s4-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/htc/s4-common/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
         vendor/htc/s4-common/proprietary/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
         vendor/htc/s4-common/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
@@ -53,6 +54,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/s4-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/s4-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/s4-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/s4-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/s4-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -64,11 +66,17 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/vendor/lib/libc2d2_z180.so:/system/vendor/lib/libc2d2_z180.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libsc-a2xx.so:/system/vendor/lib/libsc-a2xx.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/s4-common/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
         vendor/htc/s4-common/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
@@ -78,7 +86,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/s4-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+        vendor/htc/s4-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:/system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
         vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b00:/system/etc/firmware/wcnss.b00 \
