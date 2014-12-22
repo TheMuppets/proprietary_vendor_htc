@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/memul/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/memul/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
+        vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
+        vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
         vendor/htc/memul/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/memul/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/memul/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
