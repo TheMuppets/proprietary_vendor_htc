@@ -175,6 +175,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/memul/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/memul/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/memul/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/memul/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/memul/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/memul/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
