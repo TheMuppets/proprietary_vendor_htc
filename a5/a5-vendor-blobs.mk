@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a5/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/a5/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/a5/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/a5/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
