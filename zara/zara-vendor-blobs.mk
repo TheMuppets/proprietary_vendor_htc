@@ -106,15 +106,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/lib/libchromatix_ov4688_video_hdr.so:system/lib/libchromatix_ov4688_video_hdr.so \
   vendor/htc/zara/proprietary/lib/libchromatix_ov4688_zoe.so:system/lib/libchromatix_ov4688_zoe.so \
   vendor/htc/zara/proprietary/lib/libchromatix_ov4688_zsl.so:system/lib/libchromatix_ov4688_zsl.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_default_video.so:system/lib/libchromatix_vd6869_default_video.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_hfr.so:system/lib/libchromatix_vd6869_hfr.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_hfr_60fps.so:system/lib/libchromatix_vd6869_hfr_60fps.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_night.so:system/lib/libchromatix_vd6869_night.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_preview.so:system/lib/libchromatix_vd6869_preview.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_video_hdr.so:system/lib/libchromatix_vd6869_video_hdr.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_zoe.so:system/lib/libchromatix_vd6869_zoe.so \
-  vendor/htc/zara/proprietary/lib/libchromatix_vd6869_zsl.so:system/lib/libchromatix_vd6869_zsl.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_hdr.so:system/lib/libchromatix_ov5693_hdr.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_hfr.so:system/lib/libchromatix_ov5693_hfr.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_hfr_60fps.so:system/lib/libchromatix_ov5693_hfr_60fps.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_night.so:system/lib/libchromatix_ov5693_night.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_zoe.so:system/lib/libchromatix_ov5693_zoe.so \
+  vendor/htc/zara/proprietary/lib/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
   vendor/htc/zara/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/zara/proprietary/lib/libhtccamera_yushaniiproc.so:system/lib/libhtccamera_yushaniiproc.so \
   vendor/htc/zara/proprietary/lib/libHTC_DIS.so:system/lib/libHTC_DIS.so \
