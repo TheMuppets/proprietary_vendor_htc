@@ -25,6 +25,28 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/zara/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/zara/proprietary/etc/agps_rm:system/etc/agps_rm \
+  vendor/htc/zara/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
+  vendor/htc/zara/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
+  vendor/htc/zara/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+  vendor/htc/zara/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+  vendor/htc/zara/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+  vendor/htc/zara/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
+  vendor/htc/zara/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+  vendor/htc/zara/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+  vendor/htc/zara/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+  vendor/htc/zara/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+  vendor/htc/zara/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+  vendor/htc/zara/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
+  vendor/htc/zara/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
+  vendor/htc/zara/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
+  vendor/htc/zara/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+  vendor/htc/zara/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
+  vendor/htc/zara/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+  vendor/htc/zara/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+  vendor/htc/zara/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+  vendor/htc/zara/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
+  vendor/htc/zara/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+  vendor/htc/zara/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
   vendor/htc/zara/proprietary/etc/firmware/BCM4334B0_002.001.013.1352.1354.hcd:system/etc/firmware/BCM4334B0_002.001.013.1352.1354.hcd \
   vendor/htc/zara/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
   vendor/htc/zara/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
