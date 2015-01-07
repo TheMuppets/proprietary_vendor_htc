@@ -183,7 +183,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/m4/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/htc/m4/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
   vendor/htc/m4/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-  vendor/htc/m4/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
   vendor/htc/m4/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/htc/m4/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/htc/m4/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
