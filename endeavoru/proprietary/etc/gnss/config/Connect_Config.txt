@@ -1,0 +1,53 @@
+#This is the Connect Configuration file
+
+############################################################################################
+#           ---- Assist Source Settings ---
+#
+# - UP_enable - Supl enable
+#       0 = disable
+#       1 = enable
+#       
+# - EE_enable - Extended Eph(RXN) enable
+#       0 = disable
+#       1 = enable
+# 
+# - CP_enable - Control Plane enable
+#       0 = disable
+#       1 = enable
+#
+# - idle_secs - idle to sleep transition time in secs
+#       40 = idle to sleep transition enabled
+#       0 = disable
+#
+# - en_multi_src4app - is multisource enabled
+#       0 = disable
+#       1 = enable
+#
+# - EE_prefer - set the preference val to EE
+#       0 = high
+#       2^32 -1 =lowest
+#
+# - UP_prefer - set the preference val to UP
+#       0 = high
+#       2^32 -1 =lowest
+#
+# - Note:
+#   a) If UP & EE is enabled, and if UP is given higher priority, then:
+#      for cold-starts - assistance will be requested from UP only
+#      for warm-starts - assistance (EPH) will be requested from both 
+#                        UP and EE simultaneously
+#
+#   b) If UP & EE is enabled, and if EE is given higher priority, then:
+#      assistance will be requested from EE and UP simultaneously
+#
+###########################################################################################
+UP_enable=1
+EE_enable=1
+CP_enable=0
+idle_secs=2
+en_multi_src4app=1
+EE_prefer=1
+UP_prefer=2
+############################################################################################
+
+
