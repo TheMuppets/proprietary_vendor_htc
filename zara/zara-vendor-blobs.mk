@@ -168,6 +168,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/zara/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/zara/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+  vendor/htc/zara/proprietary/bin/qseecomd:system/bin/qseecomd \
+  vendor/htc/zara/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
