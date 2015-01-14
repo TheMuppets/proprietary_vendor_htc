@@ -136,12 +136,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/zara/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/zara/proprietary/lib/libwriteback.so:system/lib/libwriteback.so \
+  vendor/htc/zara/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
   vendor/htc/zara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/zara/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
   vendor/htc/zara/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
   vendor/htc/zara/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
   vendor/htc/zara/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
   vendor/htc/zara/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+  vendor/htc/zara/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
   vendor/htc/zara/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/htc/zara/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/zara/proprietary/etc/firmware/hcheck.b00:system/etc/firmware/hcheck.b00 \
@@ -173,6 +175,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/zara/proprietary/bin/qseecomd:system/bin/qseecomd \
   vendor/htc/zara/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+  vendor/htc/zara/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+  vendor/htc/zara/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
