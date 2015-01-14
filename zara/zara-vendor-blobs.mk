@@ -170,21 +170,27 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
   vendor/htc/zara/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
   vendor/htc/zara/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+  vendor/htc/zara/proprietary/lib/libimu.so:system/lib/libimu.so \
+  vendor/htc/zara/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/zara/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/zara/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/zara/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/zara/proprietary/bin/qseecomd:system/bin/qseecomd \
   vendor/htc/zara/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+  vendor/htc/zara/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+  vendor/htc/zara/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+  vendor/htc/zara/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+  vendor/htc/zara/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+  vendor/htc/zara/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
   vendor/htc/zara/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
   vendor/htc/zara/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+  vendor/htc/zara/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+  vendor/htc/zara/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
   vendor/htc/zara/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-  vendor/htc/zara/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-  vendor/htc/zara/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-  vendor/htc/zara/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/zara/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
   vendor/htc/zara/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
   vendor/htc/zara/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin
