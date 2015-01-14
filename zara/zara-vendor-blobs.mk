@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
   vendor/htc/zara/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
   vendor/htc/zara/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
-  vendor/htc/zara/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/zara/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
   vendor/htc/zara/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
   vendor/htc/zara/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
   vendor/htc/zara/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
