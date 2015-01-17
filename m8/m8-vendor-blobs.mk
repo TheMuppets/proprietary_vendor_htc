@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m8/proprietary/bin/hcheck:/system/bin/hcheck \
         vendor/htc/m8/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
+        vendor/htc/m8/proprietary/bin/hvdcp:/system/bin/hvdcp \
         vendor/htc/m8/proprietary/bin/irsc_util:/system/bin/irsc_util \
         vendor/htc/m8/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/htc/m8/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
