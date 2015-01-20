@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
         vendor/htc/memul/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
+        vendor/htc/memul/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/memul/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/memul/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/memul/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
