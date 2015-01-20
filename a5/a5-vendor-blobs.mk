@@ -30,62 +30,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/a5/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/a5/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
-        vendor/htc/a5/proprietary/etc/tfa/fm.drc:/system/etc/tfa/fm.drc \
-        vendor/htc/a5/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.drc:/system/etc/tfa/fm_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playback.drc:/system/etc/tfa/playback.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.drc:/system/etc/tfa/playback_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.drc:/system/etc/tfa/playbackMFG.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.drc:/system/etc/tfa/playbackMFG_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.drc:/system/etc/tfa/playbackwoofer.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.eq:/system/etc/tfa/playbackwoofer.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.drc:/system/etc/tfa/playbackwoofer_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.eq:/system/etc/tfa/playbackwoofer_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer_l.preset:/system/etc/tfa/playbackwoofer_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/playbackwoofer.preset:/system/etc/tfa/playbackwoofer.preset \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.drc:/system/etc/tfa/Rec_Video.drc \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.eq:/system/etc/tfa/Rec_Video.eq \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.drc:/system/etc/tfa/Rec_Video_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.eq:/system/etc/tfa/Rec_Video_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video_l.preset:/system/etc/tfa/Rec_Video_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/Rec_Video.preset:/system/etc/tfa/Rec_Video.preset \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.config:/system/etc/tfa/tfa9895.config \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895MFG.patch:/system/etc/tfa/tfa9895MFG.patch \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
-        vendor/htc/a5/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
-        vendor/htc/a5/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
-        vendor/htc/a5/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
-        vendor/htc/a5/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/a5/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/a5/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/a5/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/a5/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
+        vendor/htc/a5/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
+        vendor/htc/a5/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
+        vendor/htc/a5/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/a5/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -278,12 +231,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
-        vendor/htc/a5/proprietary/lib/hw/nfc_nci.msm8226.so:/system/lib/hw/nfc_nci.msm8226.so \
         vendor/htc/a5/proprietary/vendor/firmware/libpn547_fw.so:/system/vendor/firmware/libpn547_fw.so \
         vendor/htc/a5/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/a5/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a5/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/a5/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/a5/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/a5/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/a5/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
@@ -349,6 +302,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/a5/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/a5/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/a5/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+        vendor/htc/a5/proprietary/vendor/lib/drm/libfwdlockengine.so:/system/vendor/lib/drm/libfwdlockengine.so \
         vendor/htc/a5/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+        vendor/htc/a5/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/a5/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \
+        vendor/htc/a5/proprietary/vendor/lib/libdrmdecrypt.so:/system/vendor/lib/libdrmdecrypt.so \
+        vendor/htc/a5/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/a5/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/a5/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:/system/vendor/lib/libWVStreamControlAPI_L3.so \
+        vendor/htc/a5/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+        vendor/htc/a5/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
