@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/bin/tf_daemon:/system/bin/tf_daemon \
         vendor/htc/endeavoru/proprietary/bin/tegrastats:/system/bin/tegrastats \
         vendor/htc/endeavoru/proprietary/lib/libcgdrv.so:/system/lib/libcgdrv.so \
+        vendor/htc/endeavoru/proprietary/lib/libagnss.so:/system/lib/libagnss.so \
         vendor/htc/endeavoru/proprietary/lib/libardrv_dynamic.so:/system/lib/libardrv_dynamic.so \
         vendor/htc/endeavoru/proprietary/lib/libnvapputil.so:/system/lib/libnvapputil.so \
         vendor/htc/endeavoru/proprietary/lib/libnvasfparserhal.so:/system/lib/libnvasfparserhal.so \
@@ -172,10 +173,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/endeavoru/proprietary/bin/patch-X.0.ce:/system/bin/patch-X.0.ce \
         vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore:/system/etc/gps/agps.truststore \
         vendor/htc/endeavoru/proprietary/etc/gps/agps.truststore_lab:/system/etc/gps/agps.truststore_lab \
-        vendor/htc/endeavoru/proprietary/etc/gps/tigpsrouter:/system/etc/gps/tigpsrouter \
-        vendor/htc/endeavoru/proprietary/etc/gps/RXN/license.key:/system/etc/gps/RXN/license.key \
-        vendor/htc/endeavoru/proprietary/etc/gps/RXN/MSLConfig.txt:/system/etc/gps/RXN/MSLConfig.txt \
-        vendor/htc/endeavoru/proprietary/etc/gps/RXN/security.key:/system/etc/gps/RXN/security.key \
+        vendor/htc/endeavoru/proprietary/etc/gnss/RXN/license.key:/system/etc/gnss/RXN/license.key \
+        vendor/htc/endeavoru/proprietary/etc/gnss/RXN/MSLConfig.txt:/system/etc/gnss/RXN/MSLConfig.txt \
+        vendor/htc/endeavoru/proprietary/etc/gnss/RXN/security.key:/system/etc/gnss/RXN/security.key \
+        vendor/htc/endeavoru/proprietary/etc/gnss/config/Connect_Config.txt:/system/etc/gnss/config/Connect_Config.txt \
         vendor/htc/endeavoru/proprietary/lib/hw/gps.tegra.so:/system/lib/hw/gps.tegra.so \
         vendor/htc/endeavoru/proprietary/lib/libmcphalgps.so:/system/lib/libmcphalgps.so \
         vendor/htc/endeavoru/proprietary/lib/libgps.so:/system/lib/libgps.so \

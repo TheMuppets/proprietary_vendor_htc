@@ -72,17 +72,17 @@ Vendor_ID: gr7apkBg
 // License Key file path. Path to the RxN license key file that is used to support evaluation or licensed product use.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default behaviour is to have the key file adjacent to the executable that uses the MSL library (./license.key)
-Lic_Key_Path: /system/etc/gps/RXN/license.key
+Lic_Key_Path: /system/etc/gnss/RXN/license.key
 
 // CL Log file path. Path to the Chipset Library Log file.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default path ./CL_Log.txt will be used if missing
-CL_Log_Path: /data/RXN/CL_Log.txt
+CL_Log_Path: /data/gnss/RXN/CL_Log.txt
 
 // MSL Log file path. Path to the Mobile Suite Library Log file.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default path ./MSL_Log.txt will be used if missing
-MSL_Log_Path: /data/RXN/MSL_Log.txt
+MSL_Log_Path: /data/gnss/RXN/MSL_Log.txt
 
 // CL configuration string.
 // The configuration string used to connect to the GPS receiver. The contents are chipset-dependent. 
@@ -98,7 +98,7 @@ CL_Config_Str: ServerIP:127.0.0.1|MsBased:1|SkipStart:1|S:04|Z:0xFFFF|UpdateBCE:
 // The following folders will be created under it: pred and eph 
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default path ./RXN will be used if missing
-Pantry_Path: /data/RXN/RXN
+Pantry_Path: /data/gnss/RXN
 
 // How long extended ephemeris should be used before being replaced by broadcast ephemeris.
 // Value in sec. Min value: 0, Max value: 14400. Default 300.
@@ -141,7 +141,7 @@ TOE_Buf_Offset: -7200
 // Security Key file path. Path to the RxN security key file that is used to support evalutation or licensed product use.
 // Note that the path is typically relative but can be explicit from file system root. Max path is 512 chars.
 // Default behaviour is to have the key file adjacent to the executable that consumes the MSL library (./security.key)
-Sec_Key_Path: /system/etc/gps/RXN/security.key
+Sec_Key_Path: /system/etc/gnss/RXN/security.key
 
 // Model ID. Each vendor should specify a model ID to support access to PGPS seeds and clock updates.
 // A default model ID is provided.
