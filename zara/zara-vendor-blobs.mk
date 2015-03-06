@@ -55,23 +55,24 @@ PRODUCT_COPY_FILES += \
   vendor/htc/zara/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
   vendor/htc/zara/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
   vendor/htc/zara/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-  vendor/htc/zara/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-  vendor/htc/zara/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-  vendor/htc/zara/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-  vendor/htc/zara/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-  vendor/htc/zara/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-  vendor/htc/zara/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-  vendor/htc/zara/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/zara/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-  vendor/htc/zara/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-  vendor/htc/zara/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-  vendor/htc/zara/proprietary/lib/libCB.so:system/lib/libCB.so \
-  vendor/htc/zara/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/zara/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-  vendor/htc/zara/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-  vendor/htc/zara/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-  vendor/htc/zara/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/zara/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+  vendor/htc/zara/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+  vendor/htc/zara/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+  vendor/htc/zara/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+  vendor/htc/zara/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+  vendor/htc/zara/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+  vendor/htc/zara/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+  vendor/htc/zara/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+  vendor/htc/zara/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+  vendor/htc/zara/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
+  vendor/htc/zara/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+  vendor/htc/zara/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+  vendor/htc/zara/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+  vendor/htc/zara/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
   vendor/htc/zara/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/zara/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/zara/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
