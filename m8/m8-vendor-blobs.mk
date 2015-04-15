@@ -260,6 +260,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libtuning_awb_ov4688.so:/system/lib/libtuning_awb_ov4688.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_s5k5e.so:/system/lib/libtuning_awb_s5k5e.so \
         vendor/htc/m8/proprietary/lib/libtuning_awb_vd6869.so:/system/lib/libtuning_awb_vd6869.so \
+        vendor/htc/m8/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
+        vendor/htc/m8/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
+        vendor/htc/m8/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
+        vendor/htc/m8/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
+        vendor/htc/m8/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
