@@ -30,6 +30,28 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/a5/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/a5/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
+        vendor/htc/a5/proprietary/etc/tfa/playback.drc:/system/etc/tfa/playback.drc \
+        vendor/htc/a5/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
+        vendor/htc/a5/proprietary/etc/tfa/playback_l.drc:/system/etc/tfa/playback_l.drc \
+        vendor/htc/a5/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
+        vendor/htc/a5/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
+        vendor/htc/a5/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
+        vendor/htc/a5/proprietary/etc/tfa/tfa9895.config:/system/etc/tfa/tfa9895.config \
+        vendor/htc/a5/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
+        vendor/htc/a5/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
+        vendor/htc/a5/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
+        vendor/htc/a5/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
+        vendor/htc/a5/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/a5/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
+        vendor/htc/a5/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
+        vendor/htc/a5/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
+        vendor/htc/a5/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
+        vendor/htc/a5/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
+        vendor/htc/a5/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
+        vendor/htc/a5/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
+        vendor/htc/a5/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
+        vendor/htc/a5/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
+        vendor/htc/a5/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/a5/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/a5/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
@@ -40,6 +62,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
         vendor/htc/a5/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/a5/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
+        vendor/htc/a5/proprietary/etc/firmware/alIAF_InData_4M2M:/system/etc/firmware/alIAF_InData_4M2M \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
         vendor/htc/a5/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:/system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -62,58 +85,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov13850_preview.so:/system/vendor/lib/libchromatix_ov13850_preview.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov13850_qtr.so:/system/vendor/lib/libchromatix_ov13850_qtr.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov13850_zoe.so:/system/vendor/lib/libchromatix_ov13850_zoe.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_common.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so:/system/vendor/lib/libchromatix_ov5648_oty5f03_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:/system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_s5k5e_onelane_common.so:/system/vendor/lib/libchromatix_s5k5e_onelane_common.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_s5k5e_onelane_default_video.so:/system/vendor/lib/libchromatix_s5k5e_onelane_default_video.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_s5k5e_onelane_hdr.so:/system/vendor/lib/libchromatix_s5k5e_onelane_hdr.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_s5k5e_onelane_preview.so:/system/vendor/lib/libchromatix_s5k5e_onelane_preview.so \
         vendor/htc/a5/proprietary/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:/system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:/system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:/system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:/system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
-        vendor/htc/a5/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:/system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
-        vendor/htc/a5/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
         vendor/htc/a5/proprietary/vendor/lib/libhtccamera.so:/system/vendor/lib/libhtccamera.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera2_cpp_module.so:/system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -131,23 +107,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_interface.so:/system/vendor/lib/libmmcamera_interface.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:/system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:/system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_s5k5e_onelane.so:/system/vendor/lib/libmmcamera_s5k5e_onelane.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:/system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:/system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:/system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:/system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:/system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_sp1628.so:/system/vendor/lib/libmmcamera_sp1628.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:/system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-        vendor/htc/a5/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/a5/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
@@ -204,6 +167,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
         vendor/htc/a5/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/htc/a5/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
+        vendor/htc/a5/proprietary/vendor/lib/libc2d30-a4xx.so:/system/vendor/lib/libc2d30-a4xx.so \
         vendor/htc/a5/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
         vendor/htc/a5/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
         vendor/htc/a5/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
@@ -232,7 +196,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/a5/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/htc/a5/proprietary/vendor/firmware/libpn547_fw.so:/system/vendor/firmware/libpn547_fw.so \
-        vendor/htc/a5/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/a5/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/a5/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/htc/a5/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
@@ -253,6 +216,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_csi.so:/system/blobs/gsm/vendor/lib/libqmi_csi.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi_encdec.so:/system/blobs/gsm/vendor/lib/libqmi_encdec.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmiservices.so:/system/blobs/gsm/vendor/lib/libqmiservices.so \
+        vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmiservices_ext.so:/system/blobs/gsm/vendor/lib/libqmiservices_ext.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/a5/proprietary/blobs/chl/bin/qmuxd:/system/blobs/chl/bin/qmuxd \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libdiag.so:/system/blobs/chl/vendor/lib/libdiag.so \
@@ -269,12 +233,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmi_csi.so:/system/blobs/chl/vendor/lib/libqmi_csi.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/chl/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmi_encdec.so:/system/blobs/chl/vendor/lib/libqmi_encdec.so \
+        vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmiservices_ext.so:/system/blobs/chl/vendor/lib/libqmiservices_ext.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmiservices.so:/system/blobs/chl/vendor/lib/libqmiservices.so \
         vendor/htc/a5/proprietary/blobs/chl/vendor/lib/libqmi.so:/system/blobs/chl/vendor/lib/libqmi.so \
         vendor/htc/a5/proprietary/blobs/gsm/bin/netmgrd:/system/blobs/gsm/bin/netmgrd \
-        vendor/htc/a5/proprietary/blobs/gsm/bin/rild:/system/blobs/gsm/bin/rild \
-        vendor/htc/a5/proprietary/blobs/gsm/lib/libril.so:/system/blobs/gsm/lib/libril.so \
-        vendor/htc/a5/proprietary/blobs/gsm/lib/libhtc_rilhook.so:/system/blobs/gsm/lib/libhtc_rilhook.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libnetmgr.so:/system/blobs/gsm/vendor/lib/libnetmgr.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/a5/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
