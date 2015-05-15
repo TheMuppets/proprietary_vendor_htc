@@ -148,7 +148,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
         vendor/htc/eyeul/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
-        vendor/htc/eyeul/proprietary/lib/hw/camera.msm8974.so:/system/lib/hw/camera.msm8974.so \
+        vendor/htc/eyeul/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/eyeul/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/eyeul/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/eyeul/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
