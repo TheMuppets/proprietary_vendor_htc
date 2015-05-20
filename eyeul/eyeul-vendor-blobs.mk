@@ -178,6 +178,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/eyeul/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
+        vendor/htc/eyeul/proprietary/lib/libFaceRetrieve.so:/system/lib/libFaceRetrieve.so \
+        vendor/htc/eyeul/proprietary/lib/libHtcVteEngine.so:/system/lib/libHtcVteEngine.so \
+        vendor/htc/eyeul/proprietary/lib/libhtcsecure.so:/system/lib/libhtcsecure.so \
+        vendor/htc/eyeul/proprietary/lib/libc2dcolorconvertgpu.so:/system/lib/libc2dcolorconvertgpu.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_aec_imx214_784m_hdr.so:/system/lib/libtuning_aec_imx214_784m_hdr.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_aec_imx214_784m_hdr_16_9.so:/system/lib/libtuning_aec_imx214_784m_hdr_16_9.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_aec_imx214_784m_night.so:/system/lib/libtuning_aec_imx214_784m_night.so \
