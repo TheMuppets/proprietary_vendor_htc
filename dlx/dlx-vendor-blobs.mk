@@ -183,4 +183,26 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-	vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+	vendor/htc/dlx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/htc/dlx/proprietary/etc/tfa/deftcoefA.speaker:system/etc/tfa/deftcoefA.speaker \
+	vendor/htc/dlx/proprietary/etc/tfa/deftcoefA_l.speaker:system/etc/tfa/deftcoefA_l.speaker \
+	vendor/htc/dlx/proprietary/etc/tfa/playback.config:system/etc/tfa/playback.config \
+	vendor/htc/dlx/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+	vendor/htc/dlx/proprietary/etc/tfa/playback_l.config:system/etc/tfa/playback_l.config \
+	vendor/htc/dlx/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+	vendor/htc/dlx/proprietary/etc/tfa/ring.config:system/etc/tfa/ring.config \
+	vendor/htc/dlx/proprietary/etc/tfa/ring.eq:system/etc/tfa/ring.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/ring.preset:system/etc/tfa/ring.preset \
+	vendor/htc/dlx/proprietary/etc/tfa/ring_l.config:system/etc/tfa/ring_l.config \
+	vendor/htc/dlx/proprietary/etc/tfa/ring_l.eq:system/etc/tfa/ring_l.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/ring_l.preset:system/etc/tfa/ring_l.preset \
+	vendor/htc/dlx/proprietary/etc/tfa/tfa9887.patch:system/etc/tfa/tfa9887.patch \
+	vendor/htc/dlx/proprietary/etc/tfa/tfa9887_l.patch:system/etc/tfa/tfa9887_l.patch \
+	vendor/htc/dlx/proprietary/etc/tfa/voice.config:system/etc/tfa/voice.config \
+	vendor/htc/dlx/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
+	vendor/htc/dlx/proprietary/etc/tfa/voice_l.config:system/etc/tfa/voice_l.config \
+	vendor/htc/dlx/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+	vendor/htc/dlx/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset
