@@ -48,6 +48,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/enrc2b/proprietary/bin/poweron_modem_hboot.sh:system/bin/poweron_modem_hboot.sh \
   vendor/htc/enrc2b/proprietary/bin/rild:system/bin/rild \
   vendor/htc/enrc2b/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+  vendor/htc/enrc2b/proprietary/etc/hldm.bin:system/etc/hldm.bin \
+  vendor/htc/enrc2b/proprietary/etc/hltof.bin:system/etc/hltof.bin \
+  vendor/htc/enrc2b/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
   vendor/htc/enrc2b/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd \
   vendor/htc/enrc2b/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
   vendor/htc/enrc2b/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
