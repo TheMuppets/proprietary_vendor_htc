@@ -229,6 +229,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_ov13850_784m.so:/system/lib/libtuning_awb_ov13850_784m.so \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
