@@ -354,6 +354,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
