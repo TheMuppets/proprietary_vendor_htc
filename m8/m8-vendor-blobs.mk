@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/m8/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
         vendor/htc/m8/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
-        vendor/htc/m8/proprietary/etc/gps.conf:/system/etc/gps.conf \
         vendor/htc/m8/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/m8/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/m8/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
