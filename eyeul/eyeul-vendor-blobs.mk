@@ -96,52 +96,22 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
         vendor/htc/eyeul/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
         vendor/htc/eyeul/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm.drc:/system/etc/tfa/fm.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm_l.drc:/system/etc/tfa/fm_l.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
         vendor/htc/eyeul/proprietary/etc/tfa/playback.drc:/system/etc/tfa/playback.drc \
         vendor/htc/eyeul/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/playback_l.drc:/system/etc/tfa/playback_l.drc \
         vendor/htc/eyeul/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG.drc:/system/etc/tfa/playbackMFG.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG_l.drc:/system/etc/tfa/playbackMFG_l.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
         vendor/htc/eyeul/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer.drc:/system/etc/tfa/playbackwoofer.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer.eq:/system/etc/tfa/playbackwoofer.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer_l.drc:/system/etc/tfa/playbackwoofer_l.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer_l.eq:/system/etc/tfa/playbackwoofer_l.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer_l.preset:/system/etc/tfa/playbackwoofer_l.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/playbackwoofer.preset:/system/etc/tfa/playbackwoofer.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video.drc:/system/etc/tfa/Rec_Video.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video.eq:/system/etc/tfa/Rec_Video.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video_l.drc:/system/etc/tfa/Rec_Video_l.drc \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video_l.eq:/system/etc/tfa/Rec_Video_l.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video_l.preset:/system/etc/tfa/Rec_Video_l.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/Rec_Video.preset:/system/etc/tfa/Rec_Video.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
-        vendor/htc/eyeul/proprietary/etc/tfa/tfa9887MFG.patch:/system/etc/tfa/tfa9887MFG.patch \
-        vendor/htc/eyeul/proprietary/etc/tfa/tfa9887n.patch:/system/etc/tfa/tfa9887n.patch \
         vendor/htc/eyeul/proprietary/etc/tfa/tfa9895.config:/system/etc/tfa/tfa9895.config \
         vendor/htc/eyeul/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
-        vendor/htc/eyeul/proprietary/etc/tfa/tfa9895MFG.patch:/system/etc/tfa/tfa9895MFG.patch \
         vendor/htc/eyeul/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
         vendor/htc/eyeul/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
+        vendor/htc/eyeul/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
         vendor/htc/eyeul/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/eyeul/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/eyeul/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        vendor/htc/eyeul/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        vendor/htc/eyeul/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
         vendor/htc/eyeul/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
         vendor/htc/eyeul/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
@@ -229,6 +199,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_ov13850_784m.so:/system/lib/libtuning_awb_ov13850_784m.so \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b01:/system/vendor/firmware/cmnlib.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b02:/system/vendor/firmware/cmnlib.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.b03:/system/vendor/firmware/cmnlib.b03 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/cmnlib.mdt:/system/vendor/firmware/cmnlib.mdt \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
         vendor/htc/eyeul/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
@@ -349,6 +324,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
+        vendor/htc/eyeul/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \

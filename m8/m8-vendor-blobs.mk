@@ -51,6 +51,27 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/m8/proprietary/blobs/dug/bin/netmgrd:/system/blobs/dug/bin/netmgrd \
+        vendor/htc/m8/proprietary/blobs/dug/bin/qmuxd:/system/blobs/dug/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdiag.so:/system/blobs/dug/vendor/lib/libdiag.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsi_netctrl.so:/system/blobs/dug/vendor/lib/libdsi_netctrl.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsnetutils.so:/system/blobs/dug/vendor/lib/libdsnetutils.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsutils.so:/system/blobs/dug/vendor/lib/libdsutils.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libidl.so:/system/blobs/dug/vendor/lib/libidl.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libnetmgr.so:/system/blobs/dug/vendor/lib/libnetmgr.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqcci_legacy.so:/system/blobs/dug/vendor/lib/libqcci_legacy.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqdi.so:/system/blobs/dug/vendor/lib/libqdi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqdp.so:/system/blobs/dug/vendor/lib/libqdp.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_cci.so:/system/blobs/dug/vendor/lib/libqmi_cci.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_client_qmux.so:/system/blobs/dug/vendor/lib/libqmi_client_qmux.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_common_so.so:/system/blobs/dug/vendor/lib/libqmi_common_so.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_csi.so:/system/blobs/dug/vendor/lib/libqmi_csi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dug/vendor/lib/libqmi_csvt_srvc.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_encdec.so:/system/blobs/dug/vendor/lib/libqmi_encdec.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmiservices.so:/system/blobs/dug/vendor/lib/libqmiservices.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi.so:/system/blobs/dug/vendor/lib/libqmi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dug/vendor/lib/libril-qc-qmi-1.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dug/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:/system/blobs/spr/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:/system/blobs/spr/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdiag.so:/system/blobs/spr/vendor/lib/libdiag.so \
@@ -131,7 +152,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/m8/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
         vendor/htc/m8/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
-        vendor/htc/m8/proprietary/etc/gps.conf:/system/etc/gps.conf \
         vendor/htc/m8/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/m8/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/m8/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
@@ -142,52 +162,22 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
         vendor/htc/m8/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
         vendor/htc/m8/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
-        vendor/htc/m8/proprietary/etc/tfa/fm.drc:/system/etc/tfa/fm.drc \
-        vendor/htc/m8/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
-        vendor/htc/m8/proprietary/etc/tfa/fm_l.drc:/system/etc/tfa/fm_l.drc \
-        vendor/htc/m8/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
-        vendor/htc/m8/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
-        vendor/htc/m8/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
         vendor/htc/m8/proprietary/etc/tfa/playback.drc:/system/etc/tfa/playback.drc \
         vendor/htc/m8/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
         vendor/htc/m8/proprietary/etc/tfa/playback_l.drc:/system/etc/tfa/playback_l.drc \
         vendor/htc/m8/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG.config:/system/etc/tfa/playbackMFG.config \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG.drc:/system/etc/tfa/playbackMFG.drc \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG.eq:/system/etc/tfa/playbackMFG.eq \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG_l.config:/system/etc/tfa/playbackMFG_l.config \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG_l.drc:/system/etc/tfa/playbackMFG_l.drc \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG_l.eq:/system/etc/tfa/playbackMFG_l.eq \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG_l.preset:/system/etc/tfa/playbackMFG_l.preset \
-        vendor/htc/m8/proprietary/etc/tfa/playbackMFG.preset:/system/etc/tfa/playbackMFG.preset \
         vendor/htc/m8/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer.drc:/system/etc/tfa/playbackwoofer.drc \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer.eq:/system/etc/tfa/playbackwoofer.eq \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer_l.drc:/system/etc/tfa/playbackwoofer_l.drc \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer_l.eq:/system/etc/tfa/playbackwoofer_l.eq \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer_l.preset:/system/etc/tfa/playbackwoofer_l.preset \
-        vendor/htc/m8/proprietary/etc/tfa/playbackwoofer.preset:/system/etc/tfa/playbackwoofer.preset \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video.drc:/system/etc/tfa/Rec_Video.drc \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video.eq:/system/etc/tfa/Rec_Video.eq \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video_l.drc:/system/etc/tfa/Rec_Video_l.drc \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video_l.eq:/system/etc/tfa/Rec_Video_l.eq \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video_l.preset:/system/etc/tfa/Rec_Video_l.preset \
-        vendor/htc/m8/proprietary/etc/tfa/Rec_Video.preset:/system/etc/tfa/Rec_Video.preset \
-        vendor/htc/m8/proprietary/etc/tfa/tfa9887.config:/system/etc/tfa/tfa9887.config \
-        vendor/htc/m8/proprietary/etc/tfa/tfa9887MFG.patch:/system/etc/tfa/tfa9887MFG.patch \
-        vendor/htc/m8/proprietary/etc/tfa/tfa9887n.patch:/system/etc/tfa/tfa9887n.patch \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.config:/system/etc/tfa/tfa9895.config \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
-        vendor/htc/m8/proprietary/etc/tfa/tfa9895MFG.patch:/system/etc/tfa/tfa9895MFG.patch \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
         vendor/htc/m8/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/m8/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
-        vendor/htc/m8/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
-        vendor/htc/m8/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/voip.drc:/system/etc/tfa/voip.drc \
         vendor/htc/m8/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
         vendor/htc/m8/proprietary/etc/tfa/voip_l.drc:/system/etc/tfa/voip_l.drc \
@@ -270,6 +260,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/m8/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b02:/system/vendor/firmware/wcnss.b02 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b04:/system/vendor/firmware/wcnss.b04 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b06:/system/vendor/firmware/wcnss.b06 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b07:/system/vendor/firmware/wcnss.b07 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
+        vendor/htc/m8/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt \
         vendor/htc/m8/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/m8/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m8/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
