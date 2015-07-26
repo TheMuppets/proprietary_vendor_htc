@@ -806,11 +806,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b02:system/etc/firmware/mc_v2.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b03:system/etc/firmware/mc_v2.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/htc/hima-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
