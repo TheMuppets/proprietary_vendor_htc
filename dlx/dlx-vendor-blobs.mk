@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/htc/dlx/proprietary/bin/thermald:system/bin/thermald \
 	vendor/htc/dlx/proprietary/bin/mpdecision:system/bin/mpdecision \
+	vendor/htc/dlx/proprietary/bin/radish:system/bin/radish \
 	vendor/htc/dlx/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
 	vendor/htc/dlx/proprietary/lib/libchromatix_vd6869_hdr.so:system/lib/libchromatix_vd6869_hdr.so \
 	vendor/htc/dlx/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
