@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
+        vendor/htc/m7-common/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
