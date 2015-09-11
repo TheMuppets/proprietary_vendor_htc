@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/s4-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/s4-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/s4-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
+        vendor/htc/s4-common/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/s4-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/s4-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/s4-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
