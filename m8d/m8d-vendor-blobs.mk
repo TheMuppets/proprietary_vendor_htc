@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libqmi_encdec.so:/system/blobs/dwg/vendor/lib/libqmi_encdec.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libqmiservices.so:/system/blobs/dwg/vendor/lib/libqmiservices.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libnetmgr.so:/system/blobs/dwg/vendor/lib/libnetmgr.so \
-        vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dwg/vendor/lib/libril-qc-qmi-1.so \
+        vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dug/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dug/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dwg/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so \
