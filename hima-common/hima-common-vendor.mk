@@ -16,7 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    HTC_CIR \
+    EasyAccessService \
     TimeService \
+    libmdmdetect \
     libTimeService \
     libtime_genoff \
     libFlacSwDec \
