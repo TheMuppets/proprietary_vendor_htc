@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/hima-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/hima-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/htc/hima-common/proprietary/bin/mediaserver:system/bin/mediaserver \
     vendor/htc/hima-common/proprietary/bin/memlock:system/bin/memlock \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -196,6 +197,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/hima-common/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/htc/hima-common/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/htc/hima-common/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/htc/hima-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/htc/hima-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/htc/hima-common/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
