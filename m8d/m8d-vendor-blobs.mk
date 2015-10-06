@@ -32,10 +32,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmi_client_qmux.so:/system/blobs/dug/vendor/lib/libqmi_client_qmux.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmi_common_so.so:/system/blobs/dug/vendor/lib/libqmi_common_so.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmi_csi.so:/system/blobs/dug/vendor/lib/libqmi_csi.so \
-        vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dug/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmi_encdec.so:/system/blobs/dug/vendor/lib/libqmi_encdec.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libqmiservices.so:/system/blobs/dug/vendor/lib/libqmiservices.so \
-        vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libnetmgr.so:/system/blobs/dug/vendor/lib/libnetmgr.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libdiag.so:/system/blobs/dwg/vendor/lib/libdiag.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libdsi_netctrl.so:/system/blobs/dwg/vendor/lib/libdsi_netctrl.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libdsnetutils.so:/system/blobs/dwg/vendor/lib/libdsnetutils.so \
@@ -52,8 +50,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dwg/vendor/lib/libqmi_csvt_srvc.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libqmi_encdec.so:/system/blobs/dwg/vendor/lib/libqmi_encdec.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libqmiservices.so:/system/blobs/dwg/vendor/lib/libqmiservices.so \
-        vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libnetmgr.so:/system/blobs/dwg/vendor/lib/libnetmgr.so \
+        vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libnetmgr.so:/system/blobs/dug/vendor/lib/libnetmgr.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dug/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8d/proprietary/blobs/dug/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dug/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libnetmgr.so:/system/blobs/dwg/vendor/lib/libnetmgr.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dwg/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8d/proprietary/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dwg/vendor/lib/libril-qcril-hook-oem.so \
