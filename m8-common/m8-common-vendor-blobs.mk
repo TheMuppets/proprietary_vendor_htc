@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
