@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0064.0175.hcd:system/etc/firmware/BCM4356A2_001.003.015.0064.0175.hcd \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/htc/hima-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
+    vendor/htc/hima-common/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/hima-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
