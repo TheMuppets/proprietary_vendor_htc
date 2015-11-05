@@ -339,3 +339,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
         vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/eyeul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b00:/system/vendor/firmware/wcnss.b00 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b01:/system/vendor/firmware/wcnss.b01 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b02:/system/vendor/firmware/wcnss.b02 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b04:/system/vendor/firmware/wcnss.b04 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b06:/system/vendor/firmware/wcnss.b06 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b07:/system/vendor/firmware/wcnss.b07 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b08:/system/vendor/firmware/wcnss.b08 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.b09:/system/vendor/firmware/wcnss.b09 \
+        vendor/htc/eyeul/proprietary/vendor/firmware/wcnss.mdt:/system/vendor/firmware/wcnss.mdt
