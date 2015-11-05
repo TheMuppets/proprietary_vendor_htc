@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/htc/dlx/proprietary/bin/qcks:system/bin/qcks \
 	vendor/htc/dlx/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/htc/dlx/proprietary/bin/thermald:system/bin/thermald \
 	vendor/htc/dlx/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/htc/dlx/proprietary/bin/radish:system/bin/radish \
 	vendor/htc/dlx/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
