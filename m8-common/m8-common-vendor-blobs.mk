@@ -259,8 +259,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/m8-common/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
-        vendor/htc/m8-common/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
-        vendor/htc/m8-common/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/htc/m8-common/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/m8-common/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8-common/proprietary/vendor/firmware/cmnlib.b00:/system/vendor/firmware/cmnlib.b00 \
