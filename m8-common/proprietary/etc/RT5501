@@ -1,5 +1,5 @@
 __TABLE_START__
-#RT5506_20140708_fix_1X_mode
+#RT5506_20150922_Reduce_Ringtone_Gain
 #00 init
 #01 mute
 #02 off
@@ -234,7 +234,7 @@ SECTION_END
 SECTION_START
 MODE 15
 0x00, 0xC0,
-0x01, 0x1C,#gain 0dB
+0x01, 0x0C,#gain -16dB
 0x02, 0x81,#noise gate on
 0x08, 0x01,#noise gate on
 0x07, 0x7F,#noise gate setting
