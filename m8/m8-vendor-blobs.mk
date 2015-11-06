@@ -17,13 +17,15 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/gsm/bin/netmgrd:/system/blobs/gsm/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/gsm/lib/libgps.utils.so:/system/blobs/gsm/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:/system/blobs/spr/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:/system/blobs/spr/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/spr/lib/libgps.utils.so:/system/blobs/spr/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/blobs/vzw/bin/netmgrd:/system/blobs/vzw/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:/system/blobs/vzw/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/vzw/lib/libgps.utils.so:/system/blobs/vzw/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsi_netctrl.so:/system/blobs/gsm/vendor/lib/libdsi_netctrl.so \
-        vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsnetutils.so:/system/blobs/gsm/vendor/lib/libdsnetutils.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsutils.so:/system/blobs/gsm/vendor/lib/libdsutils.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libidl.so:/system/blobs/gsm/vendor/lib/libidl.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqcci_legacy.so:/system/blobs/gsm/vendor/lib/libqcci_legacy.so \
