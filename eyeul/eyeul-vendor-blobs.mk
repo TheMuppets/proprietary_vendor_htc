@@ -186,7 +186,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_50039B1_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_imx214_800m_fov87_water.so:/system/lib/libtuning_awb_imx214_800m_fov87_water.so \
         vendor/htc/eyeul/proprietary/lib/libtuning_awb_ov13850_784m.so:/system/lib/libtuning_awb_ov13850_784m.so \
-        vendor/htc/eyeul/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
+        vendor/htc/eyeul/proprietary/lib/hw/camera.msm8974.so:/system/lib/hw/camera.msm8974.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libchromatix_imx214_784m_common.so:/system/vendor/lib/libchromatix_imx214_784m_common.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libchromatix_imx214_784m_default_video.so:/system/vendor/lib/libchromatix_imx214_784m_default_video.so \
         vendor/htc/eyeul/proprietary/vendor/lib/libchromatix_imx214_784m_hdr.so:/system/vendor/lib/libchromatix_imx214_784m_hdr.so \
