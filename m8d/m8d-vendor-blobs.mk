@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m8d/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/htc/m8d/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
+        vendor/htc/m8d/proprietary/vendor/lib/libdsnetutils.so:/system/vendor/lib/libdsnetutils.so \
         vendor/htc/m8d/proprietary/vendor/lib/libdsutils.so:/system/vendor/lib/libdsutils.so \
         vendor/htc/m8d/proprietary/vendor/lib/libidl.so:/system/vendor/lib/libidl.so \
         vendor/htc/m8d/proprietary/vendor/lib/libqcci_legacy.so:/system/vendor/lib/libqcci_legacy.so \
