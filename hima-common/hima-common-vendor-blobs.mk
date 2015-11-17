@@ -514,7 +514,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/htc/hima-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/hima-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/htc/hima-common/proprietary/bin/pnpmgr:system/bin/pnpmgr \
     vendor/htc/hima-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -584,8 +583,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/htc/hima-common/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356_apsta.bin:system/etc/firmware/fw_bcm4356_apsta.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356.bin:system/etc/firmware/fw_bcm4356.bin
