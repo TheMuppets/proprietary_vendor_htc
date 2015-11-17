@@ -214,12 +214,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
+        vendor/htc/m8-common/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/m8-common/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/m8-common/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/m8-common/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/htc/m8-common/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/m8-common/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
+        vendor/htc/m8-common/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/m8-common/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \

@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/m8d/proprietary/bin/qmuxd:/system/bin/qmuxd \
-        vendor/htc/m8d/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8d/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/htc/m8d/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
         vendor/htc/m8d/proprietary/vendor/lib/libdsutils.so:/system/vendor/lib/libdsutils.so \
