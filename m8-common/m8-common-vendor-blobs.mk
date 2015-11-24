@@ -219,14 +219,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/m8-common/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/m8-common/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/htc/m8-common/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/m8-common/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/m8-common/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/htc/m8-common/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
         vendor/htc/m8-common/proprietary/bin/hcheck:/system/bin/hcheck \
         vendor/htc/m8-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
