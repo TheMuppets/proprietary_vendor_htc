@@ -808,7 +808,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hima-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/htc/hima-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/htc/hima-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
