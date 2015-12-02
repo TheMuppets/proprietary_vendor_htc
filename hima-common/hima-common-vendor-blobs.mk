@@ -585,34 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_t4ka7.so:system/vendor/lib/libmmcamera_t4ka7.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_vd6869.so:system/vendor/lib/libmmcamera_vd6869.so \
-    vendor/htc/hima-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpencalib.so:system/vendor/lib64/libdpencalib.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/htc/hima-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/hima-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/hima-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -805,6 +777,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
