@@ -243,7 +243,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/m8-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/m8-common/proprietary/etc/firmware/lscbuffer_rev2.bin:/system/etc/firmware/lscbuffer_rev2.bin \
-        vendor/htc/m8-common/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/m8-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
         vendor/htc/m8-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m8-common/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
