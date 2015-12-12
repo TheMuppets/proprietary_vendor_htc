@@ -153,14 +153,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/t6-common/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so \
         vendor/htc/t6-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/t6-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
-        vendor/htc/t6-common/proprietary/bin/vcsFirmwareVersion:/system/bin/vcsFirmwareVersion \
-        vendor/htc/t6-common/proprietary/bin/vcsFPService:/system/bin/vcsFPService \
-        vendor/htc/t6-common/proprietary/bin/vcsSimpleCapture:/system/bin/vcsSimpleCapture \
-        vendor/htc/t6-common/proprietary/bin/vcsSimpleEnrollMatch:/system/bin/vcsSimpleEnrollMatch \
-        vendor/htc/t6-common/proprietary/vendor/lib/libfpsvc.so:/system/vendor/lib/libfpsvc.so \
-        vendor/htc/t6-common/proprietary/vendor/lib/libvcsCfgData.so:/system/vendor/lib/libvcsCfgData.so \
-        vendor/htc/t6-common/proprietary/vendor/lib/libvcsfp.so:/system/vendor/lib/libvcsfp.so \
-        vendor/htc/t6-common/proprietary/vendor/lib/libvcsFPClient.so:/system/vendor/lib/libvcsFPClient.so \
         vendor/htc/t6-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/t6-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
         vendor/htc/t6-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
