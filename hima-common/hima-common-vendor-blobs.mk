@@ -700,6 +700,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/htc/hima-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/htc/hima-common/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
     vendor/htc/hima-common/proprietary/etc/cir.img:system/etc/cir.img \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
