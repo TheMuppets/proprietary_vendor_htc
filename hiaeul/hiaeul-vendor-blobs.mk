@@ -443,7 +443,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hiaeul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hiaeul/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
-    vendor/htc/hiaeul/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hiaeul/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
