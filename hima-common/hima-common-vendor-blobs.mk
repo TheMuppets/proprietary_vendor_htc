@@ -778,7 +778,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/htc/hima-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
-    vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
