@@ -364,8 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/htc/hiaeul/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/htc/hiaeul/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/htc/hiaeul/proprietary/lib64/hw/lights.msm8952.so:system/lib64/hw/lights.msm8952.so \
-    vendor/htc/hiaeul/proprietary/lib/hw/lights.msm8952.so:system/lib/hw/lights.msm8952.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
