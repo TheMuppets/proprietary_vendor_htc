@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter hiaeul,$(TARGET_DEVICE)),)
+ifneq ($(filter hiaeul hiaeuhl,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
