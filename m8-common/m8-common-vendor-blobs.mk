@@ -273,7 +273,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/libdrmdiag.so:/system/vendor/lib/libdrmdiag.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libdrmfs.so:/system/vendor/lib/libdrmfs.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libdrmtime.so:/system/vendor/lib/libdrmtime.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
