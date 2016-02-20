@@ -221,3 +221,5 @@ phy4350_ss_opt=1
 #pciehdr_62=0x0000
 #pciehdr_63=0x0000
 host_wake_opt=0
+btc_params13=100
+btc_params65=0x20
