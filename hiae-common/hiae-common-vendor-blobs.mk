@@ -389,6 +389,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
     vendor/htc/hiae-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/htc/hiae-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/hiae-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
