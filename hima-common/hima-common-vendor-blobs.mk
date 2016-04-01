@@ -697,6 +697,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/htc/hima-common/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
     vendor/htc/hima-common/proprietary/etc/cir.img:system/etc/cir.img \
+    vendor/htc/hima-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/htc/hima-common/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
