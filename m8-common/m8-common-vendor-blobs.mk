@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -214,24 +214,12 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
-        vendor/htc/m8-common/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
-        vendor/htc/m8-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-        vendor/htc/m8-common/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
-        vendor/htc/m8-common/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
-        vendor/htc/m8-common/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/htc/m8-common/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
-        vendor/htc/m8-common/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/htc/m8-common/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
         vendor/htc/m8-common/proprietary/bin/hcheck:/system/bin/hcheck \
         vendor/htc/m8-common/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/m8-common/proprietary/bin/hvdcp:/system/bin/hvdcp \
-        vendor/htc/m8-common/proprietary/bin/irsc_util:/system/bin/irsc_util \
         vendor/htc/m8-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/htc/m8-common/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
-        vendor/htc/m8-common/proprietary/bin/radish:/system/bin/radish \
-        vendor/htc/m8-common/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/m8-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m8-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m8-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
