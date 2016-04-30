@@ -289,7 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/htc/hiae-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/htc/hiae-common/proprietary/etc/firmware/fpctzappfingerprint.b00:system/etc/firmware/fpctzappfingerprint.b00 \
     vendor/htc/hiae-common/proprietary/etc/firmware/fpctzappfingerprint.b01:system/etc/firmware/fpctzappfingerprint.b01 \
     vendor/htc/hiae-common/proprietary/etc/firmware/fpctzappfingerprint.b02:system/etc/firmware/fpctzappfingerprint.b02 \
