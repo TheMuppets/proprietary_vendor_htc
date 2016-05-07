@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    EasyAccessService \
-    libtime_genoff \
     CIRModule \
-    htcirlibs
+    EasyAccessService \
+    htcirlibs \
+    libtime_genoff
 
 $(call inherit-product, vendor/htc/m8-common/m8-common-vendor-blobs.mk)
