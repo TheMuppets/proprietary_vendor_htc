@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:/system/lib/libchromatix_s5k6a1gx_default_video.so \
         vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_preview.so:/system/lib/libchromatix_s5k6a1gx_preview.so \
         vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:/system/lib/libchromatix_s5k6a1gx_zsl.so \
-        vendor/htc/fireball/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
-        vendor/htc/fireball/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/fireball/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/fireball/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/fireball/proprietary/bin/qmuxd:/system/bin/qmuxd \
