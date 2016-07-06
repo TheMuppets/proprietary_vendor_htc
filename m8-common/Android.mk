@@ -39,16 +39,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := EasyAccessService
-LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/EasyAccessService/EasyAccessService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := htcirlibs
 LOCAL_MODULE_OWNER := htc
 LOCAL_SRC_FILES := proprietary/framework/htcirlibs.jar
