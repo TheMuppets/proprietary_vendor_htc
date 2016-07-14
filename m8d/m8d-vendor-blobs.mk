@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8d/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m8d/proprietary/bin/radish:/system/bin/radish \
         vendor/htc/m8d/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+        vendor/htc/m8d/proprietary/framework/qti-telephony-common.jar:/system/framework/qti-telephony-common.jar \
         vendor/htc/m8d/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/m8d/proprietary/vendor/lib/libcneapiclient.so:/system/vendor/lib/libcneapiclient.so \
         vendor/htc/m8d/proprietary/vendor/lib/libconfigdb.so:/system/vendor/lib/libconfigdb.so \
