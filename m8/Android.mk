@@ -16,16 +16,16 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter m8,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),m8)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril
 LOCAL_MODULE_OWNER := htc
 LOCAL_SRC_FILES := proprietary/lib/libril.so
+LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 endif
-
