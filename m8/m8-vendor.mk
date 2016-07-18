@@ -20,13 +20,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/m8/proprietary/blobs/gsm/bin/netmgrd:system/blobs/gsm/bin/netmgrd \
     vendor/htc/m8/proprietary/blobs/gsm/bin/qmuxd:system/blobs/gsm/bin/qmuxd \
+    vendor/htc/m8/proprietary/blobs/gsm/etc/flp.conf:system/blobs/gsm/etc/flp.conf \
+    vendor/htc/m8/proprietary/blobs/gsm/etc/gps.conf:system/blobs/gsm/etc/gps.conf \
+    vendor/htc/m8/proprietary/blobs/gsm/etc/izat.conf:system/blobs/gsm/etc/izat.conf \
+    vendor/htc/m8/proprietary/blobs/gsm/etc/sap.conf:system/blobs/gsm/etc/sap.conf \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/hw/gps.default.so:system/blobs/gsm/lib/hw/gps.default.so \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/libgps.utils.so:system/blobs/gsm/lib/libgps.utils.so \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/libloc_api_v02.so:system/blobs/gsm/lib/libloc_api_v02.so \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/libloc_core.so:system/blobs/gsm/lib/libloc_core.so \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/libloc_ds_api.so:system/blobs/gsm/lib/libloc_ds_api.so \
+    vendor/htc/m8/proprietary/blobs/gsm/lib/libloc_eng.so:system/blobs/gsm/lib/libloc_eng.so \
     vendor/htc/m8/proprietary/blobs/gsm/lib/libmdmdetect.so:system/blobs/gsm/lib/libmdmdetect.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/hw/flp.default.so:system/blobs/gsm/vendor/lib/hw/flp.default.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libcneapiclient.so:system/blobs/gsm/vendor/lib/libcneapiclient.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libconfigdb.so:system/blobs/gsm/vendor/lib/libconfigdb.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdiag.so:system/blobs/gsm/vendor/lib/libdiag.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsi_netctrl.so:system/blobs/gsm/vendor/lib/libdsi_netctrl.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsutils.so:system/blobs/gsm/vendor/lib/libdsutils.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libflp.so:system/blobs/gsm/vendor/lib/libflp.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libgeofence.so:system/blobs/gsm/vendor/lib/libgeofence.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libidl.so:system/blobs/gsm/vendor/lib/libidl.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libizat_core.so:system/blobs/gsm/vendor/lib/libizat_core.so \
+    vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/liblbs_core.so:system/blobs/gsm/vendor/lib/liblbs_core.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libnetmgr.so:system/blobs/gsm/vendor/lib/libnetmgr.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libperipheral_client.so:system/blobs/gsm/vendor/lib/libperipheral_client.so \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqcci_legacy.so:system/blobs/gsm/vendor/lib/libqcci_legacy.so \
@@ -47,13 +62,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libxml.so:system/blobs/gsm/vendor/lib/libxml.so \
     vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:system/blobs/spr/bin/netmgrd \
     vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:system/blobs/spr/bin/qmuxd \
+    vendor/htc/m8/proprietary/blobs/spr/etc/flp.conf:system/blobs/spr/etc/flp.conf \
+    vendor/htc/m8/proprietary/blobs/spr/etc/gps.conf:system/blobs/spr/etc/gps.conf \
+    vendor/htc/m8/proprietary/blobs/spr/etc/izat.conf:system/blobs/spr/etc/izat.conf \
+    vendor/htc/m8/proprietary/blobs/spr/etc/sap.conf:system/blobs/spr/etc/sap.conf \
+    vendor/htc/m8/proprietary/blobs/spr/lib/hw/gps.default.so:system/blobs/spr/lib/hw/gps.default.so \
+    vendor/htc/m8/proprietary/blobs/spr/lib/libgps.utils.so:system/blobs/spr/lib/libgps.utils.so \
+    vendor/htc/m8/proprietary/blobs/spr/lib/libloc_api_v02.so:system/blobs/spr/lib/libloc_api_v02.so \
+    vendor/htc/m8/proprietary/blobs/spr/lib/libloc_core.so:system/blobs/spr/lib/libloc_core.so \
+    vendor/htc/m8/proprietary/blobs/spr/lib/libloc_ds_api.so:system/blobs/spr/lib/libloc_ds_api.so \
+    vendor/htc/m8/proprietary/blobs/spr/lib/libloc_eng.so:system/blobs/spr/lib/libloc_eng.so \
     vendor/htc/m8/proprietary/blobs/spr/lib/libmdmdetect.so:system/blobs/spr/lib/libmdmdetect.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/hw/flp.default.so:system/blobs/spr/vendor/lib/hw/flp.default.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libcneapiclient.so:system/blobs/spr/vendor/lib/libcneapiclient.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libconfigdb.so:system/blobs/spr/vendor/lib/libconfigdb.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdiag.so:system/blobs/spr/vendor/lib/libdiag.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdsi_netctrl.so:system/blobs/spr/vendor/lib/libdsi_netctrl.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdsutils.so:system/blobs/spr/vendor/lib/libdsutils.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libflp.so:system/blobs/spr/vendor/lib/libflp.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libgeofence.so:system/blobs/spr/vendor/lib/libgeofence.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libidl.so:system/blobs/spr/vendor/lib/libidl.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libizat_core.so:system/blobs/spr/vendor/lib/libizat_core.so \
+    vendor/htc/m8/proprietary/blobs/spr/vendor/lib/liblbs_core.so:system/blobs/spr/vendor/lib/liblbs_core.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libnetmgr.so:system/blobs/spr/vendor/lib/libnetmgr.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libperipheral_client.so:system/blobs/spr/vendor/lib/libperipheral_client.so \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqcci_legacy.so:system/blobs/spr/vendor/lib/libqcci_legacy.so \
@@ -75,13 +105,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libxml.so:system/blobs/spr/vendor/lib/libxml.so \
     vendor/htc/m8/proprietary/blobs/vzw/bin/netmgrd:system/blobs/vzw/bin/netmgrd \
     vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:system/blobs/vzw/bin/qmuxd \
+    vendor/htc/m8/proprietary/blobs/vzw/etc/flp.conf:system/blobs/vzw/etc/flp.conf \
+    vendor/htc/m8/proprietary/blobs/vzw/etc/gps.conf:system/blobs/vzw/etc/gps.conf \
+    vendor/htc/m8/proprietary/blobs/vzw/etc/izat.conf:system/blobs/vzw/etc/izat.conf \
+    vendor/htc/m8/proprietary/blobs/vzw/etc/sap.conf:system/blobs/vzw/etc/sap.conf \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/hw/gps.default.so:system/blobs/vzw/lib/hw/gps.default.so \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/libgps.utils.so:system/blobs/vzw/lib/libgps.utils.so \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/libloc_api_v02.so:system/blobs/vzw/lib/libloc_api_v02.so \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/libloc_core.so:system/blobs/vzw/lib/libloc_core.so \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/libloc_ds_api.so:system/blobs/vzw/lib/libloc_ds_api.so \
+    vendor/htc/m8/proprietary/blobs/vzw/lib/libloc_eng.so:system/blobs/vzw/lib/libloc_eng.so \
     vendor/htc/m8/proprietary/blobs/vzw/lib/libmdmdetect.so:system/blobs/vzw/lib/libmdmdetect.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/hw/flp.default.so:system/blobs/vzw/vendor/lib/hw/flp.default.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libcneapiclient.so:system/blobs/vzw/vendor/lib/libcneapiclient.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libconfigdb.so:system/blobs/vzw/vendor/lib/libconfigdb.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdiag.so:system/blobs/vzw/vendor/lib/libdiag.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdsi_netctrl.so:system/blobs/vzw/vendor/lib/libdsi_netctrl.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdsutils.so:system/blobs/vzw/vendor/lib/libdsutils.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libflp.so:system/blobs/vzw/vendor/lib/libflp.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libgeofence.so:system/blobs/vzw/vendor/lib/libgeofence.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libidl.so:system/blobs/vzw/vendor/lib/libidl.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libizat_core.so:system/blobs/vzw/vendor/lib/libizat_core.so \
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/liblbs_core.so:system/blobs/vzw/vendor/lib/liblbs_core.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libnetmgr.so:system/blobs/vzw/vendor/lib/libnetmgr.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libperipheral_client.so:system/blobs/vzw/vendor/lib/libperipheral_client.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqcci_legacy.so:system/blobs/vzw/vendor/lib/libqcci_legacy.so \
@@ -100,18 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:system/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsmemlog.so:system/blobs/vzw/vendor/lib/libsmemlog.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsystem_health_mon.so:system/blobs/vzw/vendor/lib/libsystem_health_mon.so \
-    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libxml.so:system/blobs/vzw/vendor/lib/libxml.so \
-    vendor/htc/m8/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/m8/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/m8/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/m8/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/htc/m8/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/m8/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/htc/m8/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/htc/m8/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/htc/m8/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/htc/m8/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/htc/m8/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+    vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libxml.so:system/blobs/vzw/vendor/lib/libxml.so
 
 PRODUCT_PACKAGES += \
     libril
