@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+http://www.ietf.org/rfc/rfc4122.txt
+-->
+
+
+<image_list>
+
+  <image name="gpsample.mbn">
+    <uuid>"5AF8C3E6-D9DF-446E-4ff2d4d58e8ca49b"</uuid>
+    <info>"GP Sample App"</info>
+  </image>
+
+  <image name="alipay.mbn">
+    <uuid>"264435ea-7cc3-434d-84f7710928abc81f"</uuid>
+    <info>"Alipay GP Sec App"</info>
+  </image>
+
+</image_list>
