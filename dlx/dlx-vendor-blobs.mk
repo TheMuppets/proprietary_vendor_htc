@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/dlx/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/htc/dlx/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/htc/dlx/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
 	vendor/htc/dlx/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/dlx/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/htc/dlx/proprietary/bin/ks:system/bin/ks \
