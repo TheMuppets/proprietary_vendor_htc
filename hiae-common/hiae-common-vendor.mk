@@ -62,11 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
     vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b03:system/etc/firmware/keymaste.b03 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.mdt:system/etc/firmware/keymaste.mdt \
     vendor/htc/hiae-common/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
