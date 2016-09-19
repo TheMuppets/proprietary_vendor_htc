@@ -1,0 +1,82 @@
+<!--
+  Copyright (c) 2015 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<!--
+RegularChromatixInfo:
+	RegularChromatixInfo is the information about chromtix needed for
+	various sensor modes. Preview, Snapshot, ZSL, HFR, HDR, Video, Liveshot
+	are in this category.
+
+ChromatixName:
+	Contains the list of chromatix names for all sub modules for a given mode.
+	Number of ChromatixName nodes must match with the number of modes in sensor.
+
+ISPCommon :
+	Common tuning library name for ISP
+ISPPreview :
+	Preview tuning library name for ISP
+ISPSnapshot :
+	Snapshot tuning library name for ISP
+ISPLiveshot :
+	Liveshot tuning library name for ISP
+CPPCommon :
+	Common tuning library name for CPP
+CPPPreview :
+	Preview tuning library name for CPP
+CPPSnapshot :
+	Snapshot tuning library name for CPP
+CPPLiveshot :
+	Liveshot tuning library name for CPP
+CPPFlashSnapshot :
+	Flash snapshot tuning library for CPP
+CPPDownScale :
+	Down scale tuning library for CPP
+CPPUpScale :
+	Up scale tuning library for CPP
+PostProc :
+	Tuning library name for postproc module
+A3Preview :
+	Preview tuning library for 3A
+A3Video :
+	Video tuning library for 3A
+
+-->
+<ChromatixConfigurationRoot>
+  <CommonChromatixInfo>
+    <ChromatixName special_mode_mask="0">
+      <ISPCommon>s5k4e6_htc_common</ISPCommon>
+      <PostProc>s5k4e6_htc_postproc</PostProc>
+    </ChromatixName>
+  </CommonChromatixInfo>
+  <ResolutionChromatixInfo>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="0"> <!-- Res 0 -->
+      <ISPPreview>s5k4e6_htc_preview</ISPPreview>
+      <ISPSnapshot>s5k4e6_htc_preview</ISPSnapshot>
+      <ISPVideo>s5k4e6_htc_default_video</ISPVideo>
+      <ISPLiveshot>s5k4e6_htc_liveshot</ISPLiveshot>
+      <CPPPreview>s5k4e6_htc_cpp_preview</CPPPreview>
+      <CPPSnapshot>s5k4e6_htc_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>s5k4e6_htc_cpp_video</CPPVideo>
+      <CPPLiveshot>s5k4e6_htc_cpp_liveshot</CPPLiveshot>
+      <A3Preview>s5k4e6_htc_zsl_preview_3a</A3Preview>
+      <A3Video>s5k4e6_htc_zsl_video_3a</A3Video>
+      <A3HDR>s5k4e6_htc_hdr_3a</A3HDR>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0"> <!-- Res 1 -->
+      <ISPPreview>s5k4e6_htc_preview_4_3_15fps</ISPPreview>
+      <ISPSnapshot>s5k4e6_htc_preview_4_3_15fps</ISPSnapshot>
+      <ISPVideo>s5k4e6_htc_default_video_4_3_15fps</ISPVideo>
+      <ISPLiveshot>s5k4e6_htc_preview_4_3_15fps</ISPLiveshot>
+      <CPPPreview>s5k4e6_htc_cpp_video_4_3_15fps</CPPPreview>
+      <CPPSnapshot>s5k4e6_htc_cpp_video_4_3_15fps</CPPSnapshot>
+      <CPPVideo>s5k4e6_htc_cpp_video_4_3_15fps</CPPVideo>
+      <CPPLiveshot>s5k4e6_htc_cpp_video_4_3_15fps</CPPLiveshot>
+      <A3Preview>s5k4e6_htc_zsl_preview_3a_4_3_15fps</A3Preview>
+      <A3Video>s5k4e6_htc_zsl_preview_3a_4_3_15fps</A3Video>
+      <A3HDR>s5k4e6_htc_zsl_preview_3a_4_3_15fps</A3HDR>
+    </ChromatixName>
+  </ResolutionChromatixInfo>
+</ChromatixConfigurationRoot>
