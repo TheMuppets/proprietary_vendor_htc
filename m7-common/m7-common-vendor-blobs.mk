@@ -199,4 +199,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0191.0194.hcd \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
-        vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
+        vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin \
+        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster.b00:/system/vendor/firmware/keymaster.b00 \
+        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster.b01:/system/vendor/firmware/keymaster.b01 \
+        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster.b02:/system/vendor/firmware/keymaster.b02 \
+        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster.b03:/system/vendor/firmware/keymaster.b03 \
+        vendor/htc/m7-common/proprietary/vendor/firmware/keymaster.mdt:/system/vendor/firmware/keymaster.mdt
