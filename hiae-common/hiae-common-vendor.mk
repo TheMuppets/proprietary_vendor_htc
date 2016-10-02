@@ -501,7 +501,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
 
 PRODUCT_PACKAGES += \
-    libril \
     libmm-disp-apis \
     libtime_genoff \
     libTimeService \
