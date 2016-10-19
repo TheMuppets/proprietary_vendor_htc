@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
+    vendor/htc/hiae-common/proprietary/lib64/libcryptm.so:system/lib64/libcryptm.so \
     vendor/htc/hiae-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/hiae-common/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/hiae-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
