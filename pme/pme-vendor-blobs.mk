@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
-    vendor/htc/pme/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/pme/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/pme/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/pme/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
