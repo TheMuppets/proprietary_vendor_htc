@@ -289,7 +289,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b00:system/etc/firmware/htc_fpc_ta.b00 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b01:system/etc/firmware/htc_fpc_ta.b01 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b02:system/etc/firmware/htc_fpc_ta.b02 \
