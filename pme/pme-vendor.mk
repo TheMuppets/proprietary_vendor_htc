@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     libril \
     libtime_genoff \
-    libTimeService
+    libTimeService \
+    libthermalclient
 
 $(call inherit-product, vendor/htc/pme/pme-vendor-blobs.mk)

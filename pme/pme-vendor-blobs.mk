@@ -402,8 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/htc/pme/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/htc/pme/proprietary/bin/pnpmgr:system/bin/pnpmgr \
-    vendor/htc/pme/proprietary/etc/pnp.cfg:system/etc/pnp.cfg \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/htc/pme/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
@@ -467,10 +465,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/htc/pme/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/htc/pme/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/htc/pme/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/htc/pme/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/pme/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/pme/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -486,7 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/htc/pme/proprietary/bin/thermal-monitor:system/bin/thermal-monitor \
     vendor/htc/pme/proprietary/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd:system/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
     vendor/htc/pme/proprietary/etc/firmware/BCM4359C0_003.001.006.0026.0046.hcd:system/etc/firmware/BCM4359C0_003.001.006.0026.0046.hcd \
     vendor/htc/pme/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
