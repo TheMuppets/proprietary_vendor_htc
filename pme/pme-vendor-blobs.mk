@@ -403,7 +403,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/htc/pme/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/htc/pme/proprietary/bin/mm-pp-dpps:system/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/htc/pme/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
     vendor/htc/pme/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
