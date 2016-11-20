@@ -362,6 +362,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/htc/pme/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/htc/pme/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/htc/pme/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/htc/pme/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/htc/pme/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
     vendor/htc/pme/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
