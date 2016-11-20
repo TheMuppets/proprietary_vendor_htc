@@ -382,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/htc/pme/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
+    vendor/htc/pme/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/pme/proprietary/bin/iop:system/bin/iop \
     vendor/htc/pme/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/pme/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
