@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/m8d/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/m8d/proprietary/bin/radish:system/bin/radish \
+    vendor/htc/m8d/proprietary/bin/rild:system/bin/rild \
     vendor/htc/m8d/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/m8d/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/htc/m8d/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -26,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/htc/m8d/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/m8d/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/htc/m8d/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
     vendor/htc/m8d/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/htc/m8d/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/m8d/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
