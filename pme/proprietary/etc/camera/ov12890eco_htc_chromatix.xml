@@ -1,0 +1,148 @@
+<!--
+  Copyright (c) 2016 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<!--
+CommonChromatixInfo:
+	CommonChromatixInfo is the information about chromatix needed for
+		various use cases.
+	Ex:- Preview, Snapshot, ZSL, HFR, HDR, Video, Liveshot for ISP, CPP,
+		3A and SW PostProc.
+	Entries in this node are common for all sensor modes.
+
+ResolutionChromatixInfo:
+	ResolutionChromatixInfo is the information about chromatix needed for
+		various use cases.
+	Ex:- Preview, Snapshot, ZSL, HFR, HDR, Video, Liveshot for ISP, CPP,
+		3A and SW PostProc.
+	Entries in this node are specific to sensor resolution.
+
+ChromatixName:
+	Contains the list of chromatix names for all modules.
+	special_mode_mask:
+		It is the bit mask for special modes, which is used for
+			chromatix selection.
+		Special modes can be any mode that needs a special chromatix.
+		Ex:- scene mode, DZOOM mode, OIS capture mode, flash mode
+		This is applicable for CommonChromatixInfo and
+			ResolutionChromatixInfo.
+		special_mode_mask="0" means none of the special modes are
+			selected.
+	sensor_resolution_index:
+		It is the sensor resolution index for which chromatix libraries
+			will be choosen.
+		It is applicable only in ResolutionChromatixInfo.
+
+ISPCommon :
+	Common tuning library name for ISP
+ISPPreview :
+	Preview tuning library name for ISP
+ISPSnapshot :
+	Snapshot tuning library name for ISP
+CPPCommon :
+	Common tuning library name for CPP
+CPPPreview :
+	Preview tuning library name for CPP
+CPPSnapshot :
+	Snapshot tuning library name for CPP
+CPPLiveshot :
+	Liveshot tuning library name for CPP
+PostProc :
+	Tuning library name for postproc module
+A3Preview :
+	Preview tuning library for 3A
+A3Video :
+	Video tuning library for 3A
+
+Order of Resolution Pick:
+	Assume the current sensor mode is "r" and special mode mask is "s".
+	Chromatix for a module and type is choosen in this order till we find a
+		valid chroamtix file name or else NULL is returned.
+	1) From ResolutionChromatixInfo node for which sensor_resolution_index
+		is "r" and special_mode_mask is "s".
+	2) From CommonChromatixInfo node for which special_mode_mask is "s".
+	3) From ResolutionChromatixInfo node for which sensor_resolution_index
+		is "r" and special_mode_mask is "0".
+	4) From CommonChromatixInfo node for which special_mode_mask is "0".
+	5) NULL is returned if we dont find in any of the above cases.
+
+special_mode_mask values:
+	SENSOR_SPECIAL_MODE_NONE = 0,
+	SENSOR_SPECIAL_MODE_FLASH = 1,
+	SENSOR_SPECIAL_MODE_ZOOM_UPSCALE = 2,
+	SENSOR_SPECIAL_MODE_ZOOM_DOWNSCALE = 4,
+	SENSOR_SPECIAL_MODE_OIS_CAPTURE = 8,
+-->
+
+<ChromatixConfigurationRoot>
+  <CommonChromatixInfo>
+    <ChromatixName special_mode_mask="0">
+      <ISPCommon>ov12890eco_htc_common</ISPCommon>
+      <PostProc>ov12890eco_htc_postproc</PostProc>
+    </ChromatixName>
+  </CommonChromatixInfo>
+  <ResolutionChromatixInfo>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
+      <ISPPreview>ov12890eco_preview</ISPPreview>
+      <ISPSnapshot>ov12890eco_preview</ISPSnapshot>
+      <ISPVideo>ov12890eco_default_video</ISPVideo>
+      <CPPPreview>ov12890eco_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov12890eco_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>ov12890eco_cpp_video</CPPVideo>
+      <CPPLiveshot>ov12890eco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ov12890eco_zsl_preview</A3Preview>
+      <A3Video>ov12890eco_zsl_video</A3Video>
+      <A3HDR>ov12890eco_hdr</A3HDR>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
+      <ISPPreview>ov12890eco_preview_qtr_4_3_15fps</ISPPreview>
+      <ISPSnapshot>ov12890eco_preview_qtr_4_3_15fps</ISPSnapshot>
+      <ISPVideo>ov12890eco_default_video_qtr_4_3_15fps</ISPVideo>
+      <CPPPreview>ov12890eco_cpp_preview_qtr_4_3_15fps</CPPPreview>
+      <CPPSnapshot>ov12890eco_cpp_preview_qtr_4_3_15fps</CPPSnapshot>
+      <CPPVideo>ov12890eco_cpp_video_qtr_4_3_15fps</CPPVideo>
+      <CPPLiveshot>ov12890eco_cpp_preview_qtr_4_3_15fps</CPPLiveshot>
+      <A3Preview>ov12890eco_zsl_preview_qtr_4_3_15fps</A3Preview>
+      <A3Video>ov12890eco_zsl_video_qtr_4_3_15fps</A3Video>
+      <A3HDR>ov12890eco_zsl_video_qtr_4_3_15fps</A3HDR>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
+      <ISPPreview>ov12890eco_preview_qtr_4_3_30fps</ISPPreview>
+      <ISPSnapshot>ov12890eco_preview_qtr_4_3_30fps</ISPSnapshot>
+      <ISPVideo>ov12890eco_default_video_qtr_4_3_30fps</ISPVideo>
+      <CPPPreview>ov12890eco_cpp_video_qtr_4_3_30fps</CPPPreview>
+      <CPPSnapshot>ov12890eco_cpp_video_qtr_4_3_30fps</CPPSnapshot>
+      <CPPVideo>ov12890eco_cpp_video_qtr_4_3_30fps</CPPVideo>
+      <CPPLiveshot>ov12890eco_cpp_video_qtr_4_3_30fps</CPPLiveshot>
+      <A3Preview>ov12890eco_zsl_preview_qtr_4_3_30fps</A3Preview>
+      <A3Video>ov12890eco_zsl_video_qtr_4_3_30fps</A3Video>
+      <A3HDR>ov12890eco_zsl_video_qtr_4_3_30fps</A3HDR>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
+      <ISPPreview>ov12890eco_preview</ISPPreview>
+      <ISPSnapshot>ov12890eco_preview</ISPSnapshot>
+      <ISPVideo>ov12890eco_default_video</ISPVideo>
+      <CPPPreview>ov12890eco_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov12890eco_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>ov12890eco_cpp_video</CPPVideo>
+      <CPPLiveshot>ov12890eco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ov12890eco_zsl_preview_16_9</A3Preview>
+      <A3Video>ov12890eco_zsl_video_16_9</A3Video>
+      <A3HDR>ov12890eco_hdr_16_9</A3HDR>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
+      <ISPPreview>ov12890eco_hfr</ISPPreview>
+      <ISPSnapshot>ov12890eco_hfr</ISPSnapshot>
+      <ISPVideo>ov12890eco_hfr</ISPVideo>
+      <CPPPreview>ov12890eco_cpp_hfr</CPPPreview>
+      <CPPSnapshot>ov12890eco_cpp_hfr</CPPSnapshot>
+      <CPPVideo>ov12890eco_cpp_hfr</CPPVideo>
+      <CPPLiveshot>ov12890eco_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ov12890eco_zsl_hfr</A3Preview>
+      <A3Video>ov12890eco_zsl_hfr</A3Video>
+      <A3HDR>ov12890eco_zsl_hfr</A3HDR>
+    </ChromatixName>
+  </ResolutionChromatixInfo>
+</ChromatixConfigurationRoot>
