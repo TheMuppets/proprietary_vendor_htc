@@ -382,8 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
     vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so
+    vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
