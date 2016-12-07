@@ -162,6 +162,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/sandisk_fw_101149.fluf:system/etc/firmware/sandisk_fw_101149.fluf \
     vendor/htc/pme/proprietary/etc/firmware/sandisk_fw_202011.fluf:system/etc/firmware/sandisk_fw_202011.fluf \
     vendor/htc/pme/proprietary/etc/firmware/synaptics.img:system/etc/firmware/synaptics.img \
+    vendor/htc/pme/proprietary/etc/firmware/tfa98xx2.cnt:system/etc/firmware/tfa98xx2.cnt \
+    vendor/htc/pme/proprietary/etc/firmware/tfa98xx2_n1b.cnt:system/etc/firmware/tfa98xx2_n1b.cnt \
+    vendor/htc/pme/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
+    vendor/htc/pme/proprietary/etc/firmware/tfa98xx_n1b.cnt:system/etc/firmware/tfa98xx_n1b.cnt \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec.img:system/etc/firmware/usb_typec.img \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp_ad.img:system/etc/firmware/usb_typec_otp_ad.img \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp.img:system/etc/firmware/usb_typec_otp.img \
@@ -184,7 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Tfa98xx.cnt:system/etc/Tfa98xx.cnt \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
@@ -631,6 +634,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/htc/pme/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
     vendor/htc/pme/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/htc/pme/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/htc/pme/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
@@ -640,6 +644,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
     vendor/htc/pme/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/htc/pme/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/htc/pme/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/pme/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/htc/pme/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -748,6 +753,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/htc/pme/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/htc/pme/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/htc/pme/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -756,6 +762,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/htc/pme/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/htc/pme/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/htc/pme/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/htc/pme/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
