@@ -6,15 +6,15 @@
     <Version>2.0</Version>
     <!--Length of time in seconds to keep gate open each time it is opened
         valid values 1 to 24*60*60 seconds-->
-    <GateOpenTime>1</GateOpenTime>
+    <GateOpenTime>30</GateOpenTime>
     <!--Maximum time in seconds to wait before forcing gate open for connect,
          getaddrinfo or other resolver calls
          valid values 1 to 24*60*60 seconds-->
-    <GateSyncSocketSetupTime>1200</GateSyncSocketSetupTime>
+    <GateSyncSocketSetupTime>300</GateSyncSocketSetupTime>
     <!--Maximum time in seconds to wait before forcing gate open for write and
         other socket calls that send data
         valid values 1 to 24*60*60 seconds-->
-    <GateSyncSocketWriteTime>600</GateSyncSocketWriteTime>
+    <GateSyncSocketWriteTime>55</GateSyncSocketWriteTime>
     <!--Time in seconds to wait before releasing the queued sockets when the
         emergency alert notification is received
         EAQSRT stands for Emergency Alert Queued Socket Release Delay Time
@@ -22,9 +22,12 @@
     <EAQSRDT>60</EAQSRDT>
     <!--Mode to indicate how processes which share the same UID should be
         handled-->
-    <SharedUIDMode>Conservative</SharedUIDMode>
+    <SharedUIDMode>Aggressive</SharedUIDMode>
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
+    <AppName>com.kddi.android.email</AppName>
+    <AppName>com.au.android.safetynavi.client</AppName>
+    <AppName>com.kddi.android.lismobookstore</AppName>
     <AppName>com.whatsapp</AppName>
     </AppList>
     <!-- Example MCC_MNC configuration
@@ -52,14 +55,16 @@
          Default 4 hours (14400s). Range: [1 - 86,400] -->
     <TConnect>14400</TConnect>
 
-    <!-- Time period of days which a decision is learning for an app.
-         Default 30 days (2592000s). Range: [1 - 31,536,000] -->
+    <!-- Time period of days for which a previous made decesion is valid.
+         with a margin of 1 day which is the Min allowed value.
+         Default 30 days (2592000s). Range: [86400 - 31,536,000] -->
     <TDecisionMade>2592000</TDecisionMade>
 
     <!-- Minimum connect counts. Range: [0 - 100] -->
     <MinThr>5</MinThr>
 
-    <!-- Time margin. Default 60s. Range: [1 - 1800] -->
+    <!-- Time margin to wait before entering learning mode.
+         Default 60s. Range: [1 - 1800] -->
     <TMargin>60</TMargin>
 
     <!-- Minimum time idle. Default 10 min (600s). Range: [1 - 3600] -->
@@ -68,7 +73,9 @@
     <!-- Time for query. Default 5 min (300s). Range: [60 - 3600] -->
     <TQuery>300</TQuery>
 
-    <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
+    <!-- Decision made time threshold. If an app gets updated we consider it
+         valid only if it was taken within this threshold value.
+         Default 5 days (432000s). Range: [1 - 31,536,000] -->
     <TDmThreshold>432000</TDmThreshold>
 
     <!-- Recheck threshold. Default 1.1 Range: [1.0 - 10.0] -->
