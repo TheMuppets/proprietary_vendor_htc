@@ -913,6 +913,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/iop:system/bin/iop \
     vendor/htc/pme/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile200.conf:system/vendor/etc/perf-profile200.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile210.conf:system/vendor/etc/perf-profile210.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile250.conf:system/vendor/etc/perf-profile250.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile251.conf:system/vendor/etc/perf-profile251.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile252.conf:system/vendor/etc/perf-profile252.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile550.conf:system/vendor/etc/perf-profile550.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile551.conf:system/vendor/etc/perf-profile551.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile552.conf:system/vendor/etc/perf-profile552.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile553.conf:system/vendor/etc/perf-profile553.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/htc/pme/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/htc/pme/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/pme/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
