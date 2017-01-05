@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/m8d/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/m8d/proprietary/bin/radish:system/bin/radish \
-    vendor/htc/m8d/proprietary/bin/rild:system/bin/rild \
     vendor/htc/m8d/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/m8d/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/htc/m8d/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -28,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/htc/m8d/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/m8d/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/m8d/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
     vendor/htc/m8d/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/htc/m8d/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/m8d/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -50,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/htc/m8d/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -57,12 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/htc/m8d/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/htc/m8d/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/m8d/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/htc/m8d/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/htc/m8d/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/htc/m8d/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/htc/m8d/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
-
-PRODUCT_PACKAGES += \
-    libril

@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/m8/proprietary/bin/radish:system/bin/radish \
-    vendor/htc/m8/proprietary/bin/rild:system/bin/rild \
     vendor/htc/m8/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/m8/proprietary/blobs/gsm/bin/netmgrd:system/blobs/gsm/bin/netmgrd \
     vendor/htc/m8/proprietary/blobs/gsm/bin/qmuxd:system/blobs/gsm/bin/qmuxd \
@@ -148,6 +147,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsmemlog.so:system/blobs/vzw/vendor/lib/libsmemlog.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsystem_health_mon.so:system/blobs/vzw/vendor/lib/libsystem_health_mon.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libxml.so:system/blobs/vzw/vendor/lib/libxml.so
-
-PRODUCT_PACKAGES += \
-    libril
