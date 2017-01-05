@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
-    vendor/htc/hima-common/proprietary/etc/firmware/BCM4354A2_001.003.015.0064.0175.hcd:system/etc/firmware/BCM4354A2_001.003.015.0064.0175.hcd \
+    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:system/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
