@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,6 +35,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/htc/s4-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/htc/s4-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/htc/s4-common/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/htc/s4-common/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/htc/s4-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/htc/s4-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/htc/s4-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/htc/s4-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/htc/s4-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
