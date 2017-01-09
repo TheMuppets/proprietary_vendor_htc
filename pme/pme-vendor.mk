@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -118,6 +119,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b05:system/etc/firmware/htc_drmprov.b05 \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b06:system/etc/firmware/htc_drmprov.b06 \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b00:system/etc/firmware/htc_fp6_ta.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b01:system/etc/firmware/htc_fp6_ta.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b02:system/etc/firmware/htc_fp6_ta.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b03:system/etc/firmware/htc_fp6_ta.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b04:system/etc/firmware/htc_fp6_ta.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b05:system/etc/firmware/htc_fp6_ta.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b06:system/etc/firmware/htc_fp6_ta.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.mdt:system/etc/firmware/htc_fp6_ta.mdt \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b00:system/etc/firmware/htc_fpc_ta.b00 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b01:system/etc/firmware/htc_fpc_ta.b01 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b02:system/etc/firmware/htc_fpc_ta.b02 \
@@ -183,13 +192,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/htc/pme/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
-    vendor/htc/pme/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/pme/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
