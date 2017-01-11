@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -49,6 +50,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7-common/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/htc/m7-common/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/htc/m7-common/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/htc/m7-common/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/htc/m7-common/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/htc/m7-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/htc/m7-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/htc/m7-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/htc/m7-common/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/m7-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/m7-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
