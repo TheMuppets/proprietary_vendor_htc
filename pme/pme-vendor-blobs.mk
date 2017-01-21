@@ -289,7 +289,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b00:system/etc/firmware/htc_fpc_ta.b00 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b01:system/etc/firmware/htc_fpc_ta.b01 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b02:system/etc/firmware/htc_fpc_ta.b02 \
@@ -558,14 +569,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/synaptics.img:system/etc/firmware/synaptics.img \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec.img:system/etc/firmware/usb_typec.img \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp.img:system/etc/firmware/usb_typec_otp.img \
-    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
-    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
-    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib/libmorpho_movie_stabilizer4.so:system/lib/libmorpho_movie_stabilizer4.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
-    vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
@@ -710,6 +717,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/htc/pme/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/htc/pme/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/htc/pme/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
     vendor/htc/pme/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/htc/pme/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/htc/pme/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -775,6 +783,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so
     vendor/htc/pme/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/htc/pme/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/htc/pme/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
