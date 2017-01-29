@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
     vendor/htc/hima-common/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/htc/hima-common/proprietary/lib64/hw/nfc_nci_pn547.default.so:system/lib64/hw/nfc_nci_pn547.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
