@@ -566,7 +566,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/htc/pme/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/htc/pme/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
+    vendor/htc/pme/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/htc/pme/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/htc/pme/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/htc/pme/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so 
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
