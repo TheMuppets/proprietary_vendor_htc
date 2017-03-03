@@ -1,3 +1,4 @@
+# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +19,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),pme)
 
-
-ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := htc
@@ -125,10 +124,5 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-endif
-
-ifneq ($(TARGET_HAVE_QC_PERF),true)
-
-endif
 
 endif
