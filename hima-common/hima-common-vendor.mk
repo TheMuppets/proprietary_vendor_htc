@@ -31,12 +31,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/hima-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/hima-common/proprietary/etc/cir.img:system/etc/cir.img \
+    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:system/etc/firmware/BCM4354A2_001.003.015.0100.0102.hcd \
+    vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
+    vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/htc/hima-common/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
-    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0100.0102.hcd:system/etc/firmware/BCM4354A2_001.003.015.0100.0102.hcd \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/htc/hima-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -58,15 +66,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356_apsta.bin:system/etc/firmware/fw_bcm4356_apsta.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356.bin:system/etc/firmware/fw_bcm4356.bin \
+    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356_apsta.bin:system/etc/firmware/fw_bcm4356_apsta.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b00:system/etc/firmware/htc_drmprov.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b01:system/etc/firmware/htc_drmprov.b01 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b03:system/etc/firmware/htc_drmprov.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
-    vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
-    vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b00:system/etc/firmware/mc_v2.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/mc_v2.b01:system/etc/firmware/mc_v2.b01 \
@@ -90,67 +96,83 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/htc/hima-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/htc/hima-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/htc/hima-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/htc/hima-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/htc/hima-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/hima-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/hima-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/hima-common/proprietary/etc/otp.bin:system/etc/otp.bin \
-    vendor/htc/hima-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.drc:system/etc/tfa/Rec_Video_l.drc \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.eq:system/etc/tfa/Rec_Video_l.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.preset:system/etc/tfa/Rec_Video_l.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/fm.drc:system/etc/tfa/fm.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/fm.eq:system/etc/tfa/fm.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/fm_l.drc:system/etc/tfa/fm_l.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/fm_l.eq:system/etc/tfa/fm_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/fm_l.preset:system/etc/tfa/fm_l.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/playback.drc:system/etc/tfa/playback.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.drc:system/etc/tfa/playback_l.drc \
-    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
+    vendor/htc/hima-common/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG.config:system/etc/tfa/playbackMFG.config \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG.drc:system/etc/tfa/playbackMFG.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG.eq:system/etc/tfa/playbackMFG.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG.preset:system/etc/tfa/playbackMFG.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG_l.config:system/etc/tfa/playbackMFG_l.config \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG_l.drc:system/etc/tfa/playbackMFG_l.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG_l.eq:system/etc/tfa/playbackMFG_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG_l.preset:system/etc/tfa/playbackMFG_l.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/playbackMFG.preset:system/etc/tfa/playbackMFG.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
+    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.drc:system/etc/tfa/playback_l.drc \
+    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.eq:system/etc/tfa/playback_l.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/playback_l.preset:system/etc/tfa/playback_l.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer.drc:system/etc/tfa/playbackwoofer.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer.eq:system/etc/tfa/playbackwoofer.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer.preset:system/etc/tfa/playbackwoofer.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer_l.drc:system/etc/tfa/playbackwoofer_l.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer_l.eq:system/etc/tfa/playbackwoofer_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer_l.preset:system/etc/tfa/playbackwoofer_l.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/playbackwoofer.preset:system/etc/tfa/playbackwoofer.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.drc:system/etc/tfa/Rec_Video_l.drc \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.eq:system/etc/tfa/Rec_Video_l.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video_l.preset:system/etc/tfa/Rec_Video_l.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/tfa9895.config:system/etc/tfa/tfa9895.config \
-    vendor/htc/hima-common/proprietary/etc/tfa/tfa9895_l.speaker:system/etc/tfa/tfa9895_l.speaker \
-    vendor/htc/hima-common/proprietary/etc/tfa/tfa9895MFG.patch:system/etc/tfa/tfa9895MFG.patch \
     vendor/htc/hima-common/proprietary/etc/tfa/tfa9895.patch:system/etc/tfa/tfa9895.patch \
     vendor/htc/hima-common/proprietary/etc/tfa/tfa9895.speaker:system/etc/tfa/tfa9895.speaker \
+    vendor/htc/hima-common/proprietary/etc/tfa/tfa9895MFG.patch:system/etc/tfa/tfa9895MFG.patch \
+    vendor/htc/hima-common/proprietary/etc/tfa/tfa9895_l.speaker:system/etc/tfa/tfa9895_l.speaker \
     vendor/htc/hima-common/proprietary/etc/tfa/voice.drc:system/etc/tfa/voice.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/voice.eq:system/etc/tfa/voice.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.drc:system/etc/tfa/voice_l.drc \
-    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
-    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/voice.preset:system/etc/tfa/voice.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/voiceWB.eq:system/etc/tfa/voiceWB.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/voiceWB_l.eq:system/etc/tfa/voiceWB_l.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.drc:system/etc/tfa/voice_l.drc \
+    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.eq:system/etc/tfa/voice_l.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/voice_l.preset:system/etc/tfa/voice_l.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/voip.drc:system/etc/tfa/voip.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/voip.eq:system/etc/tfa/voip.eq \
+    vendor/htc/hima-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.drc:system/etc/tfa/voip_l.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
-    vendor/htc/hima-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
+    vendor/htc/hima-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
+    vendor/htc/hima-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/htc/hima-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/hima-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
+    vendor/htc/hima-common/proprietary/lib/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
+    vendor/htc/hima-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/hima-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
+    vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/hima-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/htc/hima-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/htc/hima-common/proprietary/lib/libscaler.so:system/lib/libscaler.so \
     vendor/htc/hima-common/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
@@ -160,28 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/hima-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/htc/hima-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
-    vendor/htc/hima-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/htc/hima-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/hima-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
-    vendor/htc/hima-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
-    vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-    vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/hima-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/htc/hima-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
-    vendor/htc/hima-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
-    vendor/htc/hima-common/proprietary/lib/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
-    vendor/htc/hima-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/hima-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/htc/hima-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/hima-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/htc/hima-common/proprietary/lib/libscaler.so:system/lib/libscaler.so \
     vendor/htc/hima-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hima-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
@@ -190,86 +190,57 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/htc/hima-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/htc/hima-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/htc/hima-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/hw/vulkan.msm8994.so:system/vendor/lib/hw/vulkan.msm8994.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ad5823_camcorder.so:system/vendor/lib/libactuator_ad5823_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ad5823_camera.so:system/vendor/lib/libactuator_ad5823_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_mtm.so:system/vendor/lib/libactuator_lc898212_mtm.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_mtm_camcorder.so:system/vendor/lib/libactuator_lc898212_mtm_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_mtm_camera.so:system/vendor/lib/libactuator_lc898212_mtm_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_mtm.so:system/vendor/lib/libactuator_lc898212_mtm.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_tdk.so:system/vendor/lib/libactuator_lc898212_tdk.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_tdk_camcorder.so:system/vendor/lib/libactuator_lc898212_tdk_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_tdk_camera.so:system/vendor/lib/libactuator_lc898212_tdk_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_lc898212_tdk.so:system/vendor/lib/libactuator_lc898212_tdk.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx132_cpp_liveshot.so:system/vendor/lib/libchromatix_imx132_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx132_cpp_preview.so:system/vendor/lib/libchromatix_imx132_cpp_preview.so \
@@ -287,8 +258,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_liveshot.so:system/vendor/lib/libchromatix_imx135_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_preview.so:system/vendor/lib/libchromatix_imx135_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_snapshot.so:system/vendor/lib/libchromatix_imx135_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_video_hd.so:system/vendor/lib/libchromatix_imx135_cpp_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_video.so:system/vendor/lib/libchromatix_imx135_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_cpp_video_hd.so:system/vendor/lib/libchromatix_imx135_cpp_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
@@ -304,10 +275,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx214_cpp_hfr_90.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_imx214_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_preview.so:system/vendor/lib/libchromatix_imx214_cpp_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_video.so:system/vendor/lib/libchromatix_imx214_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
@@ -315,8 +286,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_postproc.so:system/vendor/lib/libchromatix_imx214_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx220_common.so:system/vendor/lib/libchromatix_imx220_common.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx220_cpp.so:system/vendor/lib/libchromatix_imx220_cpp.so \
@@ -329,11 +300,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_default_video.so:system/vendor/lib/libchromatix_imx230_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:system/vendor/lib/libchromatix_imx230_hfr_120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:system/vendor/lib/libchromatix_imx230_hfr_60.so \
@@ -341,63 +312,63 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:system/vendor/lib/libchromatix_imx230_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_postproc.so:system/vendor/lib/libchromatix_imx230_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_preview.so:system/vendor/lib/libchromatix_imx230_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:system/vendor/lib/libchromatix_imx230_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:system/vendor/lib/libchromatix_imx230_video_4k.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_common.so:system/vendor/lib/libchromatix_ov13850_front_common.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_hdr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_liveshot_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_preview_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_preview_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_snapshot_wvga_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video4k2k.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video4k2k.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_cpp_video_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_cpp_video_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video.so:system/vendor/lib/libchromatix_ov13850_front_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_default_video_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_qtr.so:system/vendor/lib/libchromatix_ov13850_front_default_video_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_default_video_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_default_video_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_qtr.so:system/vendor/lib/libchromatix_ov13850_front_default_video_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video.so:system/vendor/lib/libchromatix_ov13850_front_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_default_video_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_default_video_wvga_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_hdr_16_9.so:system/vendor/lib/libchromatix_ov13850_front_hdr_16_9.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_hdr.so:system/vendor/lib/libchromatix_ov13850_front_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_hdr_16_9.so:system/vendor/lib/libchromatix_ov13850_front_hdr_16_9.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot.so:system/vendor/lib/libchromatix_ov13850_front_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_qtr.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot.so:system/vendor/lib/libchromatix_ov13850_front_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_liveshot_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_liveshot_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc.so:system/vendor/lib/libchromatix_ov13850_front_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_postproc_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_qtr.so:system/vendor/lib/libchromatix_ov13850_front_postproc_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_postproc_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_postproc_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_qtr.so:system/vendor/lib/libchromatix_ov13850_front_postproc_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc.so:system/vendor/lib/libchromatix_ov13850_front_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_postproc_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_postproc_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview.so:system/vendor/lib/libchromatix_ov13850_front_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_1080p_24fps.so:system/vendor/lib/libchromatix_ov13850_front_preview_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_16_9.so:system/vendor/lib/libchromatix_ov13850_front_preview_16_9.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_qtr.so:system/vendor/lib/libchromatix_ov13850_front_preview_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_qtr_15fps.so:system/vendor/lib/libchromatix_ov13850_front_preview_qtr_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_qtr_24fps.so:system/vendor/lib/libchromatix_ov13850_front_preview_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_qtr.so:system/vendor/lib/libchromatix_ov13850_front_preview_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview.so:system/vendor/lib/libchromatix_ov13850_front_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_preview_wvga_15fps.so:system/vendor/lib/libchromatix_ov13850_front_preview_wvga_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_snapshot.so:system/vendor/lib/libchromatix_ov13850_front_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov13850_front_video4k2k.so:system/vendor/lib/libchromatix_ov13850_front_video4k2k.so \
@@ -424,31 +395,31 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:system/vendor/lib/libchromatix_ov4688_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_common.so:system/vendor/lib/libchromatix_ov4688_front_common.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_hdr.so:system/vendor/lib/libchromatix_ov4688_front_cpp_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_front_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_liveshot_24fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_liveshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_liveshot_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_front_cpp_liveshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_front_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_preview_24fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_preview_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_preview_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_preview_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_front_cpp_preview.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_front_cpp_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_snapshot_24fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_snapshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_snapshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_snapshot_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_front_cpp_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_video.so:system/vendor/lib/libchromatix_ov4688_front_cpp_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_video_24fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_video_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_video_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_cpp_video_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_cpp_video.so:system/vendor/lib/libchromatix_ov4688_front_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_default_video.so:system/vendor/lib/libchromatix_ov4688_front_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_default_video_24fps.so:system/vendor/lib/libchromatix_ov4688_front_default_video_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_default_video_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_default_video_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_default_video.so:system/vendor/lib/libchromatix_ov4688_front_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_hdr.so:system/vendor/lib/libchromatix_ov4688_front_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_liveshot.so:system/vendor/lib/libchromatix_ov4688_front_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_liveshot_24fps.so:system/vendor/lib/libchromatix_ov4688_front_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_liveshot_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_liveshot_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_liveshot.so:system/vendor/lib/libchromatix_ov4688_front_liveshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_postproc.so:system/vendor/lib/libchromatix_ov4688_front_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_postproc_24fps.so:system/vendor/lib/libchromatix_ov4688_front_postproc_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_postproc_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_postproc_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_postproc.so:system/vendor/lib/libchromatix_ov4688_front_postproc.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_preview.so:system/vendor/lib/libchromatix_ov4688_front_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_preview_24fps.so:system/vendor/lib/libchromatix_ov4688_front_preview_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_preview_qtr_15fps.so:system/vendor/lib/libchromatix_ov4688_front_preview_qtr_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_preview.so:system/vendor/lib/libchromatix_ov4688_front_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_front_snapshot.so:system/vendor/lib/libchromatix_ov4688_front_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:system/vendor/lib/libchromatix_ov4688_hfr_120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:system/vendor/lib/libchromatix_ov4688_hfr_60.so \
@@ -461,26 +432,26 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_120fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_60fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_cpp_hfr_90fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8825_cpp_liveshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_liveshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_preview.so:system/vendor/lib/libchromatix_ov8825_cpp_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_preview_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8825_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_video_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_video_hd.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_snapshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_video.so:system/vendor/lib/libchromatix_ov8825_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_video_hd.so:system/vendor/lib/libchromatix_ov8825_cpp_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_cpp_zsl.so:system/vendor/lib/libchromatix_ov8825_cpp_zsl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:system/vendor/lib/libchromatix_ov8825_liveshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_postproc.so:system/vendor/lib/libchromatix_ov8825_postproc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:system/vendor/lib/libchromatix_ov8825_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
@@ -498,8 +469,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_video.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_video_hd.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_cpp_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_cpp_zsl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_default_video.so:system/vendor/lib/libchromatix_s5k3l1yx_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
@@ -515,8 +486,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
@@ -527,84 +498,84 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_hdr.so:system/vendor/lib/libchromatix_t4ka7_cpp_hdr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_hfr120.so:system/vendor/lib/libchromatix_t4ka7_cpp_hfr120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_hfr60.so:system/vendor/lib/libchromatix_t4ka7_cpp_hfr60.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_liveshot_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_liveshot_wvga_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_night.so:system/vendor/lib/libchromatix_t4ka7_cpp_night.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_preview_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_preview_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_snapshot_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_snapshot_wvga_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_1080p_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video4k2k.so:system/vendor/lib/libchromatix_t4ka7_cpp_video4k2k.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_qtr_24fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_qtr.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_qtr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video.so:system/vendor/lib/libchromatix_t4ka7_cpp_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video4k2k.so:system/vendor/lib/libchromatix_t4ka7_cpp_video4k2k.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_1080p_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_720p_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_qtr.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_qtr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_cpp_video_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_cpp_video_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video.so:system/vendor/lib/libchromatix_t4ka7_default_video.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_default_video_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_default_video_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_default_video_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_qtr.so:system/vendor/lib/libchromatix_t4ka7_default_video_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video.so:system/vendor/lib/libchromatix_t4ka7_default_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_default_video_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_default_video_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_default_video_wvga_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_hdr_16_9.so:system/vendor/lib/libchromatix_t4ka7_hdr_16_9.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_hdr.so:system/vendor/lib/libchromatix_t4ka7_hdr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_hdr_16_9.so:system/vendor/lib/libchromatix_t4ka7_hdr_16_9.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_hfr120.so:system/vendor/lib/libchromatix_t4ka7_hfr120.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_hfr60.so:system/vendor/lib/libchromatix_t4ka7_hfr60.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot.so:system/vendor/lib/libchromatix_t4ka7_liveshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_liveshot_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_liveshot_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_liveshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_qtr.so:system/vendor/lib/libchromatix_t4ka7_liveshot_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot.so:system/vendor/lib/libchromatix_t4ka7_liveshot.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_liveshot_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_liveshot_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_liveshot_wvga_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_night_16_9.so:system/vendor/lib/libchromatix_t4ka7_night_16_9.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_night.so:system/vendor/lib/libchromatix_t4ka7_night.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_night_16_9.so:system/vendor/lib/libchromatix_t4ka7_night_16_9.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc.so:system/vendor/lib/libchromatix_t4ka7_postproc.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_postproc_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_postproc_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_postproc_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_qtr.so:system/vendor/lib/libchromatix_t4ka7_postproc_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc.so:system/vendor/lib/libchromatix_t4ka7_postproc.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_postproc_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_postproc_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_postproc_wvga_15fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview.so:system/vendor/lib/libchromatix_t4ka7_preview.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_1080p_24fps.so:system/vendor/lib/libchromatix_t4ka7_preview_1080p_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_16_9.so:system/vendor/lib/libchromatix_t4ka7_preview_16_9.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_720p_15fps.so:system/vendor/lib/libchromatix_t4ka7_preview_720p_15fps.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_preview_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_qtr.so:system/vendor/lib/libchromatix_t4ka7_preview_qtr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview.so:system/vendor/lib/libchromatix_t4ka7_preview.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_qtr_24fps.so:system/vendor/lib/libchromatix_t4ka7_preview_qtr_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_preview_wvga_15fps.so:system/vendor/lib/libchromatix_t4ka7_preview_wvga_15fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_snapshot.so:system/vendor/lib/libchromatix_t4ka7_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_t4ka7_video4k2k.so:system/vendor/lib/libchromatix_t4ka7_video4k2k.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_common.so:system/vendor/lib/libchromatix_vd6869_common.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_hdr.so:system/vendor/lib/libchromatix_vd6869_cpp_hdr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_liveshot_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_liveshot.so:system/vendor/lib/libchromatix_vd6869_cpp_liveshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_preview_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_liveshot_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_preview.so:system/vendor/lib/libchromatix_vd6869_cpp_preview.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_snapshot_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_snapshot_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_preview_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_snapshot.so:system/vendor/lib/libchromatix_vd6869_cpp_snapshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_video_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_video_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_snapshot_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_snapshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_video.so:system/vendor/lib/libchromatix_vd6869_cpp_video.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_default_video_24fps.so:system/vendor/lib/libchromatix_vd6869_default_video_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_cpp_video_24fps.so:system/vendor/lib/libchromatix_vd6869_cpp_video_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_default_video.so:system/vendor/lib/libchromatix_vd6869_default_video.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_default_video_24fps.so:system/vendor/lib/libchromatix_vd6869_default_video_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_hdr.so:system/vendor/lib/libchromatix_vd6869_hdr.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_liveshot_24fps.so:system/vendor/lib/libchromatix_vd6869_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_liveshot.so:system/vendor/lib/libchromatix_vd6869_liveshot.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_postproc_24fps.so:system/vendor/lib/libchromatix_vd6869_postproc_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_liveshot_24fps.so:system/vendor/lib/libchromatix_vd6869_liveshot_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_postproc.so:system/vendor/lib/libchromatix_vd6869_postproc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_preview_24fps.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_postproc_24fps.so:system/vendor/lib/libchromatix_vd6869_postproc_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_preview.so:system/vendor/lib/libchromatix_vd6869_preview.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_preview_24fps.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libchromatix_vd6869_snapshot.so:system/vendor/lib/libchromatix_vd6869_snapshot.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -613,21 +584,26 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/htc/hima-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
@@ -692,40 +668,34 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov13850_front.so:system/vendor/lib/libmmcamera_ov13850_front.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov4688_front.so:system/vendor/lib/libmmcamera_ov4688_front.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_t4ka7.so:system/vendor/lib/libmmcamera_t4ka7.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_vd6869.so:system/vendor/lib/libmmcamera_vd6869.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/htc/hima-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -733,28 +703,97 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/htc/hima-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/htc/hima-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/hima-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
+    vendor/htc/hima-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/hw/vulkan.msm8994.so:system/vendor/lib64/hw/vulkan.msm8994.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService
-
-$(call inherit-product, vendor/qcom/binaries/msm8994/graphics/graphics-vendor.mk)
