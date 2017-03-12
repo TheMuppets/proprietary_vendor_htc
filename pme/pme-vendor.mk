@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/htc/pme/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
+    vendor/htc/pme/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
+    vendor/htc/pme/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
+    vendor/htc/pme/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
     vendor/htc/pme/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/pme/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/htc/pme/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
