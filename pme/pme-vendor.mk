@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/htc/pme/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/pme/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/htc/pme/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/htc/pme/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/pme/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/htc/pme/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/htc/pme/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/htc/pme/proprietary/bin/iop:system/bin/iop \
     vendor/htc/pme/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/htc/pme/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -41,13 +41,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/pme/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/htc/pme/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/pme/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/htc/pme/proprietary/etc/camera/imx377_htc_chromatix.xml:system/etc/camera/imx377_htc_chromatix.xml \
-    vendor/htc/pme/proprietary/etc/camera/ov12890eco_htc_chromatix.xml:system/etc/camera/ov12890eco_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
+    vendor/htc/pme/proprietary/etc/camera/ov12890eco_htc_chromatix.xml:system/etc/camera/ov12890eco_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/camera/s5k4e6_htc_chromatix.xml:system/etc/camera/s5k4e6_htc_chromatix.xml \
-    vendor/htc/pme/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/htc/pme/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/htc/pme/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/htc/pme/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -67,9 +73,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/htc/pme/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/htc/pme/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/htc/pme/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/pme/proprietary/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd:system/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
+    vendor/htc/pme/proprietary/etc/firmware/BCM4359C0_003.001.006.0065.0111.hcd:system/etc/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
+    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
+    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/pme/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/htc/pme/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/htc/pme/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/htc/pme/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/htc/pme/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/htc/pme/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -79,16 +89,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/htc/pme/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/htc/pme/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/htc/pme/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/htc/pme/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/htc/pme/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/htc/pme/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/htc/pme/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/htc/pme/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
     vendor/htc/pme/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
     vendor/htc/pme/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
     vendor/htc/pme/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
     vendor/htc/pme/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/htc/pme/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/htc/pme/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/htc/pme/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/htc/pme/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/htc/pme/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/htc/pme/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
     vendor/htc/pme/proprietary/etc/firmware/alipay.b00:system/etc/firmware/alipay.b00 \
@@ -99,15 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/alipay.b05:system/etc/firmware/alipay.b05 \
     vendor/htc/pme/proprietary/etc/firmware/alipay.b06:system/etc/firmware/alipay.b06 \
     vendor/htc/pme/proprietary/etc/firmware/alipay.mdt:system/etc/firmware/alipay.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd:system/etc/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
-    vendor/htc/pme/proprietary/etc/firmware/BCM4359C0_003.001.006.0065.0111.hcd:system/etc/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b00:system/etc/firmware/cmnlib64.b00 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b01:system/etc/firmware/cmnlib64.b01 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b02:system/etc/firmware/cmnlib64.b02 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b03:system/etc/firmware/cmnlib64.b03 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b04:system/etc/firmware/cmnlib64.b04 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b05:system/etc/firmware/cmnlib64.b05 \
-    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.mdt:system/etc/firmware/cmnlib64.mdt \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -115,16 +116,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.b04:system/etc/firmware/cmnlib.b04 \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.b05:system/etc/firmware/cmnlib.b05 \
     vendor/htc/pme/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
-    vendor/htc/pme/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b00:system/etc/firmware/cmnlib64.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b01:system/etc/firmware/cmnlib64.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b02:system/etc/firmware/cmnlib64.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b03:system/etc/firmware/cmnlib64.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b04:system/etc/firmware/cmnlib64.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b05:system/etc/firmware/cmnlib64.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.mdt:system/etc/firmware/cmnlib64.mdt \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
@@ -132,6 +133,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
     vendor/htc/pme/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
     vendor/htc/pme/proprietary/etc/firmware/cs_CY8C.img:system/etc/firmware/cs_CY8C.img \
     vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
@@ -142,10 +150,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b05:system/etc/firmware/dxhdcp2.b05 \
     vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b06:system/etc/firmware/dxhdcp2.b06 \
     vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359_apsta.bin:system/etc/firmware/fw_bcm4359_apsta.bin \
-    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359b1_apsta.bin:system/etc/firmware/fw_bcm4359b1_apsta.bin \
-    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359b1.bin:system/etc/firmware/fw_bcm4359b1.bin \
     vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359.bin:system/etc/firmware/fw_bcm4359.bin \
+    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359_apsta.bin:system/etc/firmware/fw_bcm4359_apsta.bin \
+    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359b1.bin:system/etc/firmware/fw_bcm4359b1.bin \
+    vendor/htc/pme/proprietary/etc/firmware/fw_bcm4359b1_apsta.bin:system/etc/firmware/fw_bcm4359b1_apsta.bin \
     vendor/htc/pme/proprietary/etc/firmware/gptauuid.xml:system/etc/firmware/gptauuid.xml \
     vendor/htc/pme/proprietary/etc/firmware/hdcp1.b00:system/etc/firmware/hdcp1.b00 \
     vendor/htc/pme/proprietary/etc/firmware/hdcp1.b01:system/etc/firmware/hdcp1.b01 \
@@ -179,8 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b05:system/etc/firmware/htc_fpc_ta.b05 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b06:system/etc/firmware/htc_fpc_ta.b06 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.mdt:system/etc/firmware/htc_fpc_ta.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
-    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/pme/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
     vendor/htc/pme/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
     vendor/htc/pme/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
@@ -200,23 +206,23 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/mc_v2.b05:system/etc/firmware/mc_v2.b05 \
     vendor/htc/pme/proprietary/etc/firmware/mc_v2.b06:system/etc/firmware/mc_v2.b06 \
     vendor/htc/pme/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/htc/pme/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/htc/pme/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/htc/pme/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/htc/pme/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/htc/pme/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/htc/pme/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/htc/pme/proprietary/etc/firmware/synaptics.img:system/etc/firmware/synaptics.img \
+    vendor/htc/pme/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/htc/pme/proprietary/etc/firmware/tfa98xx2.cnt:system/etc/firmware/tfa98xx2.cnt \
     vendor/htc/pme/proprietary/etc/firmware/tfa98xx2_n1b.cnt:system/etc/firmware/tfa98xx2_n1b.cnt \
-    vendor/htc/pme/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/htc/pme/proprietary/etc/firmware/tfa98xx_n1b.cnt:system/etc/firmware/tfa98xx_n1b.cnt \
-    vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp_ad.img:system/etc/firmware/usb_typec_otp_ad.img \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp.img:system/etc/firmware/usb_typec_otp.img \
+    vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp_ad.img:system/etc/firmware/usb_typec_otp_ad.img \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
@@ -225,66 +231,49 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/htc/pme/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/pme/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/pme/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/pme/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
+    vendor/htc/pme/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/htc/pme/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/htc/pme/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/htc/pme/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/htc/pme/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/pme/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/pme/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/htc/pme/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/htc/pme/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/htc/pme/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/htc/pme/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/htc/pme/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/pme/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/htc/pme/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/pme/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
-    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
-    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
-    vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
-    vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
-    vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
-    vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
-    vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
-    vendor/htc/pme/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
-    vendor/htc/pme/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/pme/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
+    vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/pme/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
+    vendor/htc/pme/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/pme/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/pme/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/htc/pme/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/pme/proprietary/lib/libmorpho_hyperlapse_jni_v6.so:system/lib/libmorpho_hyperlapse_jni_v6.so \
     vendor/htc/pme/proprietary/lib/libmorpho_movie_stabilizer4.so:system/lib/libmorpho_movie_stabilizer4.so \
     vendor/htc/pme/proprietary/lib/libmorpho_render_util_v6.so:system/lib/libmorpho_render_util_v6.so \
-    vendor/htc/pme/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/htc/pme/proprietary/lib/libopencv_calib3d.so:system/lib/libopencv_calib3d.so \
     vendor/htc/pme/proprietary/lib/libopencv_core.so:system/lib/libopencv_core.so \
     vendor/htc/pme/proprietary/lib/libopencv_features2d.so:system/lib/libopencv_features2d.so \
@@ -297,11 +286,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libopencv_objdetect.so:system/lib/libopencv_objdetect.so \
     vendor/htc/pme/proprietary/lib/libopencv_photo.so:system/lib/libopencv_photo.so \
     vendor/htc/pme/proprietary/lib/libopencv_rsobjdetect.so:system/lib/libopencv_rsobjdetect.so \
-    vendor/htc/pme/proprietary/lib/libopencv_videoio.so:system/lib/libopencv_videoio.so \
     vendor/htc/pme/proprietary/lib/libopencv_video.so:system/lib/libopencv_video.so \
+    vendor/htc/pme/proprietary/lib/libopencv_videoio.so:system/lib/libopencv_videoio.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/pme/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
+    vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
+    vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
+    vendor/htc/pme/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
+    vendor/htc/pme/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -309,201 +309,26 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libcsm_data.so:system/vendor/lib64/libcsm_data.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/htc/pme/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmiservices_ext.so:system/vendor/lib64/libqmiservices_ext.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/htc/pme/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/htc/pme/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/htc/pme/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/htc/pme/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition_stub.so:system/vendor/lib64/libscveFaceRecognition_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/htc/pme/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/htc/pme/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/htc/pme/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/htc/pme/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/htc/pme/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/htc/pme/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/htc/pme/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/htc/pme/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/htc/pme/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/htc/pme/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/pme/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/htc/pme/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -520,8 +345,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898123.so:system/vendor/lib/libactuator_lc898123.so \
-    vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
+    vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898214.so:system/vendor/lib/libactuator_lc898214.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/htc/pme/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
@@ -539,10 +364,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/htc/pme/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/htc/pme/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/htc/pme/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/htc/pme/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/htc/pme/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
@@ -551,125 +374,125 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_hfr.so:system/vendor/lib/libchromatix_imx377_cpp_hfr.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_liveshot.so:system/vendor/lib/libchromatix_imx377_cpp_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_preview.so:system/vendor/lib/libchromatix_imx377_cpp_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_cpp_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_cpp_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_preview.so:system/vendor/lib/libchromatix_imx377_cpp_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_snapshot.so:system/vendor/lib/libchromatix_imx377_cpp_snapshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_video.so:system/vendor/lib/libchromatix_imx377_cpp_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_cpp_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_cpp_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_cpp_video.so:system/vendor/lib/libchromatix_imx377_cpp_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_default_video.so:system/vendor/lib/libchromatix_imx377_default_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_default_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_default_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_default_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_default_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_default_video.so:system/vendor/lib/libchromatix_imx377_default_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_hdr_16_9.so:system/vendor/lib/libchromatix_imx377_hdr_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_hdr.so:system/vendor/lib/libchromatix_imx377_hdr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_hdr_16_9.so:system/vendor/lib/libchromatix_imx377_hdr_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_hfr.so:system/vendor/lib/libchromatix_imx377_hfr.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_htc_common.so:system/vendor/lib/libchromatix_imx377_htc_common.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_htc_postproc.so:system/vendor/lib/libchromatix_imx377_htc_postproc.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_liveshot.so:system/vendor/lib/libchromatix_imx377_liveshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_liveshot_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_liveshot_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_liveshot_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_liveshot_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_liveshot.so:system/vendor/lib/libchromatix_imx377_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_preview.so:system/vendor/lib/libchromatix_imx377_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_preview.so:system/vendor/lib/libchromatix_imx377_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_snapshot.so:system/vendor/lib/libchromatix_imx377_snapshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_hfr.so:system/vendor/lib/libchromatix_imx377_zsl_hfr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_preview.so:system/vendor/lib/libchromatix_imx377_zsl_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_preview_16_9.so:system/vendor/lib/libchromatix_imx377_zsl_preview_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_zsl_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_zsl_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_preview.so:system/vendor/lib/libchromatix_imx377_zsl_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_video.so:system/vendor/lib/libchromatix_imx377_zsl_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_video_16_9.so:system/vendor/lib/libchromatix_imx377_zsl_video_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx377_zsl_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_imx377_zsl_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_imx377_zsl_video.so:system/vendor/lib/libchromatix_imx377_zsl_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_hfr.so:system/vendor/lib/libchromatix_ov12890_cpp_hfr.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_liveshot.so:system/vendor/lib/libchromatix_ov12890_cpp_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_preview.so:system/vendor/lib/libchromatix_ov12890_cpp_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_cpp_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_cpp_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_preview.so:system/vendor/lib/libchromatix_ov12890_cpp_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_snapshot.so:system/vendor/lib/libchromatix_ov12890_cpp_snapshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_video.so:system/vendor/lib/libchromatix_ov12890_cpp_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_cpp_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_cpp_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_cpp_video.so:system/vendor/lib/libchromatix_ov12890_cpp_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_default_video.so:system/vendor/lib/libchromatix_ov12890_default_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_default_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_default_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_default_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_default_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_default_video.so:system/vendor/lib/libchromatix_ov12890_default_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_hfr.so:system/vendor/lib/libchromatix_ov12890eco_cpp_hfr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_liveshot.so:system/vendor/lib/libchromatix_ov12890eco_cpp_liveshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_snapshot.so:system/vendor/lib/libchromatix_ov12890eco_cpp_snapshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video.so:system/vendor/lib/libchromatix_ov12890eco_default_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hdr_16_9.so:system/vendor/lib/libchromatix_ov12890eco_hdr_16_9.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hdr.so:system/vendor/lib/libchromatix_ov12890eco_hdr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hfr.so:system/vendor/lib/libchromatix_ov12890eco_hfr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_htc_common.so:system/vendor/lib/libchromatix_ov12890eco_htc_common.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_htc_postproc.so:system/vendor/lib/libchromatix_ov12890eco_htc_postproc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot.so:system/vendor/lib/libchromatix_ov12890eco_liveshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview.so:system/vendor/lib/libchromatix_ov12890eco_preview.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_snapshot.so:system/vendor/lib/libchromatix_ov12890eco_snapshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_hfr.so:system/vendor/lib/libchromatix_ov12890eco_zsl_hfr.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_16_9.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_16_9.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_16_9.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_16_9.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_15fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_hdr_16_9.so:system/vendor/lib/libchromatix_ov12890_hdr_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_hdr.so:system/vendor/lib/libchromatix_ov12890_hdr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_hdr_16_9.so:system/vendor/lib/libchromatix_ov12890_hdr_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_hfr.so:system/vendor/lib/libchromatix_ov12890_hfr.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_htc_common.so:system/vendor/lib/libchromatix_ov12890_htc_common.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_htc_postproc.so:system/vendor/lib/libchromatix_ov12890_htc_postproc.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_liveshot.so:system/vendor/lib/libchromatix_ov12890_liveshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_liveshot_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_liveshot_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_liveshot_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_liveshot_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_liveshot.so:system/vendor/lib/libchromatix_ov12890_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_preview.so:system/vendor/lib/libchromatix_ov12890_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_preview.so:system/vendor/lib/libchromatix_ov12890_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_snapshot.so:system/vendor/lib/libchromatix_ov12890_snapshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_hfr.so:system/vendor/lib/libchromatix_ov12890_zsl_hfr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_preview.so:system/vendor/lib/libchromatix_ov12890_zsl_preview.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_preview_16_9.so:system/vendor/lib/libchromatix_ov12890_zsl_preview_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_zsl_preview_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_zsl_preview_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_preview.so:system/vendor/lib/libchromatix_ov12890_zsl_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_video.so:system/vendor/lib/libchromatix_ov12890_zsl_video.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_video_16_9.so:system/vendor/lib/libchromatix_ov12890_zsl_video_16_9.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890_zsl_video_qtr_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890_zsl_video_qtr_4_3_30fps.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890_zsl_video.so:system/vendor/lib/libchromatix_ov12890_zsl_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_hfr.so:system/vendor/lib/libchromatix_ov12890eco_cpp_hfr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_liveshot.so:system/vendor/lib/libchromatix_ov12890eco_cpp_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_preview_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_snapshot.so:system/vendor/lib/libchromatix_ov12890eco_cpp_snapshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_cpp_video_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video.so:system/vendor/lib/libchromatix_ov12890eco_default_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_default_video_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hdr.so:system/vendor/lib/libchromatix_ov12890eco_hdr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hdr_16_9.so:system/vendor/lib/libchromatix_ov12890eco_hdr_16_9.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_hfr.so:system/vendor/lib/libchromatix_ov12890eco_hfr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_htc_common.so:system/vendor/lib/libchromatix_ov12890eco_htc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_htc_postproc.so:system/vendor/lib/libchromatix_ov12890eco_htc_postproc.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot.so:system/vendor/lib/libchromatix_ov12890eco_liveshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_liveshot_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview.so:system/vendor/lib/libchromatix_ov12890eco_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_preview_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_snapshot.so:system/vendor/lib/libchromatix_ov12890eco_snapshot.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_hfr.so:system/vendor/lib/libchromatix_ov12890eco_zsl_hfr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_16_9.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_16_9.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_preview_qtr_4_3_30fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_16_9.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_16_9.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_30fps.so:system/vendor/lib/libchromatix_ov12890eco_zsl_video_qtr_4_3_30fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_common.so:system/vendor/lib/libchromatix_s5k4e6_htc_common.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_liveshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_preview_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_snapshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_video_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_video_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_video.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_video.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_default_video_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_default_video_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_cpp_video_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_cpp_video_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_default_video.so:system/vendor/lib/libchromatix_s5k4e6_htc_default_video.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_default_video_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_default_video_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_hdr_3a.so:system/vendor/lib/libchromatix_s5k4e6_htc_hdr_3a.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_liveshot.so:system/vendor/lib/libchromatix_s5k4e6_htc_liveshot.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_postproc.so:system/vendor/lib/libchromatix_s5k4e6_htc_postproc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_preview_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_preview_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_preview.so:system/vendor/lib/libchromatix_s5k4e6_htc_preview.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_preview_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_preview_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_snapshot.so:system/vendor/lib/libchromatix_s5k4e6_htc_snapshot.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a.so \
-    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_preview_3a_4_3_15fps.so \
     vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a.so \
+    vendor/htc/pme/proprietary/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a_4_3_15fps.so:system/vendor/lib/libchromatix_s5k4e6_htc_zsl_video_3a_4_3_15fps.so \
+    vendor/htc/pme/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/htc/pme/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/htc/pme/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/htc/pme/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/htc/pme/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/htc/pme/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
     vendor/htc/pme/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -687,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib/libhtc_common.so:system/vendor/lib/libhtc_common.so \
-    vendor/htc/pme/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/htc/pme/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/htc/pme/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -697,15 +519,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/htc/pme/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/htc/pme/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
@@ -722,14 +549,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
@@ -782,12 +609,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ov12890eco_htc.so:system/vendor/lib/libmmcamera_ov12890eco_htc.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ov12890_htc.so:system/vendor/lib/libmmcamera_ov12890_htc.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ov12890eco_htc.so:system/vendor/lib/libmmcamera_ov12890eco_htc.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
@@ -795,15 +622,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_s5k4e6_htc.so:system/vendor/lib/libmmcamera_s5k4e6_htc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
@@ -812,24 +639,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:system/vendor/lib/libmmcamera_truly_cma481_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_truly_cmb433_eeprom.so:system/vendor/lib/libmmcamera_truly_cmb433_eeprom.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/htc/pme/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/htc/pme/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
-    vendor/htc/pme/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/htc/pme/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/htc/pme/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/htc/pme/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/htc/pme/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/htc/pme/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/htc/pme/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
@@ -837,24 +655,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/htc/pme/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/htc/pme/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/htc/pme/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/htc/pme/proprietary/vendor/lib/libqmiservices_ext.so:system/vendor/lib/libqmiservices_ext.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/htc/pme/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/htc/pme/proprietary/vendor/lib/libqmiservices_ext.so:system/vendor/lib/libqmiservices_ext.so \
     vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/pme/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/pme/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/htc/pme/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/htc/pme/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/htc/pme/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/htc/pme/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
@@ -873,10 +689,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
     vendor/htc/pme/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/htc/pme/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
+    vendor/htc/pme/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/htc/pme/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -889,7 +705,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/htc/pme/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/htc/pme/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/htc/pme/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/htc/pme/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/htc/pme/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -900,8 +715,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/htc/pme/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
@@ -916,16 +731,201 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/pme/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/pme/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/htc/pme/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libcsm_data.so:system/vendor/lib64/libcsm_data.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqmiservices_ext.so:system/vendor/lib64/libqmiservices_ext.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/htc/pme/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/htc/pme/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/htc/pme/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/htc/pme/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor.so:system/vendor/lib64/libscveBlobDescriptor.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:system/vendor/lib64/libscveBlobDescriptor_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture.so:system/vendor/lib64/libscveCleverCapture.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture_stub.so:system/vendor/lib64/libscveCleverCapture_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveCommon.so:system/vendor/lib64/libscveCommon.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveCommon_stub.so:system/vendor/lib64/libscveCommon_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition.so:system/vendor/lib64/libscveFaceRecognition.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition_stub.so:system/vendor/lib64/libscveFaceRecognition_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveImageCloning.so:system/vendor/lib64/libscveImageCloning.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveImageCorrection.so:system/vendor/lib64/libscveImageCorrection.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveImageRemoval.so:system/vendor/lib64/libscveImageRemoval.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveMotionVector.so:system/vendor/lib64/libscveMotionVector.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting.so:system/vendor/lib64/libscveObjectMatting.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting_stub.so:system/vendor/lib64/libscveObjectMatting_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation.so:system/vendor/lib64/libscveObjectSegmentation.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:system/vendor/lib64/libscveObjectSegmentation_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker.so:system/vendor/lib64/libscveObjectTracker.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker_stub.so:system/vendor/lib64/libscveObjectTracker_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama.so:system/vendor/lib64/libscvePanorama.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama_lite.so:system/vendor/lib64/libscvePanorama_lite.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco.so:system/vendor/lib64/libscveTextReco.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:system/vendor/lib64/libscveTextRecoPostProcessing.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco_stub.so:system/vendor/lib64/libscveTextReco_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/htc/pme/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/htc/pme/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libsdm-disp-apis \
+    libTimeService \
     libsd_sdk_display \
+    libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
-    libTimeService \
     TimeService \
     CNEService \
-    com.qualcomm.location \
-    QtiTetherService
+    QtiTetherService \
+    com.qualcomm.location
