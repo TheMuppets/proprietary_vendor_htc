@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,6 +30,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hiae-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/hiae-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
+    vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hiae-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/htc/hiae-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/htc/hiae-common/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
@@ -60,21 +68,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
     vendor/htc/hiae-common/proprietary/etc/firmware/htc_drmprov.b03:system/etc/firmware/htc_drmprov.b03 \
     vendor/htc/hiae-common/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
-    vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
-    vendor/htc/hiae-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
     vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
     vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
     vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.b03:system/etc/firmware/keymaste.b03 \
     vendor/htc/hiae-common/proprietary/etc/firmware/keymaste.mdt:system/etc/firmware/keymaste.mdt \
     vendor/htc/hiae-common/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/htc/hiae-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
@@ -82,29 +81,30 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
     vendor/htc/hiae-common/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/htc/hiae-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/htc/hiae-common/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/htc/hiae-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/htc/hiae-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/htc/hiae-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/htc/hiae-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/htc/hiae-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hiae-common/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/hiae-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/hiae-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-    vendor/htc/hiae-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
+    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
+    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
     vendor/htc/hiae-common/proprietary/etc/tfa/fm.drc:system/etc/tfa/fm.drc \
     vendor/htc/hiae-common/proprietary/etc/tfa/fm.eq:system/etc/tfa/fm.eq \
     vendor/htc/hiae-common/proprietary/etc/tfa/fm.preset:system/etc/tfa/fm.preset \
     vendor/htc/hiae-common/proprietary/etc/tfa/playback.drc:system/etc/tfa/playback.drc \
     vendor/htc/hiae-common/proprietary/etc/tfa/playback.eq:system/etc/tfa/playback.eq \
     vendor/htc/hiae-common/proprietary/etc/tfa/playback.preset:system/etc/tfa/playback.preset \
-    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
-    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
-    vendor/htc/hiae-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
     vendor/htc/hiae-common/proprietary/etc/tfa/tfa9895.config:system/etc/tfa/tfa9895.config \
     vendor/htc/hiae-common/proprietary/etc/tfa/tfa9895.patch:system/etc/tfa/tfa9895.patch \
     vendor/htc/hiae-common/proprietary/etc/tfa/tfa9895.speaker:system/etc/tfa/tfa9895.speaker \
@@ -115,37 +115,37 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/tfa/voip.drc:system/etc/tfa/voip.drc \
     vendor/htc/hiae-common/proprietary/etc/tfa/voip.eq:system/etc/tfa/voip.eq \
     vendor/htc/hiae-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
+    vendor/htc/hiae-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/htc/hiae-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
+    vendor/htc/hiae-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/htc/hiae-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/hiae-common/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
+    vendor/htc/hiae-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/htc/hiae-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/hiae-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/hiae-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/hiae-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/htc/hiae-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/htc/hiae-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/htc/hiae-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/htc/hiae-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/htc/hiae-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/htc/hiae-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/htc/hiae-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/htc/hiae-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/htc/hiae-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
-    vendor/htc/hiae-common/proprietary/lib64/libcryptm.so:system/lib64/libcryptm.so \
-    vendor/htc/hiae-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/hiae-common/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
+    vendor/htc/hiae-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/htc/hiae-common/proprietary/lib64/libcryptm.so:system/lib64/libcryptm.so \
     vendor/htc/hiae-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hiae-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/hiae-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/htc/hiae-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/hiae-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/hiae-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/htc/hiae-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
-    vendor/htc/hiae-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
-    vendor/htc/hiae-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/hiae-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/hiae-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
-    vendor/htc/hiae-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-    vendor/htc/hiae-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/hiae-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/htc/hiae-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/htc/hiae-common/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
-    vendor/htc/hiae-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/htc/hiae-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/htc/hiae-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/htc/hiae-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/htc/hiae-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hiae-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/hiae-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hiae-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -181,86 +181,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/firmware/qdsp6m.qdb:system/vendor/firmware/qdsp6m.qdb \
     vendor/htc/hiae-common/proprietary/vendor/firmware/radiover.cfg:system/vendor/firmware/radiover.cfg \
     vendor/htc/hiae-common/proprietary/vendor/firmware/version.cfg:system/vendor/firmware/version.cfg \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -276,99 +218,97 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_common.so:system/vendor/lib/libchromatix_imx214_htc_common.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_hdr.so:system/vendor/lib/libchromatix_imx214_htc_cpp_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx214_htc_cpp_hfr_120.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx214_htc_cpp_hfr_60.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_liveshot.so:system/vendor/lib/libchromatix_imx214_htc_cpp_liveshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_night.so:system/vendor/lib/libchromatix_imx214_htc_cpp_night.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_preview.so:system/vendor/lib/libchromatix_imx214_htc_cpp_preview.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_preview_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_preview_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_preview_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_preview_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_preview_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_preview.so:system/vendor/lib/libchromatix_imx214_htc_cpp_preview.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_htc_cpp_snapshot_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_snapshot.so:system/vendor/lib/libchromatix_imx214_htc_cpp_snapshot.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_htc_cpp_snapshot_hdr.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_cpp_video.so:system/vendor/lib/libchromatix_imx214_htc_cpp_video.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9_15fps.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_default_preview_lc898123.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video.so:system/vendor/lib/libchromatix_imx214_htc_default_video.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_16_9_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9_15fps.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_default_video_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_default_video_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_default_video.so:system/vendor/lib/libchromatix_imx214_htc_default_video.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_hdr_lc898123_16_9.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hdr_lc898123.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_snapshot_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hdr_snapshot_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr.so:system/vendor/lib/libchromatix_imx214_htc_hdr.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hdr_lc898123.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_hdr_lc898123_16_9.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_snapshot_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hdr_snapshot_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hdr_video_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hdr_video_lc898123.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_120_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hfr_120_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_120.so:system/vendor/lib/libchromatix_imx214_htc_hfr_120.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_60_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hfr_60_lc898123.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_120_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hfr_120_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_60.so:system/vendor/lib/libchromatix_imx214_htc_hfr_60.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_hfr_60_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_hfr_60_lc898123.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_liveshot.so:system/vendor/lib/libchromatix_imx214_htc_liveshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_liveshot_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_liveshot_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_liveshot_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_liveshot_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_liveshot_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_liveshot_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_liveshot.so:system/vendor/lib/libchromatix_imx214_htc_liveshot.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_night_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_night_lc898123_16_9.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_night_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_night_lc898123.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_night.so:system/vendor/lib/libchromatix_imx214_htc_night.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_night_lc898123.so:system/vendor/lib/libchromatix_imx214_htc_night_lc898123.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_night_lc898123_16_9.so:system/vendor/lib/libchromatix_imx214_htc_night_lc898123_16_9.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_postproc.so:system/vendor/lib/libchromatix_imx214_htc_postproc.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_preview.so:system/vendor/lib/libchromatix_imx214_htc_preview.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_preview_16_9_15fps.so:system/vendor/lib/libchromatix_imx214_htc_preview_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_preview_qtr_16_9_30fps.so:system/vendor/lib/libchromatix_imx214_htc_preview_qtr_16_9_30fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_preview_qtr_4_3_15fps.so:system/vendor/lib/libchromatix_imx214_htc_preview_qtr_4_3_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_preview.so:system/vendor/lib/libchromatix_imx214_htc_preview.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_htc_snapshot_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_snapshot.so:system/vendor/lib/libchromatix_imx214_htc_snapshot.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_htc_snapshot_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_imx214_htc_video_hdr.so:system/vendor/lib/libchromatix_imx214_htc_video_hdr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_common.so:system/vendor/lib/libchromatix_ov4688_htc_common.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_hdr.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_hdr.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_liveshot.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_preview.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_preview_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_preview_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_preview_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_preview_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_preview.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_preview.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_snapshot.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_video.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_video.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_video_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_video_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_video_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_video_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_cpp_video.so:system/vendor/lib/libchromatix_ov4688_htc_cpp_video.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_default_video.so:system/vendor/lib/libchromatix_ov4688_htc_default_video.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_default_video_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_default_video_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_default_video_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_default_video_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_default_video.so:system/vendor/lib/libchromatix_ov4688_htc_default_video.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_hdr_3a.so:system/vendor/lib/libchromatix_ov4688_htc_hdr_3a.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_hdr.so:system/vendor/lib/libchromatix_ov4688_htc_hdr.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_hdr_3a.so:system/vendor/lib/libchromatix_ov4688_htc_hdr_3a.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_liveshot.so:system/vendor/lib/libchromatix_ov4688_htc_liveshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_liveshot_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_liveshot_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_liveshot_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_liveshot_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_liveshot.so:system/vendor/lib/libchromatix_ov4688_htc_liveshot.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_postproc.so:system/vendor/lib/libchromatix_ov4688_htc_postproc.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_preview.so:system/vendor/lib/libchromatix_ov4688_htc_preview.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_preview_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_preview_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_preview_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_preview_16_9_24fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_preview.so:system/vendor/lib/libchromatix_ov4688_htc_preview.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_snapshot.so:system/vendor/lib/libchromatix_ov4688_htc_snapshot.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_16_9_24fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_full_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a_full_16_9_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_preview_3a.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_16_9_15fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_16_9_24fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_16_9_24fps.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_full_16_9_15fps.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a_full_16_9_15fps.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a.so:system/vendor/lib/libchromatix_ov4688_htc_zsl_video_3a.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -378,7 +318,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -389,13 +328,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
@@ -451,27 +394,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -479,11 +411,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -492,17 +422,87 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/htc/hiae-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libTimeService \
     libmm-disp-apis \
     libtime_genoff \
-    libTimeService \
     TimeService
