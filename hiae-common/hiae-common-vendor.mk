@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/hiae-common/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hiae-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/htc/hiae-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/hiae-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/hiae-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/hiae-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
@@ -151,36 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hiae-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hiae-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b00:system/vendor/firmware/mba.b00 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b01:system/vendor/firmware/mba.b01 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b02:system/vendor/firmware/mba.b02 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b03:system/vendor/firmware/mba.b03 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b04:system/vendor/firmware/mba.b04 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b05:system/vendor/firmware/mba.b05 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.mbn:system/vendor/firmware/mba.mbn \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.mdt:system/vendor/firmware/mba.mdt \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b00:system/vendor/firmware/modem.b00 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b01:system/vendor/firmware/modem.b01 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b02:system/vendor/firmware/modem.b02 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b04:system/vendor/firmware/modem.b04 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b05:system/vendor/firmware/modem.b05 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b06:system/vendor/firmware/modem.b06 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b07:system/vendor/firmware/modem.b07 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b08:system/vendor/firmware/modem.b08 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b09:system/vendor/firmware/modem.b09 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b10:system/vendor/firmware/modem.b10 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b11:system/vendor/firmware/modem.b11 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b12:system/vendor/firmware/modem.b12 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b13:system/vendor/firmware/modem.b13 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b16:system/vendor/firmware/modem.b16 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b17:system/vendor/firmware/modem.b17 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b18:system/vendor/firmware/modem.b18 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b19:system/vendor/firmware/modem.b19 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b20:system/vendor/firmware/modem.b20 \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.mdt:system/vendor/firmware/modem.mdt \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/qdsp6m.qdb:system/vendor/firmware/qdsp6m.qdb \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/radiover.cfg:system/vendor/firmware/radiover.cfg \
-    vendor/htc/hiae-common/proprietary/vendor/firmware/version.cfg:system/vendor/firmware/version.cfg \
     vendor/htc/hiae-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
