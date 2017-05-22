@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/etc/tfa/voip.preset:system/etc/tfa/voip.preset \
     vendor/htc/hiae-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/htc/hiae-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
-    vendor/htc/hiae-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/hiae-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/hiae-common/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/hiae-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -120,26 +119,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hiae-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/hiae-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/htc/hiae-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/hiae-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/htc/hiae-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/hiae-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/hiae-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/hiae-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
-    vendor/htc/hiae-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hiae-common/proprietary/lib64/hw/sensors.msm8952.so:system/lib64/hw/sensors.msm8952.so \
     vendor/htc/hiae-common/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/hiae-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/hiae-common/proprietary/lib64/libcryptm.so:system/lib64/libcryptm.so \
-    vendor/htc/hiae-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/htc/hiae-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/htc/hiae-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/htc/hiae-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/htc/hiae-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/hiae-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/hiae-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/hiae-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -152,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -275,14 +262,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
@@ -381,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
@@ -400,11 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \

@@ -21,12 +21,29 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hiaeuhl/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hiaeuhl/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/htc/hiaeuhl/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/htc/hiaeuhl/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/htc/hiaeuhl/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/htc/hiaeuhl/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/htc/hiaeuhl/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/htc/hiaeuhl/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hiaeuhl/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/htc/hiaeuhl/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/hiaeuhl/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -40,13 +57,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
