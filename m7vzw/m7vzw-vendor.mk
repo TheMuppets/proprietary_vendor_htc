@@ -30,12 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m7vzw/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/htc/m7vzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/htc/m7vzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/htc/m7vzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/htc/m7vzw/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/htc/m7vzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/htc/m7vzw/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/htc/m7vzw/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/htc/m7vzw/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/htc/m7vzw/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/htc/m7vzw/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/htc/m7vzw/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/htc/m7vzw/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
