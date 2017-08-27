@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/hiaeul/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/hiaeul/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/htc/hiaeul/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/htc/hiaeul/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hiaeul/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -84,8 +85,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/htc/hiaeul/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/htc/hiaeul/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/htc/hiaeul/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/htc/hiaeul/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
