@@ -21,16 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8d/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/m8d/proprietary/bin/radish:system/bin/radish \
     vendor/htc/m8d/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/htc/m8d/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/htc/m8d/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/htc/m8d/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/htc/m8d/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/htc/m8d/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/m8d/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/htc/m8d/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/m8d/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/m8d/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/m8d/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/htc/m8d/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/htc/m8d/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/htc/m8d/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
