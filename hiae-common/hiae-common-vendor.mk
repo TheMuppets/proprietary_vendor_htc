@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hiae-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/hiae-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/htc/hiae-common/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/hiae-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/hiae-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/hiae-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
