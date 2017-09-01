@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <profiles>
+    <item name="310160" CNmapfile="310160.prop">default.xml</item>
+    <item name="310200" CNmapfile="310160.prop">default.xml</item>
+    <item name="310210" CNmapfile="310160.prop">default.xml</item>
+    <item name="310220" CNmapfile="310160.prop">default.xml</item>
+    <item name="310230" CNmapfile="310160.prop">default.xml</item>
+    <item name="310240" CNmapfile="310160.prop">default.xml</item>
+    <item name="310250" CNmapfile="310160.prop">default.xml</item>
+    <item name="310260" CNmapfile="310160.prop">default.xml</item>
+    <item name="310270" CNmapfile="310160.prop">default.xml</item>
+    <item name="310300" CNmapfile="310160.prop">default.xml</item>
+    <item name="310310" CNmapfile="310160.prop">default.xml</item>
+    <item name="310490" CNmapfile="310160.prop">default.xml</item>
+    <item name="310530" CNmapfile="310160.prop">default.xml</item>
+    <item name="310580" CNmapfile="310160.prop">default.xml</item>
+    <item name="310590" CNmapfile="310160.prop">default.xml</item>
+    <item name="310640" CNmapfile="310160.prop">default.xml</item>
+    <item name="310660" CNmapfile="310160.prop">default.xml</item>
+    <item name="310800" CNmapfile="310160.prop">default.xml</item>
+    <item name="311180" CNmapfile="311180.prop">default.xml</item>
+    <item name="310410" CNmapfile="311180.prop">default.xml</item>
+    <item name="310150" CNmapfile="311180.prop">default.xml</item>
+    <item name="310170" CNmapfile="311180.prop">default.xml</item>
+    <item name="310380" CNmapfile="311180.prop">default.xml</item>
+    <item name="310560" CNmapfile="311180.prop">default.xml</item>
+    <item name="310680" CNmapfile="311180.prop">default.xml</item>
+    <item name="310070" CNmapfile="311180.prop">default.xml</item>
+    <item name="310090" CNmapfile="311180.prop">default.xml</item>
+  </profiles>
+</map>

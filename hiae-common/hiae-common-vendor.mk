@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/hiae-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/hiae-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/htc/hiae-common/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
+    vendor/htc/hiae-common/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
+    vendor/htc/hiae-common/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
+    vendor/htc/hiae-common/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
     vendor/htc/hiae-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/hiae-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/htc/hiae-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
