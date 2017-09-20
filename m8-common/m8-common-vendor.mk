@@ -18,14 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/htc/m8-common/proprietary/vendor/bin/cir_fw_update:system/vendor/bin/cir_fw_update \
-    vendor/htc/m8-common/proprietary/vendor/bin/hcheck:system/vendor/bin/hcheck \
     vendor/htc/m8-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/htc/m8-common/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/htc/m8-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/htc/m8-common/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
     vendor/htc/m8-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/htc/m8-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
-    vendor/htc/m8-common/proprietary/vendor/bin/ptt_socket_app:system/vendor/bin/ptt_socket_app \
     vendor/htc/m8-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/htc/m8-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/htc/m8-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
@@ -58,11 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/vendor/firmware/dxhdcp2.b02:system/vendor/firmware/dxhdcp2.b02 \
     vendor/htc/m8-common/proprietary/vendor/firmware/dxhdcp2.b03:system/vendor/firmware/dxhdcp2.b03 \
     vendor/htc/m8-common/proprietary/vendor/firmware/dxhdcp2.mdt:system/vendor/firmware/dxhdcp2.mdt \
-    vendor/htc/m8-common/proprietary/vendor/firmware/hcheck.b00:system/vendor/firmware/hcheck.b00 \
-    vendor/htc/m8-common/proprietary/vendor/firmware/hcheck.b01:system/vendor/firmware/hcheck.b01 \
-    vendor/htc/m8-common/proprietary/vendor/firmware/hcheck.b02:system/vendor/firmware/hcheck.b02 \
-    vendor/htc/m8-common/proprietary/vendor/firmware/hcheck.b03:system/vendor/firmware/hcheck.b03 \
-    vendor/htc/m8-common/proprietary/vendor/firmware/hcheck.mdt:system/vendor/firmware/hcheck.mdt \
     vendor/htc/m8-common/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
     vendor/htc/m8-common/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/htc/m8-common/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
