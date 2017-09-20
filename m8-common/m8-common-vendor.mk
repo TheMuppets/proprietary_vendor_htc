@@ -292,7 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/htc/m8-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/htc/m8-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/m8-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/m8-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
