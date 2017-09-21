@@ -21,6 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hiaeuhl/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hiaeuhl/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/htc/hiaeuhl/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/htc/hiaeuhl/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/htc/hiaeuhl/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/htc/hiaeuhl/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/htc/hiaeuhl/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/htc/hiaeuhl/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/hiaeuhl/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hiaeuhl/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hiaeuhl/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
@@ -48,8 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
@@ -59,6 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -81,5 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/htc/hiaeuhl/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/htc/hiaeuhl/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/htc/hiaeuhl/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+PRODUCT_PACKAGES += \
+    com.qualcomm.location
