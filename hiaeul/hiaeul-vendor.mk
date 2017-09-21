@@ -21,12 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/bin/radish:system/bin/radish \
     vendor/htc/hiaeul/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hiaeul/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/htc/hiaeul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/htc/hiaeul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/htc/hiaeul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/htc/hiaeul/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/htc/hiaeul/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/htc/hiaeul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/htc/hiaeul/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hiaeul/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hiaeul/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
@@ -36,15 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiaeul/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/hiaeul/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/htc/hiaeul/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/htc/hiaeul/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/htc/hiaeul/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/htc/hiaeul/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/htc/hiaeul/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/htc/hiaeul/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/hiaeul/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
