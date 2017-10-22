@@ -757,6 +757,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libprotobuf-cpp-fulm.so:system/vendor/lib64/libprotobuf-cpp-fulm.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libprotobuf-cpp-litm.so:system/vendor/lib64/libprotobuf-cpp-litm.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
