@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/etc/RT5506:system/etc/RT5506 \
     vendor/htc/flounder-common/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
-    vendor/htc/flounder-common/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/htc/flounder-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libfmas.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libfmas.so \
     vendor/htc/flounder-common/proprietary/vendor/etc/model_frontal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/model_frontal.xml \
     vendor/htc/flounder-common/proprietary/vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVVEFS_Rx_Configuration.txt \
     vendor/htc/flounder-common/proprietary/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/LVVEFS_Tx_Configuration.txt \
@@ -120,8 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/hwcomposer.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.tegra132.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/keystore.flounder.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.flounder.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/memtrack.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.tegra132.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libaudioavp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioavp.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libclcore_nvidia.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libclcore_nvidia.bc \
