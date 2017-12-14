@@ -30,3 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder/proprietary/vendor/lib64/libnvos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvos.so \
     vendor/htc/flounder/proprietary/vendor/lib64/libnvrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrm.so \
     vendor/htc/flounder/proprietary/vendor/lib64/libnvrm_graphics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrm_graphics.so
+PRODUCT_COPY_FILES += \
+    vendor/htc/flounder/proprietary/vendor/bin/glgps:$(TARGET_COPY_OUT_VENDOR)/bin/glgps \
+    vendor/htc/flounder/proprietary/vendor/lib64/hw/gps.bcm47521.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.bcm47521.so
