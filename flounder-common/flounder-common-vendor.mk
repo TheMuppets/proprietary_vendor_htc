@@ -121,10 +121,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/memtrack.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.tegra132.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L1.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libaudioavp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioavp.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libclcore_nvidia.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libclcore_nvidia.bc \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdecrypt.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libfrsdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfrsdk.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libglcore.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libhtcacoustic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtcacoustic.so \
@@ -175,12 +174,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/libopencv24_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv24_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libtsechdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtsechdcp.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libGLESv2_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libclcore_nvidia.bc:$(TARGET_COPY_OUT_VENDOR)/lib64/libclcore_nvidia.bc \
+    vendor/htc/flounder-common/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libglcore.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libnvRSCompiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvRSCompiler.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libnvRSDriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvRSDriver.so \
@@ -193,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libnvptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvptx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libnvrmapi_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrmapi_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/libnvwsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvwsi.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/htc/flounder-common/proprietary/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
     vendor/htc/flounder-common/proprietary/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd
 

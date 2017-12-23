@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/flounder/proprietary/vendor/lib/libnvodm_imager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvodm_imager.so \
-    vendor/htc/flounder/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/flounder/proprietary/vendor/lib64/hw/gatekeeper.flounder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.flounder.so \
     vendor/htc/flounder/proprietary/vendor/lib64/hw/gralloc.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.tegra132.so \
     vendor/htc/flounder/proprietary/vendor/lib64/hw/hwcomposer.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.tegra132.so \
