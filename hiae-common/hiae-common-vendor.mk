@@ -402,8 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libprotobuf-cpp-fulm.so:system/vendor/lib64/libprotobuf-cpp-fulm.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib64/libprotobuf-cpp-litm.so:system/vendor/lib64/libprotobuf-cpp-litm.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
