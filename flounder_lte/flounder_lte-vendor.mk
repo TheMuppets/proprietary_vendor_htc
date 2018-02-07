@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libnvodm_imager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvodm_imager.so \
-    vendor/htc/flounder_lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/hw/gatekeeper.flounder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.flounder.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/hw/gralloc.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.tegra132.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/hw/hwcomposer.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.tegra132.so \
