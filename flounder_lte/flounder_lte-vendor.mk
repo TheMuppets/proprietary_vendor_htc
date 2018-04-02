@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
+    vendor/htc/flounder_lte/proprietary/vendor/lib/libdsnetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsnetutils.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libdsucsd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsucsd.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib/libhtc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtc_common.so \
@@ -126,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
+    vendor/htc/flounder_lte/proprietary/vendor/lib64/libdsnetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsnetutils.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libdsucsd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsucsd.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/htc/flounder_lte/proprietary/vendor/lib64/libhtc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_common.so \
