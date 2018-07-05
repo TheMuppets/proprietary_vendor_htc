@@ -152,7 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/etc/tfa/voip_l.eq:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/voip_l.eq \
     vendor/htc/hima/proprietary/vendor/etc/tfa/voip_l.preset:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/voip_l.preset \
     vendor/htc/hima/proprietary/vendor/lib/hw/camera.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8994.so \
-    vendor/htc/hima/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
+    vendor/htc/hima/proprietary/vendor/lib/hw/consumerir.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib/libBeautyChat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeautyChat.so \
     vendor/htc/hima/proprietary/vendor/lib/libFaceRetrieve.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceRetrieve.so \
     vendor/htc/hima/proprietary/vendor/lib/libHtcVteEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHtcVteEngine.so \
@@ -166,7 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/htc/hima/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/htc/hima/proprietary/vendor/lib/libscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscaler.so \
-    vendor/htc/hima/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/htc/hima/proprietary/vendor/lib64/hw/consumerir.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/htc/hima/proprietary/vendor/lib64/hw/sensors.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
