@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/m8-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/m8-common/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
-    vendor/htc/m8-common/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
+    vendor/htc/m8-common/proprietary/vendor/lib/hw/consumerir.msm8974.so:system/vendor/lib/hw/consumerir.msm8974.so \
     vendor/htc/m8-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libBeautyChat.so:system/vendor/lib/libBeautyChat.so \
     vendor/htc/m8-common/proprietary/vendor/lib/libalDE.so:system/vendor/lib/libalDE.so \
