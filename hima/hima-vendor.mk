@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/lib/libc2dcolorconvertgpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2dcolorconvertgpu.so \
     vendor/htc/hima/proprietary/vendor/lib/libcameraface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameraface.so \
     vendor/htc/hima/proprietary/vendor/lib/libcamerapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapp.so \
+    vendor/htc/hima/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/hima/proprietary/vendor/lib/libhtcsecure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtcsecure.so \
     vendor/htc/hima/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/htc/hima/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
