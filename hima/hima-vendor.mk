@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hima/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/hima/proprietary/etc/calibration:system/etc/calibration \
-    vendor/htc/hima/proprietary/vendor/etc/cir.img:$(TARGET_COPY_OUT_VENDOR)/etc/cir.img \
+    vendor/htc/hima/proprietary/etc/cir.img:system/etc/cir.img \
     vendor/htc/hima/proprietary/etc/firmware/BCM4354A2_001.003.015.0100.0102.hcd:system/etc/firmware/BCM4354A2_001.003.015.0100.0102.hcd \
     vendor/htc/hima/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/hima/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
