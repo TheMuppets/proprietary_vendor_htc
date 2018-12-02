@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima/proprietary/vendor/lib/libscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscaler.so \
     vendor/htc/hima/proprietary/vendor/lib64/hw/consumerir.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
+    vendor/htc/hima/proprietary/vendor/lib64/hw/nfc_nci.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib64/hw/sensors.msm8994.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/htc/hima/proprietary/vendor/lib64/libhtc_rilhook.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_rilhook.so \
