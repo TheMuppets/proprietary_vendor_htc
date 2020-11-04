@@ -119,6 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/hwcomposer.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.tegra132.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/keystore.flounder.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.flounder.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/hw/memtrack.tegra132.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.tegra132.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
+    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libaudioavp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioavp.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libclcore_nvidia.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libclcore_nvidia.bc \
     vendor/htc/flounder-common/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
@@ -154,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvmmlite_image.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvmmlite_image.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvmmlite_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvmmlite_utils.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvmmlite_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvmmlite_video.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/libnvodm_imager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvodm_imager.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvodm_query.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvodm_query.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvomx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libnvomxilclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvomxilclient.so \
@@ -175,8 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/flounder-common/proprietary/vendor/lib/libtsechdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtsechdcp.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/libw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libw.so \
     vendor/htc/flounder-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
-    vendor/htc/flounder-common/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_tegra.so \
     vendor/htc/flounder-common/proprietary/vendor/lib64/egl/libGLESv2_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_tegra.so \
